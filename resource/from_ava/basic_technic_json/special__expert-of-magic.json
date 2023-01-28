@@ -1,0 +1,91 @@
+[{
+    "skill_type": "魔法熟練",
+    "skill_value": 1,
+    "name": "メディテーション",
+    "cost_type": "ST",
+    "cost_value": 5,
+    "motion_time": 500,
+    "delay": 1400,
+    "info": "精神を強く集中させて マナ・ポイント(MP)の回復速度を速める<br>※発動時間中は少しずつスタミナ(ST)を消費する"
+}, {
+    "skill_type": "魔法熟練",
+    "skill_value": 10,
+    "name": "リジェクト マジック",
+    "cost_type": "ST",
+    "cost_value": 9,
+    "motion_time": 100,
+    "delay": 600,
+    "info": "自分にかかっている有益な効果を一つ打ち消すことができる"
+}, {
+    "skill_type": "魔法熟練",
+    "skill_value": 20,
+    "name": "ホーリー ブレス",
+    "cost_type": "ST",
+    "cost_value": 15,
+    "motion_time": 170,
+    "delay": 1549,
+    "info": "一定時間 魔力が増加する"
+}, {
+    "skill_type": "魔法熟練",
+    "skill_value": 30,
+    "name": "マジック ブースト",
+    "cost_type": "ST",
+    "cost_value": 15,
+    "motion_time": 69,
+    "delay": 869,
+    "info": "魔法が届く範囲を広げる"
+}, {
+    "skill_type": "魔法熟練",
+    "skill_value": 40,
+    "name": "マナ プレッシャー",
+    "cost_type": "ST",
+    "cost_value": 19,
+    "motion_time": 90,
+    "delay": 1890,
+    "info": "効果が切れるまでの間、MPの消費量が軽減される"
+}, {
+    "skill_type": "魔法熟練",
+    "skill_value": 50,
+    "name": "スペル エクステンション",
+    "cost_type": "ST",
+    "cost_value": 23,
+    "motion_time": 90,
+    "delay": 1890,
+    "info": "スペルブックに魔法をチャージしておける時間を延長する"
+}, {
+    "skill_type": "魔法熟練",
+    "skill_value": 60,
+    "name": "ホールド",
+    "cost_type": "ST",
+    "cost_value": 28,
+    "motion_time": 50,
+    "delay": 550,
+    "info": "敵からの攻撃で 魔法の詠唱を妨害されにくくなる"
+}, {
+    "skill_type": "魔法熟練",
+    "skill_value": 70,
+    "name": "ホーリー リカバー",
+    "cost_type": "ST",
+    "cost_value": 50,
+    "motion_time": 150,
+    "delay": 30150,
+    "info": "聖なる力が全身を包み込み マナ・ポイント(MP)が回復する"
+}, {
+    "skill_type": "魔法熟練",
+    "skill_value": 80,
+    "name": "キャスティング ムーブ",
+    "cost_type": "ST",
+    "cost_value": 38,
+    "motion_time": 90,
+    "delay": 1890,
+    "info": "詠唱中の移動速度を速める"
+}, {
+    "skill_type": "魔法熟練",
+    "skill_value": 90,
+    "name": "ラピッド キャスト",
+    "cost_type": "ST",
+    "cost_value": 44,
+    "motion_time": 150,
+    "delay": 1750,
+    "info": "魔法の詠唱を大幅に短縮することができる<br>※効果継続中はマナ・ポイント(MP)の消費量が増える<br>　ジャンプをすると効果が解除される"
+}]

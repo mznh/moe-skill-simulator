@@ -1,0 +1,208 @@
+[{
+    "skill_type": "破壊魔法",
+    "skill_value": 1,
+    "name": "マイナー バースト",
+    "cost_type": "MP",
+    "cost_value": 5,
+    "catalyst_type": "ND",
+    "catalyst_number": 1,
+    "info": "小さな火の玉を生み出して 敵にぶつける"
+}, {
+    "skill_type": "破壊魔法",
+    "skill_value": 1,
+    "name": "リトル ツイスター",
+    "cost_type": "MP",
+    "cost_value": 5,
+    "catalyst_type": "ND",
+    "catalyst_number": 1,
+    "info": "突風を巻き起こし ダメージを与える<br>※対象との距離により魔法のヒット数が増える"
+}, {
+    "skill_type": "破壊魔法",
+    "skill_value": 10,
+    "name": "アイス ボール",
+    "cost_type": "MP",
+    "cost_value": 9,
+    "catalyst_type": "ND",
+    "catalyst_number": 2,
+    "info": "敵に氷の弾をぶつける"
+}, {
+    "skill_type": "破壊魔法",
+    "skill_value": 10,
+    "name": "ポイズン ミスト",
+    "cost_type": "MP",
+    "cost_value": 9,
+    "catalyst_type": "ND",
+    "catalyst_number": 2,
+    "info": "毒の霧を発生させ 敵を毒状態にする"
+}, {
+    "skill_type": "破壊魔法",
+    "skill_value": 20,
+    "name": "ブレイズ",
+    "cost_type": "MP",
+    "cost_value": 13,
+    "catalyst_type": "ND",
+    "catalyst_number": 3,
+    "info": "火柱を発生させ 敵に継続的なダメージを与える"
+}, {
+    "skill_type": "破壊魔法",
+    "skill_value": 20,
+    "name": "ショック ボルト",
+    "cost_type": "MP",
+    "cost_value": 13,
+    "catalyst_type": "ND",
+    "catalyst_number": 3,
+    "info": "電撃でダメージを与える"
+}, {
+    "skill_type": "破壊魔法",
+    "skill_value": 30,
+    "name": "フリーズ",
+    "cost_type": "MP",
+    "cost_value": 18,
+    "catalyst_type": "NP",
+    "catalyst_number": 1,
+    "info": "敵を凍らせてダメージを与え 移動速度を遅くする"
+}, {
+    "skill_type": "破壊魔法",
+    "skill_value": 30,
+    "name": "ポイズン レイン",
+    "cost_type": "MP",
+    "cost_value": 18,
+    "catalyst_type": "NP",
+    "catalyst_number": 1,
+    "info": "毒の雨を降らせ 敵に強烈な毒の効果を与える"
+}, {
+    "skill_type": "破壊魔法",
+    "skill_value": 40,
+    "name": "オーブン",
+    "cost_type": "MP",
+    "cost_value": 23,
+    "catalyst_type": "NP",
+    "catalyst_number": 2,
+    "info": "対象の周りに火災を発生させ 継続したダメージを与えて焼き尽くす"
+}, {
+    "skill_type": "破壊魔法",
+    "skill_value": 40,
+    "name": "ソニック ケイジ",
+    "cost_type": "MP",
+    "cost_value": 23,
+    "catalyst_type": "NP",
+    "catalyst_number": 2,
+    "info": "対象にダメージを与え 周りにいる敵にもダメージを伝達させる<br>※最大HPが多い敵ほどダメージ量が増える"
+}, {
+    "skill_type": "破壊魔法",
+    "skill_value": 50,
+    "name": "サンダーボルト",
+    "cost_type": "MP",
+    "cost_value": 28,
+    "catalyst_type": "NP",
+    "catalyst_number": 3,
+    "info": "雷を落とし ダメージと麻痺の効果を与える"
+}, {
+    "skill_type": "破壊魔法",
+    "skill_value": 50,
+    "name": "スターダスト",
+    "cost_type": "MP",
+    "cost_value": 28,
+    "catalyst_type": "NP",
+    "catalyst_number": 3,
+    "info": "空から無数の星屑を降らせ 敵にぶつける"
+}, {
+    "skill_type": "破壊魔法",
+    "skill_value": 60,
+    "name": "バースト",
+    "cost_type": "MP",
+    "cost_value": 34,
+    "catalyst_type": "NQ",
+    "catalyst_number": 1,
+    "info": "炎の玉を生み出して 敵にぶつける"
+}, {
+    "skill_type": "破壊魔法",
+    "skill_value": 60,
+    "name": "ブリザード",
+    "cost_type": "MP",
+    "cost_value": 34,
+    "catalyst_type": "NQ",
+    "catalyst_number": 1,
+    "info": "氷の竜巻を起こして大ダメージを与え 移動速度を遅くする"
+}, {
+    "skill_type": "破壊魔法",
+    "skill_value": 70,
+    "name": "ストロング ボルト",
+    "cost_type": "MP",
+    "cost_value": 40,
+    "catalyst_type": "NQ",
+    "catalyst_number": 2,
+    "info": "強烈な雷撃を脳天に落とし ダメージと麻痺の効果を与える"
+}, {
+    "skill_type": "破壊魔法",
+    "skill_value": 70,
+    "name": "ポイズン クラウド",
+    "cost_type": "MP",
+    "cost_value": 40,
+    "catalyst_type": "NQ",
+    "catalyst_number": 2,
+    "info": "毒の霧を発生させ 範囲内の敵に<br>継続的なダメージを与える"
+}, {
+    "skill_type": "破壊魔法",
+    "skill_value": 80,
+    "name": "メガ バースト",
+    "cost_type": "MP",
+    "cost_value": 46,
+    "catalyst_type": "NQ",
+    "catalyst_number": 3,
+    "info": "強烈な炎が渦巻く爆発を起こし 敵に大ダメージを与える"
+}, {
+    "skill_type": "破壊魔法",
+    "skill_value": 80,
+    "name": "フローズン ビーム",
+    "cost_type": "MP",
+    "cost_value": 46,
+    "catalyst_type": "NQ",
+    "catalyst_number": 3,
+    "info": "凍結ダメージを与え対象を凍結させる<br>※凍結中はクリティカルを大幅に受けやすくなる"
+}, {
+    "skill_type": "破壊魔法",
+    "skill_value": 90,
+    "name": "メテオストライク",
+    "cost_type": "MP",
+    "cost_value": 53,
+    "catalyst_type": "PNQ",
+    "catalyst_number": 1,
+    "info": "巨大な隕石の固まりを頭上に落とす<br>※時間差魔法"
+}, {
+    "skill_type": "破壊魔法",
+    "skill_value": 90,
+    "name": "カオス フレア",
+    "cost_type": "MP",
+    "cost_value": 53,
+    "catalyst_type": "PNQ",
+    "catalyst_number": 1,
+    "info": "あらゆる負の要素が混じった強烈な爆発を起こし 対象を跡形もなく吹き飛ばす"
+}, {
+    "skill_type": "破壊魔法",
+    "skill_value": 90,
+    "name": "アクア ツイスター",
+    "cost_type": "MP",
+    "cost_value": 53,
+    "catalyst_type": "原初の粉",
+    "catalyst_number": 1,
+    "info": "WGKが操る 水の古代魔法<br>大気中の水分から 小規模の水の渦を作り出す"
+}, {
+    "skill_type": "破壊魔法",
+    "skill_value": 90,
+    "name": "ディバイン スパーク ボール",
+    "cost_type": "MP",
+    "cost_value": 53,
+    "catalyst_type": "原初の粉",
+    "catalyst_number": 1,
+    "info": "意思を持って動く雷の球が 無差別に敵を襲う"
+}, {
+    "skill_type": "破壊魔法",
+    "skill_value": 90,
+    "name": "メテオライト インパクト",
+    "cost_type": "MP",
+    "cost_value": 53,
+    "catalyst_type": "原初の粉",
+    "catalyst_number": 1,
+    "info": "敵単体に巨大な隕石を落下させ<br>衝撃で大ダメージを与える古代魔法<br>※WarAgeでは魔法チャージ不可"
+}]

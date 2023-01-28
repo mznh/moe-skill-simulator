@@ -1,0 +1,181 @@
+[{
+    "skill_type": "回復魔法",
+    "skill_value": 1,
+    "name": "セルフ ヒーリング",
+    "cost_type": "MP",
+    "cost_value": 5,
+    "catalyst_type": "ND",
+    "catalyst_number": 1,
+    "info": "魔力によって自身のHPを回復する"
+}, {
+    "skill_type": "回復魔法",
+    "skill_value": 1,
+    "name": "ターン アンデッド",
+    "cost_type": "MP",
+    "cost_value": 5,
+    "catalyst_type": "ND",
+    "catalyst_number": 1,
+    "info": "アンデッド系の敵を自分から遠ざける"
+}, {
+    "skill_type": "回復魔法",
+    "skill_value": 10,
+    "name": "マイナー ヒーリング",
+    "cost_type": "MP",
+    "cost_value": 9,
+    "catalyst_type": "ND",
+    "catalyst_number": 2,
+    "info": "魔力によってHPを回復"
+}, {
+    "skill_type": "回復魔法",
+    "skill_value": 10,
+    "name": "マイナー リバイタル",
+    "cost_type": "MP",
+    "cost_value": 9,
+    "catalyst_type": "ND",
+    "catalyst_number": 2,
+    "info": "対象に生気を吹き込みスタミナを回復させる"
+}, {
+    "skill_type": "回復魔法",
+    "skill_value": 20,
+    "name": "アンチドート",
+    "cost_type": "MP",
+    "cost_value": 13,
+    "catalyst_type": "ND",
+    "catalyst_number": 3,
+    "info": "悪しき魂を浄化し 毒を完全に中和する"
+}, {
+    "skill_type": "回復魔法",
+    "skill_value": 20,
+    "name": "キュア ディズィーズ",
+    "cost_type": "MP",
+    "cost_value": 13,
+    "catalyst_type": "ND",
+    "catalyst_number": 3,
+    "info": "聖なる力で対象の病気を完全に治す"
+}, {
+    "skill_type": "回復魔法",
+    "skill_value": 30,
+    "name": "ライト ヒーリング",
+    "cost_type": "MP",
+    "cost_value": 18,
+    "catalyst_type": "NP",
+    "catalyst_number": 1,
+    "info": "魔力によってHPを中程度回復する"
+}, {
+    "skill_type": "回復魔法",
+    "skill_value": 30,
+    "name": "キャンセルマジック",
+    "cost_type": "MP",
+    "cost_value": 18,
+    "catalyst_type": "NP",
+    "catalyst_number": 1,
+    "info": "ステータスダウン効果を打ち消す<br>※複数ある場合最初にかけられたものを解除<br>※毒・継続ダメージ・スタンなどは解除不可"
+}, {
+    "skill_type": "回復魔法",
+    "skill_value": 40,
+    "name": "リフレッシュ",
+    "cost_type": "MP",
+    "cost_value": 23,
+    "catalyst_type": "NP",
+    "catalyst_number": 2,
+    "info": "対象のスタミナとHPを回復する"
+}, {
+    "skill_type": "回復魔法",
+    "skill_value": 40,
+    "name": "レスト イン ピース",
+    "cost_type": "MP",
+    "cost_value": 23,
+    "catalyst_type": "NP",
+    "catalyst_number": 2,
+    "info": "アンデッド系の敵に ダメージを与える"
+}, {
+    "skill_type": "回復魔法",
+    "skill_value": 50,
+    "name": "ヒーリング",
+    "cost_type": "MP",
+    "cost_value": 28,
+    "catalyst_type": "NP",
+    "catalyst_number": 3,
+    "info": "魔力を使い HPを大幅に回復する"
+}, {
+    "skill_type": "回復魔法",
+    "skill_value": 50,
+    "name": "リバイタル",
+    "cost_type": "MP",
+    "cost_value": 28,
+    "catalyst_type": "NP",
+    "catalyst_number": 3,
+    "info": "エネルギーを注入し、対象のスタミナを回復する"
+}, {
+    "skill_type": "回復魔法",
+    "skill_value": 60,
+    "name": "グループ ヒーリング",
+    "cost_type": "MP",
+    "cost_value": 34,
+    "catalyst_type": "NQ",
+    "catalyst_number": 1,
+    "info": "自分の近くにいるパーティーメンバーを回復する"
+}, {
+    "skill_type": "回復魔法",
+    "skill_value": 60,
+    "name": "コンデンスマインド",
+    "cost_type": "MP",
+    "cost_value": 34,
+    "catalyst_type": "NQ",
+    "catalyst_number": 1,
+    "info": "対象者のMP回復率を上昇させる"
+}, {
+    "skill_type": "回復魔法",
+    "skill_value": 70,
+    "name": "リジェネレイション",
+    "cost_type": "MP",
+    "cost_value": 40,
+    "catalyst_type": "NQ",
+    "catalyst_number": 2,
+    "info": "一定時間毎にHPが自動回復する"
+}, {
+    "skill_type": "回復魔法",
+    "skill_value": 70,
+    "name": "ディバイン シャワー",
+    "cost_type": "MP",
+    "cost_value": 40,
+    "catalyst_type": "NQ",
+    "catalyst_number": 2,
+    "info": "空から神々しい光を呼び寄せ<br>全てのステータスダウンを打ち消す"
+}, {
+    "skill_type": "回復魔法",
+    "skill_value": 80,
+    "name": "ヒーリング オール",
+    "cost_type": "MP",
+    "cost_value": 46,
+    "catalyst_type": "NQ",
+    "catalyst_number": 3,
+    "info": "魔力によってHPを全回復する<br>※使用者のスキル値とターゲットのHP残量によっては、全回復しないことがあります。"
+}, {
+    "skill_type": "回復魔法",
+    "skill_value": 80,
+    "name": "リバイタル オール",
+    "cost_type": "MP",
+    "cost_value": 46,
+    "catalyst_type": "NQ",
+    "catalyst_number": 3,
+    "info": "エネルギーを注入し、対象のスタミナを全回復する<br>※使用者のスキル値とターゲットのスタミナ残量によっては、全回復しないことがあります。"
+}, {
+    "skill_type": "回復魔法",
+    "skill_value": 90,
+    "name": "セイクリッド サークル",
+    "cost_type": "MP",
+    "cost_value": 53,
+    "catalyst_type": "PNQ",
+    "catalyst_number": 1,
+    "info": "詠唱者の周りに聖なる光を発し 近くにいる者の傷を癒す"
+}, {
+    "skill_type": "回復魔法",
+    "skill_value": 90,
+    "name": "リザレクション",
+    "cost_type": "MP",
+    "cost_value": 53,
+    "catalyst_type": "PNQ",
+    "catalyst_number": 1,
+    "info": "聖なる息吹で死者を蘇生させる"
+}]

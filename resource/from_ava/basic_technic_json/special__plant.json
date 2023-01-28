@@ -1,0 +1,90 @@
+[{
+    "skill_type": "罠",
+    "skill_value": 1,
+    "name": "バーニング プラント",
+    "cost_type": "ST",
+    "cost_value": 9,
+    "catalyst_type": "バーニング シード",
+    "catalyst_number": 1,
+    "info": "燃え盛る種を地面に植えつけ 周囲を炎で包む"
+}, {
+    "skill_type": "罠",
+    "skill_value": 10,
+    "name": "ポイズン プラント",
+    "cost_type": "ST",
+    "cost_value": 8,
+    "catalyst_type": "ポイズン シード",
+    "catalyst_number": 1,
+    "info": "毒効果のついた種を植えつけ 周囲を毒に侵す"
+}, {
+    "skill_type": "罠",
+    "skill_value": 20,
+    "name": "サプライズ プラント",
+    "cost_type": "ST",
+    "cost_value": 11,
+    "catalyst_type": "サプライズ シード",
+    "catalyst_number": 1,
+    "info": "敵の近くで種を派手に爆発させ 敵を逃亡させる"
+}, {
+    "skill_type": "罠",
+    "skill_value": 30,
+    "name": "フォグ プラント",
+    "cost_type": "ST",
+    "cost_value": 15,
+    "catalyst_type": "フォグ シード",
+    "catalyst_number": 1,
+    "info": "種から霧を発生させ 敵の視界を遮る"
+}, {
+    "skill_type": "罠",
+    "skill_value": 40,
+    "name": "コーマ プラント",
+    "cost_type": "ST",
+    "cost_value": 19,
+    "catalyst_type": "コーマ シード",
+    "catalyst_number": 1,
+    "info": "催眠ガスを発生させ 対象を睡眠状態に陥れる"
+}, {
+    "skill_type": "罠",
+    "skill_value": 50,
+    "name": "マスキング シード",
+    "cost_type": "ST",
+    "cost_value": 23,
+    "info": "自分の周りに植えた罠を隠して敵に察知されないようにする"
+}, {
+    "skill_type": "罠",
+    "skill_value": 60,
+    "name": "ボーリング",
+    "cost_type": "ST",
+    "cost_value": 28,
+    "info": "目の前にある罠を転がす<br>※敵が植えた罠も転がす事が可能です"
+}, {
+    "skill_type": "罠",
+    "skill_value": 70,
+    "name": "ハーベスト プレイ",
+    "cost_type": "ST",
+    "cost_value": 33,
+    "info": "祈りの力で設置した罠（種）を急成長させ、効果を即時発動させる"
+}, {
+    "skill_type": "罠",
+    "skill_value": 80,
+    "name": "マイン スウィープ",
+    "cost_type": "ST",
+    "cost_value": 38,
+    "info": "周りに設置された敵の罠を解除する"
+}, {
+    "skill_type": "罠",
+    "skill_value": 90,
+    "name": "バグズ デリバリー",
+    "cost_type": "ST",
+    "cost_value": 45,
+    "info": "虫たちの力を借り 罠を自分の近くに運んでもらう"
+}, {
+    "skill_type": "罠",
+    "skill_value": 90,
+    "name": "リモート ボム",
+    "cost_type": "ST",
+    "cost_value": 45,
+    "catalyst_type": "原初の粉",
+    "catalyst_number": 1,
+    "info": "対象を追いかけて自爆するEGK型の爆弾"
+}]

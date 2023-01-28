@@ -1,0 +1,71 @@
+[{
+    "skill_type": "ダンス",
+    "skill_value": 1,
+    "name": "チアー ダンス",
+    "cost_type": "ST",
+    "cost_value": 5,
+    "info": "自分の周りにいる仲間の魔法詠唱の速度を上げる。"
+}, {
+    "skill_type": "ダンス",
+    "skill_value": 10,
+    "name": "ルート ダンス",
+    "cost_type": "ST",
+    "cost_value": 5,
+    "info": "この踊りを見るものに、植物が地面深くに根を下ろすイメージを与え、ノックバック系の弾き飛ばしが効かなくなる効果をもつ。"
+}, {
+    "skill_type": "ダンス",
+    "skill_value": 20,
+    "name": "ウェーブ ダンス",
+    "cost_type": "ST",
+    "cost_value": 11,
+    "info": "自分の周りにいる仲間のクリティカル発動率を上昇させる。"
+}, {
+    "skill_type": "ダンス",
+    "skill_value": 30,
+    "name": "ボン ダンス",
+    "cost_type": "ST",
+    "cost_value": 15,
+    "info": "自分の周りで霊体になっている仲間に、物理攻撃と魔法攻撃を効き辛くする効果を与える。<br>※霊体になっているPCが瞬間的に見える効果がある。"
+}, {
+    "skill_type": "ダンス",
+    "skill_value": 40,
+    "name": "バンザイ ダンス",
+    "cost_type": "ST",
+    "cost_value": 19,
+    "info": "自分の周りにいる仲間の移動速度を上昇させる。"
+}, {
+    "skill_type": "ダンス",
+    "skill_value": 50,
+    "name": "スワン ダンス",
+    "cost_type": "ST",
+    "cost_value": 23,
+    "info": "自分の周りにいる仲間の毒とDoTを取り除く。"
+}, {
+    "skill_type": "ダンス",
+    "skill_value": 60,
+    "name": "ツイスト",
+    "cost_type": "ST",
+    "cost_value": 28,
+    "info": "自分の周りにいる仲間の攻撃間隔を縮める。"
+}, {
+    "skill_type": "ダンス",
+    "skill_value": 70,
+    "name": "タウント ダンス",
+    "cost_type": "ST",
+    "cost_value": 33,
+    "info": "自分の周囲で寝ている味方を嘲り、たたき起こす。<br>※効果持続中は、眠りとスタン状態になってもすぐに解除される。"
+}, {
+    "skill_type": "ダンス",
+    "skill_value": 80,
+    "name": "レッツ ダンス",
+    "cost_type": "ST",
+    "cost_value": 38,
+    "info": "自分の周りにいる仲間を踊らせて、スタミナを回復させる。"
+}, {
+    "skill_type": "ダンス",
+    "skill_value": 90,
+    "name": "フーリガン ダンス",
+    "cost_type": "ST",
+    "cost_value": 38,
+    "info": "この踊りを見た者は、怪しい動きに熱狂して我を忘れ、メイン攻撃が乱舞技になる。"
+}]

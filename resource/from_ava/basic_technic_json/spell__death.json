@@ -1,0 +1,181 @@
+[{
+    "skill_type": "死の魔法",
+    "skill_value": 1,
+    "name": "グレイブヤード ミスト",
+    "cost_type": "MP",
+    "cost_value": 5,
+    "catalyst_type": "ND",
+    "catalyst_number": 1,
+    "info": "気味の悪い霧を発生させて 敵を近寄れなくさせる"
+}, {
+    "skill_type": "死の魔法",
+    "skill_value": 1,
+    "name": "スピリット ドレイン",
+    "cost_type": "MP",
+    "cost_value": 5,
+    "catalyst_type": "ND",
+    "catalyst_number": 1,
+    "info": "一定時間 対象の魔力を減少させる"
+}, {
+    "skill_type": "死の魔法",
+    "skill_value": 10,
+    "name": "マッド コート",
+    "cost_type": "MP",
+    "cost_value": 9,
+    "catalyst_type": "ND",
+    "catalyst_number": 2,
+    "info": "敵の体に粘土を絡めることで動きを鈍らせ 回避率を減少させる"
+}, {
+    "skill_type": "死の魔法",
+    "skill_value": 10,
+    "name": "ウェイスト エナジー",
+    "cost_type": "MP",
+    "cost_value": 9,
+    "catalyst_type": "ND",
+    "catalyst_number": 2,
+    "info": "対象の全ての行動において スタミナの消費を増加させる<br>※対NPCは、移動速度が遅くなる効果"
+}, {
+    "skill_type": "死の魔法",
+    "skill_value": 20,
+    "name": "バインディング ハンズ",
+    "cost_type": "MP",
+    "cost_value": 13,
+    "catalyst_type": "ND",
+    "catalyst_number": 3,
+    "info": "地面から伸びる無数の悪霊の手が 対象を捕まえる"
+}, {
+    "skill_type": "死の魔法",
+    "skill_value": 30,
+    "name": "エバー ディズィーズ",
+    "cost_type": "MP",
+    "cost_value": 18,
+    "catalyst_type": "NP",
+    "catalyst_number": 1,
+    "info": "敵を一種の病気状態にし スタミナの自然回復停止と徐々に減少する効果を与える<br>※対NPCには、攻撃間隔が遅くなる効果"
+}, {
+    "skill_type": "死の魔法",
+    "skill_value": 30,
+    "name": "エピデミック オール",
+    "cost_type": "MP",
+    "cost_value": 18,
+    "catalyst_type": "NP",
+    "catalyst_number": 1,
+    "info": "呪いの言葉を浴びせかけ 近くにいるもの全てを病気にさせる<br>（HP・MPの自然回復がなくなる）<br>※範囲魔法の効果"
+}, {
+    "skill_type": "死の魔法",
+    "skill_value": 40,
+    "name": "プリゾナー ヴェイル",
+    "cost_type": "MP",
+    "cost_value": 23,
+    "catalyst_type": "NP",
+    "catalyst_number": 2,
+    "info": "顔全体を邪念で覆い 呪文詠唱を不可能にさせる<br>対象が詠唱中の場合には、一定の確率で詠唱を止める事が可能"
+}, {
+    "skill_type": "死の魔法",
+    "skill_value": 40,
+    "name": "ロットン ブレス",
+    "cost_type": "MP",
+    "cost_value": 23,
+    "catalyst_type": "NP",
+    "catalyst_number": 2,
+    "info": "悪魔の吐息を吐き 強化効果を新しいものから５個解除する"
+}, {
+    "skill_type": "死の魔法",
+    "skill_value": 50,
+    "name": "コープス エクスプロージョン",
+    "cost_type": "MP",
+    "cost_value": 28,
+    "catalyst_type": "NP",
+    "catalyst_number": 3,
+    "info": "死体を爆発させ 周りにいる敵にダメージを与える"
+}, {
+    "skill_type": "死の魔法",
+    "skill_value": 50,
+    "name": "バプティズム ポイズン",
+    "cost_type": "MP",
+    "cost_value": 28,
+    "catalyst_type": "NP",
+    "catalyst_number": 3,
+    "info": "強烈な毒の洗礼を浴びせかける"
+}, {
+    "skill_type": "死の魔法",
+    "skill_value": 60,
+    "name": "ラピッド ディケイ",
+    "cost_type": "MP",
+    "cost_value": 34,
+    "catalyst_type": "NQ",
+    "catalyst_number": 1,
+    "info": "死体の近くにいる者に強烈な死臭を浴びせかけ、酔い状態にさせる<br>※対NPCは、有効な魔法効果を１つ解除する効果"
+}, {
+    "skill_type": "死の魔法",
+    "skill_value": 60,
+    "name": "ディアボリック アイ",
+    "cost_type": "MP",
+    "cost_value": 34,
+    "catalyst_type": "NQ",
+    "catalyst_number": 1,
+    "info": "自分の周囲に隠れている者を暴き出す"
+}, {
+    "skill_type": "死の魔法",
+    "skill_value": 70,
+    "name": "シャドウ モーフ",
+    "cost_type": "MP",
+    "cost_value": 40,
+    "catalyst_type": "NQ",
+    "catalyst_number": 2,
+    "info": "その場で影となり 姿をくらます<br>※動く事は出来ないが 他者から見えなくなる"
+}, {
+    "skill_type": "死の魔法",
+    "skill_value": 70,
+    "name": "コープス ミーティング",
+    "cost_type": "MP",
+    "cost_value": 46,
+    "catalyst_type": "PNQ",
+    "catalyst_number": 7,
+    "info": "他者の死体を 術者の元に引き寄せる<br>※同じゾーン内の死体しか引き寄せられない"
+}, {
+    "skill_type": "死の魔法",
+    "skill_value": 80,
+    "name": "ヘル パニッシュ",
+    "cost_type": "MP",
+    "cost_value": 46,
+    "catalyst_type": "NQ",
+    "catalyst_number": 3,
+    "info": "一定時間直接攻撃を攻撃者に跳ね返す。<br>※HPを回復すると 効果は消え去る"
+}, {
+    "skill_type": "死の魔法",
+    "skill_value": 80,
+    "name": "イーヴル オーメン",
+    "cost_type": "MP",
+    "cost_value": 46,
+    "catalyst_type": "NQ",
+    "catalyst_number": 3,
+    "info": "害のあるお告げが下され 良くない結果を招かせられる"
+}, {
+    "skill_type": "死の魔法",
+    "skill_value": 90,
+    "name": "リボーン ワンス",
+    "cost_type": "MP",
+    "cost_value": 53,
+    "catalyst_type": "PNQ",
+    "catalyst_number": 1,
+    "info": "一度死んでも 瀕死状態で生き返ることができる"
+}, {
+    "skill_type": "死の魔法",
+    "skill_value": 90,
+    "name": "リープ カーニバル",
+    "cost_type": "MP",
+    "cost_value": 53,
+    "catalyst_type": "PNQ",
+    "catalyst_number": 1,
+    "info": "魔法発動後 一定時間以内に近接両手武器で攻撃すると、<br>敵に即死級のダメージを与えることができる<br>※通常攻撃のみ効果が発動します"
+}, {
+    "skill_type": "死の魔法",
+    "skill_value": 90,
+    "name": "ロットン ベイパー",
+    "cost_type": "ST",
+    "cost_value": 45,
+    "catalyst_type": "OP",
+    "catalyst_number": 1,
+    "info": "EGK の放出する 腐った蒸気"
+}]

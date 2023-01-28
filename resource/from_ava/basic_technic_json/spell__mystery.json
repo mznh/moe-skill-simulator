@@ -1,0 +1,181 @@
+[{
+    "skill_type": "神秘魔法",
+    "skill_value": 1,
+    "name": "ライト",
+    "cost_type": "MP",
+    "cost_value": 5,
+    "catalyst_type": "ND",
+    "catalyst_number": 1,
+    "info": "魔力によって明かりを灯す"
+}, {
+    "skill_type": "神秘魔法",
+    "skill_value": 1,
+    "name": "リエージェント アルケミー",
+    "cost_type": "MP",
+    "cost_value": 5,
+    "catalyst_type": "ND",
+    "catalyst_number": 1,
+    "info": "ノアダストからノアパウダーを作りだす"
+}, {
+    "skill_type": "神秘魔法",
+    "skill_value": 10,
+    "name": "リコール ドリンク",
+    "cost_type": "MP",
+    "cost_value": 9,
+    "catalyst_type": "ND",
+    "catalyst_number": 2,
+    "info": "飲み物を召喚する"
+}, {
+    "skill_type": "神秘魔法",
+    "skill_value": 10,
+    "name": "リコール レイション",
+    "cost_type": "MP",
+    "cost_value": 9,
+    "catalyst_type": "ND",
+    "catalyst_number": 2,
+    "info": "食べ物を召喚する"
+}, {
+    "skill_type": "神秘魔法",
+    "skill_value": 20,
+    "name": "フレイム ブレイド",
+    "cost_type": "MP",
+    "cost_value": 13,
+    "catalyst_type": "ND",
+    "catalyst_number": 3,
+    "info": "武器に炎を宿らせ 炎属性を追加する<br>※プレイヤーのメイン攻撃にのみ属性を付加する"
+}, {
+    "skill_type": "神秘魔法",
+    "skill_value": 20,
+    "name": "ソーン スキン",
+    "cost_type": "MP",
+    "cost_value": 13,
+    "catalyst_type": "ND",
+    "catalyst_number": 3,
+    "info": "体に刺を発生させ 直接攻撃で受けたダメージの一部を相手に跳ね返す<br>※ダメージを受けると効果は消えてしまう"
+}, {
+    "skill_type": "神秘魔法",
+    "skill_value": 30,
+    "name": "スモール ワープ",
+    "cost_type": "MP",
+    "cost_value": 18,
+    "catalyst_type": "NP",
+    "catalyst_number": 1,
+    "info": "対象と同じ位置に瞬間移動する"
+}, {
+    "skill_type": "神秘魔法",
+    "skill_value": 30,
+    "name": "リコール ストーン ウォール",
+    "cost_type": "MP",
+    "cost_value": 18,
+    "catalyst_type": "NP",
+    "catalyst_number": 1,
+    "info": "空間に巨大な壁を出現させ 通路を遮断する"
+}, {
+    "skill_type": "神秘魔法",
+    "skill_value": 40,
+    "name": "ディスペル サモン",
+    "cost_type": "MP",
+    "cost_value": 23,
+    "catalyst_type": "NP",
+    "catalyst_number": 2,
+    "info": "召喚されたペットを異空間に飛ばして消し去る"
+}, {
+    "skill_type": "神秘魔法",
+    "skill_value": 40,
+    "name": "メスメライズ",
+    "cost_type": "MP",
+    "cost_value": 23,
+    "catalyst_type": "NP",
+    "catalyst_number": 2,
+    "info": "敵を眠らせ行動不能にする"
+}, {
+    "skill_type": "神秘魔法",
+    "skill_value": 50,
+    "name": "フリーズ ブレイド",
+    "cost_type": "MP",
+    "cost_value": 28,
+    "catalyst_type": "NP",
+    "catalyst_number": 3,
+    "info": "武器に冷気を宿らせ 水属性を追加する<br>※プレイヤーのメイン攻撃にのみ属性を付加する"
+}, {
+    "skill_type": "神秘魔法",
+    "skill_value": 50,
+    "name": "テレポート",
+    "cost_type": "MP",
+    "cost_value": 28,
+    "catalyst_type": "NP",
+    "catalyst_number": 3,
+    "info": "自分のホームポイントへ瞬時に移動する"
+}, {
+    "skill_type": "神秘魔法",
+    "skill_value": 60,
+    "name": "ミツクニ オーダー",
+    "cost_type": "MP",
+    "cost_value": 34,
+    "catalyst_type": "NQ",
+    "catalyst_number": 1,
+    "info": "対象を後方に空間移動させる"
+}, {
+    "skill_type": "神秘魔法",
+    "skill_value": 60,
+    "name": "コーリング",
+    "cost_type": "MP",
+    "cost_value": 34,
+    "catalyst_type": "NQ",
+    "catalyst_number": 1,
+    "info": "対象を自分の立ち位置に引き寄せる"
+}, {
+    "skill_type": "神秘魔法",
+    "skill_value": 70,
+    "name": "イリュージョン シールド",
+    "cost_type": "MP",
+    "cost_value": 40,
+    "catalyst_type": "NQ",
+    "catalyst_number": 2,
+    "info": "幻影の盾を召喚する"
+}, {
+    "skill_type": "神秘魔法",
+    "skill_value": 70,
+    "name": "リコール アルター",
+    "cost_type": "MP",
+    "cost_value": 40,
+    "catalyst_type": "NQ",
+    "catalyst_number": 2,
+    "info": "アルターを出現させ 近くにいる者を自分で記録した場所へと送り届ける<br>※術者がいなくなった時や、アルターが消滅した時にはテレポートできなくなります。"
+}, {
+    "skill_type": "神秘魔法",
+    "skill_value": 80,
+    "name": "テレポート オール",
+    "cost_type": "MP",
+    "cost_value": 46,
+    "catalyst_type": "NQ",
+    "catalyst_number": 3,
+    "info": "一瞬でパーティー全員をホームポイントに移動させる<br>※WarAgeでは魔法チャージ不可"
+}, {
+    "skill_type": "神秘魔法",
+    "skill_value": 80,
+    "name": "テレポート クロース",
+    "cost_type": "MP",
+    "cost_value": 46,
+    "catalyst_type": "NQ",
+    "catalyst_number": 3,
+    "info": "術者の位置にパーティ全員を呼び戻す<br>※WarAgeでは魔法チャージ不可"
+}, {
+    "skill_type": "神秘魔法",
+    "skill_value": 90,
+    "name": "ライトニング ブレイド",
+    "cost_type": "MP",
+    "cost_value": 53,
+    "catalyst_type": "PNQ",
+    "catalyst_number": 1,
+    "info": "武器に雷を宿らせて 風属性を追加する<br>※自分の武器のみ有効"
+}, {
+    "skill_type": "神秘魔法",
+    "skill_value": 90,
+    "name": "イリュージョン ソード",
+    "cost_type": "MP",
+    "cost_value": 53,
+    "catalyst_type": "PNQ",
+    "catalyst_number": 1,
+    "info": "幻覚で最強の剣を作り出し召喚する"
+}]

@@ -1,0 +1,64 @@
+[{
+    "skill_type": "シャウト",
+    "skill_value": 1,
+    "name": "ホラー クライ",
+    "cost_type": "ST",
+    "cost_value": 5,
+    "info": "暗黒の力を通した 恐ろしい叫び声を聞かせる<br>この声を聞いたものは防御力と呪文抵抗力が低下する"
+}, {
+    "skill_type": "シャウト",
+    "skill_value": 20,
+    "name": "ロットン ボイス",
+    "cost_type": "ST",
+    "cost_value": 11,
+    "info": "死者の声を借り 不快な声を発する<br>聴いた者のアイテム使用ディレイを増加させる<br>※対NPCでは命中率を低下させる"
+}, {
+    "skill_type": "シャウト",
+    "skill_value": 30,
+    "name": "フィアー ノイズ",
+    "cost_type": "ST",
+    "cost_value": 15,
+    "info": "怨みのこもった死者の叫びを発し 対象の恐怖心を煽る<br>聴いた者は攻撃間隔を広げる"
+}, {
+    "skill_type": "シャウト",
+    "skill_value": 40,
+    "name": "デフニング クレマー",
+    "cost_type": "ST",
+    "cost_value": 19,
+    "info": "大声で敵をののしり 詠唱を妨害する"
+}, {
+    "skill_type": "シャウト",
+    "skill_value": 50,
+    "name": "イビル スクリーム",
+    "cost_type": "ST",
+    "cost_value": 23,
+    "info": "邪悪な叫びを聞かせて怯えさせ<br>範囲内にいる対象の回避と移動速度を低下させる"
+}, {
+    "skill_type": "シャウト",
+    "skill_value": 60,
+    "name": "ハウリング ボイス",
+    "cost_type": "ST",
+    "cost_value": 28,
+    "info": "声を振動させて対象に衝撃波を放つ"
+}, {
+    "skill_type": "シャウト",
+    "skill_value": 70,
+    "name": "ラウディ ウェイル",
+    "cost_type": "ST",
+    "cost_value": 33,
+    "info": "叫び声をあげ 敵の攻撃力を下げる"
+}, {
+    "skill_type": "シャウト",
+    "skill_value": 80,
+    "name": "ワイルド ロア",
+    "cost_type": "ST",
+    "cost_value": 38,
+    "info": "野生の雄叫びをあげ 攻撃速度を速める"
+}, {
+    "skill_type": "シャウト",
+    "skill_value": 90,
+    "name": "ジャイアント リサイタル",
+    "cost_type": "ST",
+    "cost_value": 45,
+    "info": "ジャイアントの歌を聞かせ 敵をスタンさせる"
+}]

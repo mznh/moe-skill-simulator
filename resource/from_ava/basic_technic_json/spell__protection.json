@@ -1,0 +1,190 @@
+[{
+    "skill_type": "強化魔法",
+    "skill_value": 1,
+    "name": "マナ エスケープ",
+    "cost_type": "MP",
+    "cost_value": 5,
+    "catalyst_type": "ND",
+    "catalyst_number": 1,
+    "info": "大地の精霊の力を借り 敵のMPを地面に吸収させる"
+}, {
+    "skill_type": "強化魔法",
+    "skill_value": 1,
+    "name": "フリーズ ブラッド",
+    "cost_type": "MP",
+    "cost_value": 5,
+    "catalyst_type": "ND",
+    "catalyst_number": 1,
+    "info": "敵の血液を凍らせ 最大HPを下げる"
+}, {
+    "skill_type": "強化魔法",
+    "skill_value": 10,
+    "name": "ブラインド サイト",
+    "cost_type": "MP",
+    "cost_value": 9,
+    "catalyst_type": "ND",
+    "catalyst_number": 2,
+    "info": "敵の視界を遮り 直接攻撃の命中率を下げる"
+}, {
+    "skill_type": "強化魔法",
+    "skill_value": 10,
+    "name": "スピリット リヴィール",
+    "cost_type": "MP",
+    "cost_value": 9,
+    "catalyst_type": "ND",
+    "catalyst_number": 2,
+    "info": "精霊の力を借りて 敵の防御力を下げる"
+}, {
+    "skill_type": "強化魔法",
+    "skill_value": 20,
+    "name": "エンライテン",
+    "cost_type": "MP",
+    "cost_value": 13,
+    "catalyst_type": "ND",
+    "catalyst_number": 3,
+    "info": "直接攻撃の極意を授け 武器の命中率を上げる"
+}, {
+    "skill_type": "強化魔法",
+    "skill_value": 20,
+    "name": "クイックニング",
+    "cost_type": "MP",
+    "cost_value": 13,
+    "catalyst_type": "ND",
+    "catalyst_number": 3,
+    "info": "対象の動体視力を強化し 回避率を上げる"
+}, {
+    "skill_type": "強化魔法",
+    "skill_value": 30,
+    "name": "スピリット ガード",
+    "cost_type": "MP",
+    "cost_value": 18,
+    "catalyst_type": "NP",
+    "catalyst_number": 1,
+    "info": "精霊の加護を得て 防御力を高める"
+}, {
+    "skill_type": "強化魔法",
+    "skill_value": 30,
+    "name": "ヴィガー",
+    "cost_type": "MP",
+    "cost_value": 18,
+    "catalyst_type": "NP",
+    "catalyst_number": 1,
+    "info": "対象の体に力が漲り 直接攻撃力が上昇する"
+}, {
+    "skill_type": "強化魔法",
+    "skill_value": 40,
+    "name": "バブル ボール",
+    "cost_type": "MP",
+    "cost_value": 23,
+    "catalyst_type": "NP",
+    "catalyst_number": 2,
+    "info": "酸素の気泡が顔を包み 水中でも呼吸できるようになる"
+}, {
+    "skill_type": "強化魔法",
+    "skill_value": 40,
+    "name": "レイジング",
+    "cost_type": "MP",
+    "cost_value": 23,
+    "catalyst_type": "NP",
+    "catalyst_number": 2,
+    "info": "荷物の重さが一定量までゼロになる"
+}, {
+    "skill_type": "強化魔法",
+    "skill_value": 50,
+    "name": "マインド ラッシュ",
+    "cost_type": "MP",
+    "cost_value": 28,
+    "catalyst_type": "NP",
+    "catalyst_number": 3,
+    "info": "精神力を強化し 対象の最大MPを上げる"
+}, {
+    "skill_type": "強化魔法",
+    "skill_value": 50,
+    "name": "ブラッド ラッシュ",
+    "cost_type": "MP",
+    "cost_value": 28,
+    "catalyst_type": "NP",
+    "catalyst_number": 3,
+    "info": "体内の血液を湧騰させ 対象の最大HPを上げる"
+}, {
+    "skill_type": "強化魔法",
+    "skill_value": 60,
+    "name": "スティーム ブラッド",
+    "cost_type": "MP",
+    "cost_value": 34,
+    "catalyst_type": "NQ",
+    "catalyst_number": 1,
+    "info": "体内の血を湧騰させ 一時的に足を早くする<br>※効果継続中はスタミナが少しずつ減り続ける"
+}, {
+    "skill_type": "強化魔法",
+    "skill_value": 60,
+    "name": "インヴィジビリティ",
+    "cost_type": "MP",
+    "cost_value": 34,
+    "catalyst_type": "NQ",
+    "catalyst_number": 1,
+    "info": "一定時間姿を消しさる<br>※行動を起こすと効果は切れる"
+}, {
+    "skill_type": "強化魔法",
+    "skill_value": 70,
+    "name": "ホーリー ガード",
+    "cost_type": "MP",
+    "cost_value": 40,
+    "catalyst_type": "NQ",
+    "catalyst_number": 2,
+    "info": "自分の周りにいる仲間を聖なる力で包み込み 直接攻撃に対する防御力を上げる"
+}, {
+    "skill_type": "強化魔法",
+    "skill_value": 70,
+    "name": "ディバイン シールド",
+    "cost_type": "MP",
+    "cost_value": 40,
+    "catalyst_type": "NQ",
+    "catalyst_number": 2,
+    "info": "ダメージ量の大小を問わず 1発分の魔法を無効化する"
+}, {
+    "skill_type": "強化魔法",
+    "skill_value": 80,
+    "name": "ウルティメイト ヘルス",
+    "cost_type": "MP",
+    "cost_value": 46,
+    "catalyst_type": "NQ",
+    "catalyst_number": 3,
+    "info": "一定時間 最大HPとHP自然回復量が大幅に上昇する"
+}, {
+    "skill_type": "強化魔法",
+    "skill_value": 80,
+    "name": "シー インヴィジィブル",
+    "cost_type": "MP",
+    "cost_value": 46,
+    "catalyst_type": "NQ",
+    "catalyst_number": 3,
+    "info": "透明状態の者を見破ることが出来る"
+}, {
+    "skill_type": "強化魔法",
+    "skill_value": 90,
+    "name": "エレメンタル アーマー",
+    "cost_type": "MP",
+    "cost_value": 53,
+    "catalyst_type": "PNQ",
+    "catalyst_number": 1,
+    "info": "精霊の力を味方につけることにより 地水火風属性の魔法耐久度が上がる"
+}, {
+    "skill_type": "強化魔法",
+    "skill_value": 90,
+    "name": "トランスフォーム",
+    "cost_type": "MP",
+    "cost_value": 53,
+    "catalyst_type": "PNQ",
+    "catalyst_number": 1,
+    "info": "精霊の力を借り 最大MPと魔法力を犠牲に 命中率と防御力を大幅に上昇させる<br>※ジャンプすると元の姿に戻る"
+}, {
+    "skill_type": "強化魔法",
+    "skill_value": 90,
+    "name": "ウォーター バリア",
+    "cost_type": "MP",
+    "cost_value": 53,
+    "catalyst_type": "OP",
+    "catalyst_number": 1,
+    "info": "水球を身に纏い衝撃と炎から身を守る"
+}]

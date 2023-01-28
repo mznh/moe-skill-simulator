@@ -1,0 +1,71 @@
+[{
+    "skill_type": "盾",
+    "skill_value": 1,
+    "name": "シールド ガード",
+    "cost_type": "ST",
+    "cost_value": 5,
+    "info": "物理攻撃を防ぎ ダメージを減らす"
+}, {
+    "skill_type": "盾",
+    "skill_value": 10,
+    "name": "スパイク アタック",
+    "cost_type": "ST",
+    "cost_value": 11,
+    "info": "装備した盾で敵を強打する<br>※盾のACが高いほど大ダメージを与えます"
+}, {
+    "skill_type": "盾",
+    "skill_value": 20,
+    "name": "バッシュ",
+    "cost_type": "ST",
+    "cost_value": 15,
+    "info": "盾で敵の直接攻撃を跳ね除けて、敵を無防備（被クリティカル率上昇）にさせる"
+}, {
+    "skill_type": "盾",
+    "skill_value": 30,
+    "name": "スタン ガード",
+    "cost_type": "ST",
+    "cost_value": 15,
+    "info": "直接攻撃を防ぎ ダメージを減らす<br>※成功すると敵はスタン状態になる"
+}, {
+    "skill_type": "盾",
+    "skill_value": 40,
+    "name": "インパクト ステップ",
+    "cost_type": "ST",
+    "cost_value": 21,
+    "info": "盾で敵の直接攻撃を弾き飛ばし、間合いを広げる"
+}, {
+    "skill_type": "盾",
+    "skill_value": 50,
+    "name": "バンデット ガード",
+    "cost_type": "ST",
+    "cost_value": 23,
+    "info": "敵が放った遠距離攻撃を盾で受け止めて、放ってきた弾を強奪する。"
+}, {
+    "skill_type": "盾",
+    "skill_value": 60,
+    "name": "カミカゼ",
+    "cost_type": "ST",
+    "cost_value": 27,
+    "info": "盾に身を隠し ガードしたまま移動する<br>直接攻撃のみガード可能<br>※成功すると敵はスタン状態になる"
+}, {
+    "skill_type": "盾",
+    "skill_value": 70,
+    "name": "リベンジ ガード",
+    "cost_type": "ST",
+    "cost_value": 33,
+    "info": "自分に向けて打たれた直接攻撃と魔法のダメージを 盾で跳ね返す"
+}, {
+    "skill_type": "盾",
+    "skill_value": 80,
+    "name": "マジック ガード",
+    "cost_type": "ST",
+    "cost_value": 33,
+    "info": "自分に向かって放たれた魔法を 盾で吸収する<br>※完全回避に成功すると、敵が放った魔法のコストを吸収する<br>魔法をAvoidした時のみ、MP吸収の効果が発生する"
+}, {
+    "skill_type": "盾",
+    "skill_value": 90,
+    "name": "シールディング オーラ",
+    "cost_type": "ST",
+    "cost_value": 36,
+    "info": "シールドガードのオーラを発し<br>近くにいる仲間を守る"
+}]

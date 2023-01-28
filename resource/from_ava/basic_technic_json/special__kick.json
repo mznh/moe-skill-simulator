@@ -1,0 +1,71 @@
+[{
+    "skill_type": "キック",
+    "skill_value": 1,
+    "name": "ロウ キック",
+    "cost_type": "ST",
+    "cost_value": 5,
+    "info": "敵の足元を狙って 素早い蹴りを繰り出す"
+}, {
+    "skill_type": "キック",
+    "skill_value": 10,
+    "name": "ヘラクレス シュート",
+    "cost_type": "ST",
+    "cost_value": 8,
+    "info": "対象をボールに見立てて、思い切り蹴り飛ばす"
+}, {
+    "skill_type": "キック",
+    "skill_value": 20,
+    "name": "サイド キック",
+    "cost_type": "ST",
+    "cost_value": 11,
+    "info": "中段蹴りを繰り出し 敵を転ばせて後ろ向きにさせる"
+}, {
+    "skill_type": "キック",
+    "skill_value": 30,
+    "name": "レッグ ストーム",
+    "cost_type": "ST",
+    "cost_value": 15,
+    "info": "連続して敵を蹴りつけ 敵のHPとスタミナを減らす"
+}, {
+    "skill_type": "キック",
+    "skill_value": 40,
+    "name": "ブレイン ストライク",
+    "cost_type": "ST",
+    "cost_value": 19,
+    "info": "敵の脳天にかかとを振り下ろし マナ・ポイント(MP)を減らす"
+}, {
+    "skill_type": "キック",
+    "skill_value": 50,
+    "name": "リボルト キック",
+    "cost_type": "ST",
+    "cost_value": 23,
+    "info": "キックを当てた反動で 敵をよろけさせて尻餅をつかせる。<br>対象のBuff効果を古いものから１つ剥がす"
+}, {
+    "skill_type": "キック",
+    "skill_value": 60,
+    "name": "シリアル シュート",
+    "cost_type": "ST",
+    "cost_value": 28,
+    "info": "上方向へのダメージ判定が発生する蹴りを繰り出す"
+}, {
+    "skill_type": "キック",
+    "skill_value": 70,
+    "name": "ドロップ キック",
+    "cost_type": "ST",
+    "cost_value": 33,
+    "info": "ダメージを与えた後ダウンさせる"
+}, {
+    "skill_type": "キック",
+    "skill_value": 80,
+    "name": "トルネード",
+    "cost_type": "ST",
+    "cost_value": 38,
+    "info": "回し蹴りを繰り出して、四方の敵を攻撃する<br>使用直後から攻撃が当たるまでダメージを無効化する"
+}, {
+    "skill_type": "キック",
+    "skill_value": 90,
+    "name": "ムーン ボヤージ",
+    "cost_type": "ST",
+    "cost_value": 45,
+    "info": "敵を上空に蹴り上げて 蹴りのほかに落下ダメージも与える"
+}]

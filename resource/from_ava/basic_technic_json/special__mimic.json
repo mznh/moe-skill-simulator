@@ -1,0 +1,87 @@
+[{
+    "skill_type": "物まね",
+    "skill_value": 1,
+    "name": "アミティ ミミック",
+    "cost_type": "ST",
+    "cost_value": 9,
+    "info": "敵の声色を真似て 自分に注意を引きつける"
+}, {
+    "skill_type": "物まね",
+    "skill_value": 20,
+    "name": "コーリング ミミック",
+    "cost_type": "ST",
+    "cost_value": 11,
+    "info": "対象の近くにいる全ての敵の注意を引きつける"
+}, {
+    "skill_type": "物まね",
+    "skill_value": 30,
+    "name": "マーメイド ミミック",
+    "cost_type": "ST",
+    "cost_value": 15,
+    "info": "一定時間、泳ぐスピードが上昇する"
+}, {
+    "skill_type": "物まね",
+    "skill_value": 40,
+    "name": "スケープゴート ミミック",
+    "cost_type": "ST",
+    "cost_value": 21,
+    "info": "一定時間、全てのダメージを 案山子に身代わりにさせる"
+}, {
+    "skill_type": "物まね",
+    "skill_value": 50,
+    "name": "ネイチャー ミミック",
+    "cost_type": "ST",
+    "cost_value": 23,
+    "info": "周りの風景に溶け込み 姿を隠す"
+}, {
+    "skill_type": "物まね",
+    "skill_value": 60,
+    "name": "ハラキリ ミミック",
+    "cost_type": "ST",
+    "cost_value": 28,
+    "info": "自分の腹を斬り 死んだふりをする<br>※ダメージは受けるが 死ななければ回復する<br>※死んだ振りをしている間に 行動をとると技の効果はキャンセルされる"
+}, {
+    "skill_type": "物まね",
+    "skill_value": 70,
+    "name": "ミラージュ ミミック",
+    "cost_type": "ST",
+    "cost_value": 33,
+    "info": "自分にソックリの分身を出現させ 敵を惑わせる"
+}, {
+    "skill_type": "物まね",
+    "skill_value": 70,
+    "name": "オールド ミラージュ ミミック",
+    "cost_type": "ST",
+    "cost_value": 33,
+    "info": "自然な姿のニューター男を出現させ 敵を惑わせる"
+}, {
+    "skill_type": "物まね",
+    "skill_value": 80,
+    "name": "シャドウ ハイド",
+    "cost_type": "ST",
+    "cost_value": 38,
+    "info": "対象の影に潜み 後をつける"
+}, {
+    "skill_type": "物まね",
+    "skill_value": 90,
+    "name": "チャーム ダンス",
+    "cost_type": "ST",
+    "cost_value": 45,
+    "info": "身につけている装備を脱いで 敵を惑わす"
+}, {
+    "skill_type": "物まね",
+    "skill_value": 90,
+    "name": "パーフェクト ミミック",
+    "cost_type": "ST",
+    "cost_value": 45,
+    "info": "ターゲットした対象と同じ姿に変装することができる<br>※一部の対象には使用することができません<br>※メモリーズ ボックスで秘伝の書に戻すことができる"
+}, {
+    "skill_type": "物まね",
+    "skill_value": 90,
+    "name": "セブン ソウルズ",
+    "cost_type": "ST",
+    "cost_value": 53,
+    "catalyst_type": "原初の粉",
+    "catalyst_number": 1,
+    "info": "SGKの分身を7体同時に召喚し攻撃する"
+}]

@@ -1,0 +1,64 @@
+[{
+    "skill_type": "音楽",
+    "skill_value": 1,
+    "name": "ベビースネークのエチュード",
+    "cost_type": "ST",
+    "cost_value": 5,
+    "info": "弱い力を守る抵抗の歌<br>PTメンバーの呪文抵抗力を上昇させる"
+}, {
+    "skill_type": "音楽",
+    "skill_value": 10,
+    "name": "セイクリッド レクイエム",
+    "cost_type": "ST",
+    "cost_value": 9,
+    "info": "周囲にいるアンデッド系の敵を鎮める歌"
+}, {
+    "skill_type": "音楽",
+    "skill_value": 20,
+    "name": "イクシオン マーチ",
+    "cost_type": "ST",
+    "cost_value": 11,
+    "info": "侵入者から身を守る歌<br>PTメンバーの防御力を上昇させる。"
+}, {
+    "skill_type": "音楽",
+    "skill_value": 30,
+    "name": "アルケミスト ラプソディ",
+    "cost_type": "ST",
+    "cost_value": 15,
+    "info": "錬金術師の研究・苦悩・発見の唄<br>PTメンバーの魔力を上昇させる"
+}, {
+    "skill_type": "音楽",
+    "skill_value": 40,
+    "name": "ファンガスの子守唄",
+    "cost_type": "ST",
+    "cost_value": 19,
+    "info": "寝つきの悪い子を瞬時に眠らせる子守唄<br>自分以外のPTメンバーを深い眠りに誘い自然回復量を上昇させる"
+}, {
+    "skill_type": "音楽",
+    "skill_value": 50,
+    "name": "アビシニアン ワルツ",
+    "cost_type": "ST",
+    "cost_value": 23,
+    "info": "アビシニアンの軽快な動きを表現した唄<br>PTメンバーの回避率を上昇させる"
+}, {
+    "skill_type": "音楽",
+    "skill_value": 60,
+    "name": "シスター エモーション",
+    "cost_type": "ST",
+    "cost_value": 28,
+    "info": "反戦を祈る修道女の感情を表した歌<br>PTメンバーのDebuff効果を古い順から１つ解除する"
+}, {
+    "skill_type": "音楽",
+    "skill_value": 80,
+    "name": "トライデント ブルース",
+    "cost_type": "ST",
+    "cost_value": 38,
+    "info": "12日間戦争で戦死したトライデント達の活躍の歌<br>自分以外のPTメンバーのスタミナ消費量を軽減する"
+}, {
+    "skill_type": "音楽",
+    "skill_value": 90,
+    "name": "レゾナンス ハーモニー",
+    "cost_type": "ST",
+    "cost_value": 45,
+    "info": "古き時代と新しき時代を紡ぐ共鳴の唄<br>聴く者を落ち着かせ HPを最大HPの25％分回復させる"
+}]

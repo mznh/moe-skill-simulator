@@ -1,0 +1,59 @@
+[{
+    "skill_type": "こんぼう",
+    "skill_value": 20,
+    "name": "チャージド ブラント",
+    "cost_type": "ST",
+    "cost_value": 11,
+    "info": "力を溜めて敵を激しく叩きつけることにより<br>ガード技を無視してダメージを貫通させる<br>※成功すると 敵をスタンさせることができる"
+}, {
+    "skill_type": "こんぼう",
+    "skill_value": 40,
+    "name": "スニーク アタック",
+    "cost_type": "ST",
+    "cost_value": 19,
+    "info": "敵の側面や背後から忍び寄り 不意打ちで敵を眠らせる"
+}, {
+    "skill_type": "こんぼう",
+    "skill_value": 50,
+    "name": "ニート クラッシャー",
+    "cost_type": "ST",
+    "cost_value": 23,
+    "info": "対象の装備の耐久度を大幅に消耗させる攻撃を繰り出す。<br>この技を食らった者は、働いて修理代を稼がなければならない。"
+}, {
+    "skill_type": "こんぼう",
+    "skill_value": 60,
+    "name": "ウェポン ディザーム",
+    "cost_type": "ST",
+    "cost_value": 28,
+    "info": "敵の装備している武器を叩き落す<br>この技を受けたプレイヤーは、<br>1秒くらいの間、右と左スロットの装備を付け替えできなくなる"
+}, {
+    "skill_type": "こんぼう",
+    "skill_value": 70,
+    "name": "ヴォーテックス ホイール",
+    "cost_type": "ST",
+    "cost_value": 33,
+    "info": "その場で回転することにより 周りの敵にダメージを与えて吹き飛ばす"
+}, {
+    "skill_type": "こんぼう",
+    "skill_value": 80,
+    "name": "ディスロケーション",
+    "cost_type": "ST",
+    "cost_value": 36,
+    "info": "敵の骨格を揺るがすダメージを与え HP・MPの自然回復を阻止する"
+}, {
+    "skill_type": "こんぼう",
+    "skill_value": 90,
+    "name": "クウェイク ビート",
+    "cost_type": "ST",
+    "cost_value": 39,
+    "info": "両手用のこんぼうで地面を強打し 地響きを起こす<br>※周囲にいる者のバランス感覚を奪う"
+}, {
+    "skill_type": "こんぼう",
+    "skill_value": 90,
+    "name": "ライジング インパクト",
+    "cost_type": "ST",
+    "cost_value": 45,
+    "catalyst_type": "原初の粉",
+    "catalyst_number": 1,
+    "info": "地面を伝わる衝撃が対象の足元を隆起させダメージを与える技"
+}]

@@ -1,0 +1,85 @@
+[{
+    "cost_type": "ST",
+    "cost_value": 5,
+    "info": "敵に強く噛みつき ダメージを与える",
+    "name": "バイト",
+    "skill_type": "牙",
+    "skill_value": 1,
+}, {
+    "cost_type": "ST",
+    "cost_value": 11,
+    "info": "対象に激しく噛みつき 吸い取った血でHPを回復する",
+    "name": "ブラッド サック",
+    "skill_type": "牙",
+    "skill_value": 20,
+}, {
+    "skill_type": "牙",
+    "skill_value": 30,
+    "name": "ハンガー バイト",
+    "cost_type": "ST",
+    "cost_value": 15,
+    "motion_time": 127,
+    "delay": 1027,
+    "move": "×",
+    "info": "対象を牙で噛み付いて、喉を乾かし空腹にさせる<br>攻撃スピードも少し遅くなる"
+}, {
+    "skill_type": "牙",
+    "skill_value": 40,
+    "name": "ワーウルフ",
+    "cost_type": "ST",
+    "cost_value": 19,
+    "motion_time": 140,
+    "delay": 990,
+    "move": "×",
+    "info": "狼に変身して 特殊な身体特性を身につける<br>魔力が下がる代わりに、回避率と耐風属性が増加する"
+}, {
+    "skill_type": "牙",
+    "skill_value": 50,
+    "name": "グール ファング",
+    "cost_type": "ST",
+    "cost_value": 23,
+    "motion_time": 180,
+    "delay": 870,
+    "move": "×",
+    "info": "怨霊を宿らせた一撃で 敵をマヒさせる"
+}, {
+    "skill_type": "牙",
+    "skill_value": 60,
+    "name": "ブラッド シェアー",
+    "cost_type": "ST",
+    "cost_value": 28,
+    "motion_time": 150,
+    "delay": 1150,
+    "move": "○",
+    "info": "人型の対象に噛み付き 一定時間だけ自分の支配下におく"
+}, {
+    "skill_type": "牙",
+    "skill_value": 70,
+    "name": "ハッキング バイト",
+    "cost_type": "ST",
+    "cost_value": 33,
+    "motion_time": 170,
+    "delay": 1170,
+    "move": "○",
+    "info": "対象に噛み付き かかっているBuffやDebuff効果を2つ奪い取る"
+}, {
+    "skill_type": "牙",
+    "skill_value": 80,
+    "name": "バット フォーム",
+    "cost_type": "ST",
+    "cost_value": 38,
+    "motion_time": 20,
+    "delay": 2020,
+    "move": "×",
+    "info": "一定時間コウモリに変身し 空を飛べるようになる<br>効果中はBuffの効果時間が増加する"
+}, {
+    "skill_type": "牙",
+    "skill_value": 90,
+    "name": "ブラッド レイン",
+    "cost_type": "ST",
+    "cost_value": 45,
+    "motion_time": 200,
+    "delay": 1100,
+    "move": "×",
+    "info": "吸い取った血を上空に噴射して血の池を作り 敵をおびき寄せる<br>吸い寄せられた敵は、スタミナを消耗して攻撃速度が遅くなる"
+}]

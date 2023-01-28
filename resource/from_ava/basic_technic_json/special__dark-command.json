@@ -1,0 +1,71 @@
+[{
+    "skill_type": "暗黒命令",
+    "skill_value": 1,
+    "name": "テラー チャーム",
+    "cost_type": "ST",
+    "cost_value": 5,
+    "info": "対象は恐怖に魅入られ 目を逸らしてしまう"
+}, {
+    "skill_type": "暗黒命令",
+    "skill_value": 10,
+    "name": "ドレイン ソウル",
+    "cost_type": "ST",
+    "cost_value": 8,
+    "info": "死体から魂を吸収し MPを回復する<br>※魂が残っている死体からは、多くのMPを回復可能"
+}, {
+    "skill_type": "暗黒命令",
+    "skill_value": 20,
+    "name": "ブレイム フォーカス",
+    "cost_type": "ST",
+    "cost_value": 11,
+    "info": "周りにいる敵の反応範囲を広くする"
+}, {
+    "skill_type": "暗黒命令",
+    "skill_value": 30,
+    "name": "スケイプ ゴート",
+    "cost_type": "ST",
+    "cost_value": 19,
+    "info": "一定時間、敵を攻撃やアイテムの使用を不可能にさせる"
+}, {
+    "skill_type": "暗黒命令",
+    "skill_value": 40,
+    "name": "サクリファイス ディナー",
+    "cost_type": "ST",
+    "cost_value": 17,
+    "info": "自分のペットを食べ HP・MP・STを回復する"
+}, {
+    "skill_type": "暗黒命令",
+    "skill_value": 50,
+    "name": "ナイト カーテン",
+    "cost_type": "ST",
+    "cost_value": 23,
+    "info": "辺り一面を暗闇に包みこみ 敵からの攻撃を当りにくくする"
+}, {
+    "skill_type": "暗黒命令",
+    "skill_value": 60,
+    "name": "スレイブ チェイン",
+    "cost_type": "ST",
+    "cost_value": 28,
+    "info": "対象を自分の方へと歩み寄らせる"
+}, {
+    "skill_type": "暗黒命令",
+    "skill_value": 70,
+    "name": "ハンギング ウイングス",
+    "cost_type": "ST",
+    "cost_value": 29,
+    "info": "対象を宙にはりつける<br>※浮いてる間は、ヒット・ポイント(HP)と回避能力が減少する"
+}, {
+    "skill_type": "暗黒命令",
+    "skill_value": 80,
+    "name": "ギロチン コール",
+    "cost_type": "ST",
+    "cost_value": 38,
+    "info": "最大ヒットポイントの20%を切った対象の首を刎ねる<br>(与えることが出来るダメージは最大で100です。)"
+}, {
+    "skill_type": "暗黒命令",
+    "skill_value": 90,
+    "name": "フュージョン",
+    "cost_type": "ST",
+    "cost_value": 32,
+    "info": "パーティメンバー全員が合体し 一体の怪物へと姿を変える<br>技使用者以外は操作不能になり 力を分け与える事しか出来なくなる<br>発動者は、強靭な力と長いリーチを得られる<br>※自分を含めて2人以上のパーティを組んでいる時に発動可能"
+}]

@@ -1,0 +1,56 @@
+[{
+    "skill_type": "盗み",
+    "skill_value": 1,
+    "name": "ロックピック",
+    "cost_type": "ST",
+    "cost_value": 5,
+    "catalyst_type": "ピッキング ツール",
+    "catalyst_number": 1,
+    "info": "鍵の掛かった錠をこじ開ける<br>通常では開かない宝箱等を、こじ開けることが出来る"
+}, {
+    "skill_type": "盗み",
+    "skill_value": 20,
+    "name": "ロックオン グルー",
+    "cost_type": "ST",
+    "cost_value": 11,
+    "catalyst_type": "接着剤",
+    "catalyst_number": 1,
+    "info": "対象に接着剤を吹き付け行動を制限する"
+}, {
+    "skill_type": "盗み",
+    "skill_value": 30,
+    "name": "スティール",
+    "cost_type": "ST",
+    "cost_value": 15,
+    "info": "Mobからアイテムを盗むことができる<br>※対象のHPが少ないほど成功率が上がります"
+}, {
+    "skill_type": "盗み",
+    "skill_value": 40,
+    "name": "リムーブ トラップ",
+    "cost_type": "ST",
+    "cost_value": 19,
+    "catalyst_type": "ピッキング ツール",
+    "catalyst_number": 1,
+    "info": "罠を解除する<br>仕掛けられた罠を取り除くことが出来る"
+}, {
+    "skill_type": "盗み",
+    "skill_value": 50,
+    "name": "ステルス",
+    "cost_type": "ST",
+    "cost_value": 23,
+    "info": "体を特殊な装備でまとって光学迷彩化させる<br>効果中は移動速度が遅くなる"
+}, {
+    "skill_type": "盗み",
+    "skill_value": 60,
+    "name": "インセーン スティール",
+    "cost_type": "ST",
+    "cost_value": 28,
+    "info": "公共施設の設置物を盗み取る<br>(生産装置や敵勢力のCC/DAの設置物などを盗む)<br>※ 現在 WarAge では 盗み判定はありません"
+}, {
+    "skill_type": "盗み",
+    "skill_value": 80,
+    "name": "ゴージャス スティール",
+    "cost_type": "ST",
+    "cost_value": 38,
+    "info": "Mobから希少なアイテムを盗むことが出来る<br>※対象のHPが少ないほど成功率が上がります"
+}]

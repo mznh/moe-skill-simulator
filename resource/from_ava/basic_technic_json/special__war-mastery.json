@@ -1,0 +1,101 @@
+[{
+    "skill_type": "戦闘技術",
+    "skill_value": 1,
+    "name": "プリーチ",
+    "cost_type": "ST",
+    "cost_value": 5,
+    "motion_time": 130,
+    "delay": 670,
+    "move": "×",
+    "info": "敵をなだめて戦意を喪失させる<br>※対人戦では相手の戦闘状態を解除する"
+}, {
+    "skill_type": "戦闘技術",
+    "skill_value": 10,
+    "name": "タックル",
+    "cost_type": "ST",
+    "cost_value": 8,
+    "motion_time": 130,
+    "delay": 630,
+    "move": "○",
+    "info": "敵に体当たりを喰らわせ 後退させる"
+}, {
+    "skill_type": "戦闘技術",
+    "skill_value": 20,
+    "name": "タウント",
+    "cost_type": "ST",
+    "cost_value": 11,
+    "motion_time": 165,
+    "delay": 815,
+    "move": "○",
+    "info": "敵を挑発し 自分に注意を惹きつける"
+}, {
+    "skill_type": "戦闘技術",
+    "skill_value": 30,
+    "name": "バーサーク",
+    "cost_type": "ST",
+    "cost_value": 15,
+    "motion_time": 150,
+    "delay": 1350,
+    "move": "○",
+    "info": "一時的に暴走状態になり攻撃力と攻撃スピードが高まる<br>※バーサーク状態の間は、HP/MP/STの自然回復量が低下する"
+}, {
+    "skill_type": "戦闘技術",
+    "skill_value": 40,
+    "name": "エクゾシズム",
+    "cost_type": "ST",
+    "cost_value": 19,
+    "motion_time": 140,
+    "delay": 790,
+    "move": "○",
+    "info": "邪悪な気を祓い 自分にかけられた最も新しいステータスダウン効果を1つ無効にする<br>※毒・呪い・スタン・眠り・DoTダメージは解除できません"
+}, {
+    "skill_type": "戦闘技術",
+    "skill_value": 50,
+    "name": "ナイト マインド",
+    "cost_type": "ST",
+    "cost_value": 23,
+    "motion_time": 150,
+    "delay": 1650,
+    "move": "○",
+    "info": "攻撃の命中率を大幅に上昇させる"
+}, {
+    "skill_type": "戦闘技術",
+    "skill_value": 60,
+    "name": "バーサーク オール",
+    "cost_type": "ST",
+    "cost_value": 28,
+    "motion_time": 200,
+    "delay": 2200,
+    "move": "×",
+    "info": "一時的に暴走状態になり、攻撃力を大幅に上昇させるが、<br>代償として回避が大幅に減少する"
+}, {
+    "skill_type": "戦闘技術",
+    "skill_value": 70,
+    "name": "カンフー ソウル",
+    "cost_type": "ST",
+    "cost_value": 33,
+    "motion_time": 150,
+    "delay": 1350,
+    "move": "○",
+    "info": "メイン攻撃のクリティカル発生率を上昇させる<br>※効果中は呪文抵抗力と回避が低下します。"
+}, {
+    "skill_type": "戦闘技術",
+    "skill_value": 80,
+    "name": "サムライ ハート",
+    "cost_type": "ST",
+    "cost_value": 38,
+    "motion_time": 150,
+    "delay": 1650,
+    "move": "○",
+    "info": "一定時間、対象の防御力を50%低下させる"
+}, {
+    "skill_type": "戦闘技術",
+    "skill_value": 90,
+    "name": "センス オブ ワンダー",
+    "cost_type": "ST",
+    "cost_value": 45,
+    "motion_time": 150,
+    "delay": 1750,
+    "move": "○",
+    "info": "移動しながら発動できない一部の攻撃を 移動しながらでも繰り出せるようにする"
+}]

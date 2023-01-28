@@ -1,0 +1,67 @@
+[{
+    "skill_type": "取引",
+    "skill_value": 1,
+    "name": "トレード",
+    "cost_type": "ST",
+    "cost_value": 5,
+    "info": "対象とアイテムやお金の交換をする"
+}, {
+    "skill_type": "取引",
+    "skill_value": 10,
+    "name": "オープン セラー",
+    "cost_type": "ST",
+    "cost_value": 40,
+    "info": "露店を開いて自動販売をする"
+}, {
+    "skill_type": "取引",
+    "skill_value": 20,
+    "name": "オープン バイヤー",
+    "cost_type": "ST",
+    "cost_value": 40,
+    "info": "露店を開いて自動買取をする"
+}, {
+    "skill_type": "取引",
+    "skill_value": 30,
+    "name": "オープン バイヤー",
+    "cost_type": "ST",
+    "cost_value": 40,
+    "catalyst_type": "店の看板",
+    "catalyst_number": 1,
+    "info": "自分の店の看板を立てる<br>※アイテム『店の看板』が必要"
+}, {
+    "skill_type": "取引",
+    "skill_value": 40,
+    "name": "ハイアー ボディーガード",
+    "cost_type": "ST",
+    "cost_value": 23,
+    "catalyst_type": "お金",
+    "catalyst_number": 100,
+    "info": "オーク ギャングをお金でボディガードとして雇う"
+}, {
+    "skill_type": "取引",
+    "skill_value": 50,
+    "name": "マーチャント コール",
+    "cost_type": "ST",
+    "cost_value": 40,
+    "catalyst_type": "お金",
+    "catalyst_number": 150,
+    "info": "出張商人を呼んで買い物をする"
+}, {
+    "skill_type": "取引",
+    "skill_value": 60,
+    "name": "ハイアー マーシナリー",
+    "cost_type": "ST",
+    "cost_value": 23,
+    "catalyst_type": "お金",
+    "catalyst_number": 200,
+    "info": "大金を払い ドワーフの傭兵を雇う"
+}, {
+    "skill_type": "取引",
+    "skill_value": 90,
+    "name": "バンカー コール",
+    "cost_type": "ST",
+    "cost_value": 40,
+    "catalyst_type": "お金",
+    "catalyst_number": 300,
+    "info": "出張銀行員を呼び出す"
+}]

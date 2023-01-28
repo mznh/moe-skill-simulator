@@ -1,0 +1,66 @@
+[{
+    "skill_type": "投げ",
+    "skill_value": 1,
+    "name": "スロウ",
+    "cost_type": "ST",
+    "cost_value": 9,
+    "info": "投てき用の武器を 敵に投げつける"
+}, {
+    "skill_type": "投げ",
+    "skill_value": 1,
+    "name": "フック アクション",
+    "cost_type": "ST",
+    "cost_value": 5,
+    "info": "鉤縄を利用して 壁や崖を登ることができる<br>※【アクション オブジェクト】をターゲットして使用します<br>使用アイテム : 鉤縄"
+}, {
+    "skill_type": "投げ",
+    "skill_value": 20,
+    "name": "ブラインド スロウ",
+    "cost_type": "ST",
+    "cost_value": 15,
+    "info": "太陽や月の光を反射させ<br>対象の目を眩ませながら投てき武器を投げつける"
+}, {
+    "skill_type": "投げ",
+    "skill_value": 30,
+    "name": "ミリオネア シャワー",
+    "cost_type": "ST",
+    "cost_value": 15,
+    "catalyst_type": "お金",
+    "catalyst_number": 50,
+    "info": "自分の所持金を敵に投げつける。<br>対象にお金の亡者がいた場合には、落ちたお金を拾おうとしてしまう。"
+}, {
+    "skill_type": "投げ",
+    "skill_value": 40,
+    "name": "ラピッド スロウ",
+    "cost_type": "ST",
+    "cost_value": 21,
+    "info": "対象に攻撃を貫通させて 後方にいる敵にもダメージを与えられる"
+}, {
+    "skill_type": "投げ",
+    "skill_value": 60,
+    "name": "シャドウ ストライク",
+    "cost_type": "ST",
+    "cost_value": 24,
+    "info": "対象に投げダメージを与えた後 自分の姿を眩ます"
+}, {
+    "skill_type": "投げ",
+    "skill_value": 70,
+    "name": "バニッシュ クラウド",
+    "cost_type": "ST",
+    "cost_value": 33,
+    "info": "投てき用の武器を足元に叩きつけて煙を出現させる<br>※姿を眩ましている間は 技の発動が早くなっているので、奇襲攻撃のチャンス"
+}, {
+    "skill_type": "投げ",
+    "skill_value": 80,
+    "name": "ダブル スロウ",
+    "cost_type": "ST",
+    "cost_value": 38,
+    "info": "一度に2つの投擲武器を投げることができる"
+}, {
+    "skill_type": "投げ",
+    "skill_value": 90,
+    "name": "シャドウ スティッチ",
+    "cost_type": "ST",
+    "cost_value": 33,
+    "info": "対象の影を射止めて 身動きがとれないようにする"
+}]

@@ -1,0 +1,4056 @@
+[
+  {
+      "name": "ホーリー ストライク",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "回復魔法",
+                  "value": 70
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 334,
+      "casttime": 241,
+      "range": 19.5,
+      "element": "無",
+      "info": "アンデット系に対し、継続ダメージを与える。",
+      "detail": "※6秒間隔で8回のDoT。回復魔法の上昇判定あり。"
+  },
+  {
+      "name": "マジック ドレイン",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 0
+          },
+          "mastery": [
+              "紺碧の賢者"
+          ],
+          "skill": [
+              {
+                  "name": "死の魔法",
+                  "value": 40
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 877,
+      "casttime": 277,
+      "range": 99999,
+      "element": "無",
+      "info": "自分の周りにいる敵からMPを吸収する。",
+      "detail": "※自分中心の範囲魔法。死の魔法の上昇判定あり。"
+  },
+  {
+      "name": "マジック アロー",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 2
+          },
+          "cost": {
+              "type": "MP",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 70
+              },
+              {
+                  "name": "強化魔法",
+                  "value": 70
+              },
+              {
+                  "name": "集中力",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 334,
+      "casttime": 241,
+      "range": 20.5,
+      "element": "無",
+      "info": "高密度の圧縮した魔力を放つ。",
+      "detail": "※盾の防御を貫通する。"
+  },
+  {
+      "name": "パル フレア",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 3
+          },
+          "cost": {
+              "type": "MP",
+              "value": 46
+          },
+          "mastery": [
+              "アルケミスト"
+          ],
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 356,
+      "casttime": 259,
+      "range": 20.5,
+      "element": "無",
+      "info": "属性を変化させた青白い炎を放つ特殊な魔法。呪文抵抗力による軽減を受けない。",
+      "detail": "※ACで軽減。"
+  },
+  {
+      "name": "オーバー ドライブ",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 100
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 90
+              },
+              {
+                  "name": "魔法熟練",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 450,
+      "range": 99999,
+      "element": "無",
+      "info": "暴走した魔力が周囲を焼き尽くす。使用者は全てのMPを消費する。",
+      "detail": "※WarAgeでは魔法チャージ不可。自分中心の範囲魔法。破壊魔法の上昇判定あり。"
+  },
+  {
+      "name": "マナ ボール",
+      "required": {
+          "catalyst": {
+              "type": "なし",
+              "number": 0
+          },
+          "cost": {
+              "type": "MP",
+              "value": 27
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 30
+              },
+              {
+                  "name": "魔法熟練",
+                  "value": 30
+              }
+          ]
+      },
+      "delay": 312,
+      "casttime": 223,
+      "range": 16.5,
+      "element": "無",
+      "info": "触媒を消費せずに撃つことができる無属性魔法。",
+      "detail": "undefined"
+  },
+  {
+      "name": "ツイスター",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 34
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 60
+              },
+              {
+                  "name": "知能",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 312,
+      "casttime": 223,
+      "range": 20.5,
+      "element": "風",
+      "info": "竜巻を発生させて 敵を上空へ巻き上げる。",
+      "detail": "※上方ノックバック。破壊魔法の上昇判定あり。"
+  },
+  {
+      "name": "セイクリッド レイ",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 100
+          },
+          "skill": [
+              {
+                  "name": "回復魔法",
+                  "value": 90
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 70
+              },
+              {
+                  "name": "集中力",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 479,
+      "casttime": 277,
+      "range": 21,
+      "element": "無",
+      "info": "聖なる光を集約して 上空から敵を撃ち抜く。",
+      "detail": "※アンデット系には大ダメージを与える。1秒間隔で1回のDoT扱い。回復魔法の上昇判定あり。"
+  },
+  {
+      "name": "ファイアー ストーム",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 51
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 90
+              },
+              {
+                  "name": "魔法熟練",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 479,
+      "casttime": 277,
+      "range": 17.5,
+      "element": "火",
+      "info": "巨大な火柱が敵を包み込み 全てを焼き尽くす。",
+      "detail": "※無弾道型。破壊魔法の上昇判定あり。"
+  },
+  {
+      "name": "イリュージョン ジャッジメント",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 90
+              },
+              {
+                  "name": "魔法熟練",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 479,
+      "casttime": 477,
+      "range": 16.3,
+      "element": "無",
+      "info": "対象の上空に イリュージョンソードを出現させ 天の裁きを 大地へ突き刺す。",
+      "detail": "※範囲魔法・魔力非依存。神秘魔法の上昇判定あり。攻撃は物理扱いで対象に回避される可能性あり。"
+  },
+  {
+      "name": "レインボー ショット",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 3
+          },
+          "cost": {
+              "type": "MP",
+              "value": 46
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 80
+              },
+              {
+                  "name": "死の魔法",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 356,
+      "casttime": 259,
+      "range": 19.8,
+      "element": "無",
+      "info": "七色に輝く魔法の弾を放つ。七種類の効果を同時に与える。",
+      "detail": "※攻撃・防御・命中・回避・魔力・移動速度・最大ST低下のデバフ追加。破壊魔法の上昇判定あり。"
+  },
+  {
+      "name": "ビッグバン",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 100
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 999,
+      "casttime": 277,
+      "range": 99999,
+      "element": "無",
+      "info": "一点に圧縮した魔力を爆発的に膨張させて対象に大ダメージを与える。",
+      "detail": "※5人のパーティーメンバーが近くにいる時のみ発動可能。"
+  },
+  {
+      "name": "チェイン スペル",
+      "required": {
+          "catalyst": {
+              "type": "NP",
+              "number": 3
+          },
+          "cost": {
+              "type": "MP",
+              "value": 14
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 50
+              },
+              {
+                  "name": "集中力",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 290,
+      "casttime": 365,
+      "range": 20.5,
+      "element": "?",
+      "info": "連続で魔法を撃ち続ける。",
+      "detail": "※最大5発。1発につきMP14を消費する。最初の1回のみ破壊魔法の上昇判定あり。"
+  },
+  {
+      "name": "アース エクスプロージョン",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 90
+              },
+              {
+                  "name": "自然調和",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 479,
+      "casttime": 277,
+      "range": 19,
+      "element": "地",
+      "info": "大地を震わせ 地表からマグマを噴出させる。",
+      "detail": "※対象を少し硬直させる。破壊魔法の上昇判定あり。"
+  },
+  {
+      "name": "アイシクル ディザスター",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 51
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 90
+              },
+              {
+                  "name": "知能",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 479,
+      "casttime": 277,
+      "range": 18.5,
+      "element": "水",
+      "info": "大気を凍らせ 無数の氷柱を敵の頭上に落とす。",
+      "detail": "※PresentAge以外では魔法チャージ不可。範囲魔法・2秒で1回の単発DoT。"
+  },
+  {
+      "name": "ディバイン ストリーム",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 100
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 90
+              },
+              {
+                  "name": "回復魔法",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 450,
+      "range": 20.5,
+      "element": "無",
+      "info": "聖なる 光柱を呼び出し 近づく者を滅する。",
+      "detail": "※水中詠唱＆発動不可。PresentAge以外では魔法チャージ不可。範囲魔法・魔力非依存。破壊魔法の上昇判定あり。"
+  },
+  {
+      "name": "ルーミング ダークネス",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "skill": [
+              {
+                  "name": "死の魔法",
+                  "value": 90
+              },
+              {
+                  "name": "暗黒命令",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 479,
+      "casttime": 277,
+      "range": 20.5,
+      "element": "無",
+      "info": "漆黒の闇が相手を包み込み攻撃する魔法。",
+      "detail": "※短間隔の4回のDoT。微量に浮かせる。死の魔法の上昇判定あり。"
+  },
+  {
+      "name": "雷霆召雷",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 51
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 90
+              },
+              {
+                  "name": "召喚魔法",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 479,
+      "casttime": 277,
+      "range": 16.5,
+      "element": "風",
+      "info": "敵の頭上に雷雲を呼び出し攻撃する。",
+      "detail": "※水中詠唱＆発動不可。PresentAge以外では魔法チャージ不可。召喚枠に干渉。範囲魔法。範囲内のMobにランダムに最大10回雷が落ちる。魔力非依存。破壊魔法の上昇判定あり。友好的なMobには雷が落ちない。"
+  },
+  {
+      "name": "ダーク フレイム バースト",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 34
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 60
+              },
+              {
+                  "name": "暗黒命令",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 312,
+      "casttime": 223,
+      "range": 21.5,
+      "element": "無",
+      "info": "内なる魂に宿す闇の炎を操り対象を焼き尽す。",
+      "detail": "※威力は普通のバースト。破壊魔法の上昇判定あり。"
+  },
+  {
+      "name": "ホーリー クロス",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 51
+          },
+          "skill": [
+              {
+                  "name": "回復魔法",
+                  "value": 90
+              },
+              {
+                  "name": "集中力",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 479,
+      "casttime": 277,
+      "range": 20.55,
+      "element": "無",
+      "info": "聖なる十字架で敵に裁きを与える。",
+      "detail": "※WarAgeでは魔法チャージ不可。アンデッドにダメージ2倍。回復魔法の上昇判定あり。"
+  },
+  {
+      "name": "テンペスト",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 51
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 90
+              },
+              {
+                  "name": "強化魔法",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 479,
+      "casttime": 297,
+      "range": 15.5,
+      "element": "風",
+      "info": "巨大な竜巻を発生させて 全ても巻き込み吹き飛ばす。",
+      "detail": "※WarAgeでは魔法チャージ不可。範囲魔法。短間隔の5回のDoT。上方ノックバック。魔力非依存。破壊魔法の上昇判定あり。"
+  },
+  {
+      "name": "マジック ミサイル",
+      "required": {
+          "catalyst": {
+              "type": "ND",
+              "number": 2
+          },
+          "cost": {
+              "type": "MP",
+              "value": 9
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 10
+              },
+              {
+                  "name": "魔法熟練",
+                  "value": 10
+              }
+          ]
+      },
+      "delay": 202,
+      "casttime": 133,
+      "range": 99999,
+      "element": "?",
+      "info": "拳大の光弾を放つ魔法。",
+      "detail": "undefined"
+  },
+  {
+      "name": "シャドービート",
+      "required": {
+          "catalyst": {
+              "type": "NP",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 18
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 30
+              },
+              {
+                  "name": "集中力",
+                  "value": 30
+              }
+          ]
+      },
+      "delay": 246,
+      "casttime": 169,
+      "range": 99999,
+      "element": "?",
+      "info": "黒い塊を飛ばして超振動で攻撃をする魔法。",
+      "detail": "undefined"
+  },
+  {
+      "name": "ウインド インパルス",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 51
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 90
+              },
+              {
+                  "name": "集中力",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 479,
+      "casttime": 277,
+      "range": 20.5,
+      "element": "風",
+      "info": "魔力で空気を極限まで圧縮して対象に放つ魔法。",
+      "detail": "弾道型・単体攻撃。弾速はアイスボール程度。"
+  },
+  {
+      "name": "アルティメット バースト",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 0
+          },
+          "mastery": [
+              "紺碧の賢者"
+          ],
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 450,
+      "range": 99999,
+      "element": "?",
+      "info": "MPを全て消費して対象に大ダメージを与える究極魔法 ※消費したMPでダメージが変わる ※魔法チャージ不可 ※Warageとその他Ageで効果が異なる",
+      "detail": "undefined"
+  },
+  {
+      "name": "メテオ シャワー",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "buff1": "ゾディアック サイン",
+          "item1": "ゾディアック リング",
+          "cost": {
+              "type": "MP",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 70
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 334,
+      "casttime": 241,
+      "range": 99999,
+      "element": "?",
+      "info": "天空より無数の流星群を降らせて周囲にダメージを与える魔法",
+      "detail": "undefined"
+  },
+  {
+      "name": "トゥルー ダーク",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 2
+          },
+          "cost": {
+              "type": "MP",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "死の魔法",
+                  "value": 70
+              },
+              {
+                  "name": "破壊魔法",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 334,
+      "casttime": 241,
+      "range": 99999,
+      "element": "?",
+      "info": "無属性の闇が相手の肉体を崩壊させる",
+      "detail": "2017年9月オーバーロードのコラボ品。無属性のダメージと防御ダウンのデバフ。死魔100・破壊99.8・魔力176でダメージ145・防御38.5ダウン・効果時間10秒位。"
+  },
+  {
+      "name": "ヴァーミリオン ノヴァ",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 3
+          },
+          "cost": {
+              "type": "MP",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 70
+              },
+              {
+                  "name": "死の魔法",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 334,
+      "casttime": 241,
+      "range": 99999,
+      "element": "?",
+      "info": "対象を紅蓮の炎が包む",
+      "detail": "2017年9月オーバーロードのコラボ品。無弾道型。0.5秒間隔で4回のDoT。"
+  },
+  {
+      "name": "失墜する天空",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 3
+          },
+          "cost": {
+              "type": "MP",
+              "value": 0
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 90
+              },
+              {
+                  "name": "魔法熟練",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 9999,
+      "casttime": 300,
+      "range": 0,
+      "element": "?",
+      "info": "超高熱源体を発生させ範囲内のあらゆる物を燃やし尽くし、溶かし尽くす。発動時に数秒間の硬直時間が発生する。※WarAgeでは効果が無い",
+      "detail": "2017年9月オーバーロードのコラボ品。"
+  },
+  {
+      "name": "ネガティブ バースト",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "mastery": [
+              "ネクロマンサー",
+              "イビルナイト"
+          ],
+          "skill": [
+              {
+                  "name": "死の魔法",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 378,
+      "casttime": 277,
+      "range": 0,
+      "element": "?",
+      "info": "自身を中心に闇色のドーム状の爆発を発生させて攻撃をする魔法。※WarAgeでは魔法チャージ不可",
+      "detail": "2017年9月オーバーロードのコラボ品。"
+  },
+  {
+      "name": "リアリティ・スラッシュ",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 3
+          },
+          "cost": {
+              "type": "MP",
+              "value": 92
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 80
+              },
+              {
+                  "name": "魔法熟練",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 356,
+      "casttime": 259,
+      "range": 19,
+      "element": "?",
+      "info": "消費MPは多いが、真空の刃が空間ごと切断する高威力の魔法。※盾による防御を貫通することができる",
+      "detail": "2017年9月オーバーロードのコラボ品。"
+  },
+  {
+      "name": "ヘルフレイム",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 2
+          },
+          "cost": {
+              "type": "MP",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 70
+              },
+              {
+                  "name": "死の魔法",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 334,
+      "casttime": 241,
+      "range": 0,
+      "element": "?",
+      "info": "小さな黒炎を放ち、黒炎が対象に触れると全身を一瞬で覆い尽くす。",
+      "detail": "2017年9月オーバーロードのコラボ品。"
+  },
+  {
+      "name": "流星",
+      "buff1": "星のきらめき",
+      "item1": "スター フェイス",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 378,
+      "casttime": 277,
+      "range": 0,
+      "element": "?",
+      "info": "尾を引く大きな星を対象に向かって放つ魔法",
+      "detail": "弾道型無属性魔法。魔力156、破壊100でささみに160ダメージ前後。精神0で78～92ダメージ。"
+  },
+  {
+      "name": "神の雷",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "mastery": [
+              "テンプルナイト"
+          ],
+          "cost": {
+              "type": "MP",
+              "value": 51
+          },
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 478,
+      "casttime": 277,
+      "range": 20.55,
+      "element": "?",
+      "info": "神に仕える者が神に祈りを捧げて、悪しき者に天罰を与える雷の魔法※WarAgeでは魔法チャージ不可",
+      "detail": "風属性ダメージ＋DoT1回の範囲魔法。ダメージは魔力依存。魔力40で抵抗0に120＋30ダメージ。2秒程度の行動不可デバフがつく。抵抗で軽減。"
+  },
+  {
+      "name": "ロックブラスト",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 51
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 90
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 479,
+      "casttime": 277,
+      "range": 22.3,
+      "element": "?",
+      "info": "大気中の塵を集めて巨大な岩を生成して放つ魔法",
+      "detail": "弾道型、地属性、単体。魔力163 破壊98 神秘90で案山子lvl1に230ダメージ、案山子lvl2に206ダメージ、案山子lvl3に197-170ダメージ。"
+  },
+  {
+      "name": "スノー ストーム",
+      "casttime": 259,
+      "delay": 356,
+      "info": "天候を操り吹雪を呼び寄せ、周囲の敵を氷漬けにする魔法※WarAgeでは魔法チャージ不可",
+      "detail": "自分中心のフローズンビーム。鈍足と被クリティカル率上昇の追加効果5秒あり。",
+      "range": 12,
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 46
+          },
+          "catalyst": {
+              "type": "NQ",
+              "number": 3
+          },
+          "mastery": [
+              "ドルイド"
+          ],
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 80
+              }
+          ]
+      }
+  },
+  {
+      "name": "黒炎陣",
+      "casttime": 277,
+      "delay": 378,
+      "info": "周囲を闇の炎で覆い全てを焼き払う古の魔法 ※魔法チャージ不可",
+      "detail": "宮殿賢王100回報酬。自分を中心としたターゲット不要の範囲魔法。いわゆるカオスサークル。",
+      "range": 6.5,
+      "element": "無",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "skill": [
+              {
+                  "name": "死の魔法",
+                  "value": 90
+              },
+              {
+                  "name": "精神力",
+                  "value": 40
+              }
+          ]
+      }
+  },
+  {
+      "name": "エンシェント フレイム",
+      "casttime": 277,
+      "delay": 479,
+      "info": "超高温の蒼き炎の渦が全て焼き尽くす古の魔法",
+      "detail": "魔力150でLv1カカシに260～265ダメージ、Lv100カカシに200～220ダメージ。",
+      "range": 20,
+      "element": "火",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 70
+          },
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 90
+              },
+              {
+                  "name": "強化魔法",
+                  "value": 80
+              }
+          ]
+      }
+  },
+  {
+      "name": "火竜の煌炎",
+      "casttime": 241,
+      "delay": 334,
+      "info": "両手の炎を合わせて巨大な火球を作り放つ魔法",
+      "detail": "2019年2月のFAIRY TAILコラボテクニック。魔法ダメージ1回＋DOTダメー4回。ささみに対して魔力130で135+34*4、魔力168で146+37*4、魔力169+スペルエンハンスで168+43*4ダメージ。",
+      "range": 99999,
+      "element": "?",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 40
+          },
+          "catalyst": {
+              "type": "NQ",
+              "number": 2
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 70
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 20
+              }
+          ]
+      }
+  },
+  {
+      "name": "アイスメイク・銀世界",
+      "casttime": 277,
+      "delay": 479,
+      "info": "巨大な冷気を発生させて対象を一瞬で氷漬けにする魔法 ※効果中は受けるダメージが増加する ※WarAgeでは魔法チャージ不可",
+      "detail": "2019年2月のFAIRY TAILコラボテクニック。対象にダメージ増加のデバフを与える。デバフ中にダメージを与えるとダメージが1.25倍になりデバフが消える。デバフ中にダメージを受けないとデバフが消えるときに氷像のエフェクトが発生しダメージを与える。",
+      "range": 99999,
+      "element": "?",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 51
+          },
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 90
+              },
+              {
+                  "name": "死の魔法",
+                  "value": 80
+              }
+          ]
+      }
+  },
+  {
+      "name": "アイスメイク・氷欠泉",
+      "casttime": 205,
+      "delay": 290,
+      "info": "地面から大量の氷を間欠泉のように噴き出させる魔法",
+      "detail": "2019年2月のFAIRY TAILコラボテクニック。対象が上空に少しだけノックバックする。",
+      "range": 18.5,
+      "element": "?",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 28
+          },
+          "catalyst": {
+              "type": "NP",
+              "number": 3
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 50
+              },
+              {
+                  "name": "死の魔法",
+                  "value": 40
+              }
+          ]
+      }
+  },
+  {
+      "name": "フェアリーグリッター",
+      "casttime": 277,
+      "delay": 479,
+      "info": "太陽と月と星の光をあつめて凝縮させる超高難度の魔法 発動に必要なBuff : メイビス サポート",
+      "detail": "2019年2月のFAIRY TAILコラボテクニック。無属性、無弾道型の単体攻撃魔法。 Lv1カカシ相手に421-427ダメージ（同構成でメガバ177-187）、Lv50カカシ相手に358-382ダメージ（同構成でメガバ162-165）、Lv100カカシ相手に321-329ダメージ（同構成でメガバ146-153）。ノアピースは存在せず、メイビスを右クリックした際に出るメニューで習得する。無料で何度でも習得可能。",
+      "range": 19,
+      "element": "無",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 100
+          },
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "buff1": "メイビス サポート",
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 90
+              }
+          ]
+      }
+  },
+  {
+      "name": "スターダスト インパクト",
+      "casttime": 277,
+      "delay": 479,
+      "info": "空から数多の星屑を対象めがけて降らせる魔法",
+      "detail": "地属性無弾道単体攻撃魔法。ダメージ＋スタン。魔力で効果量・効果時間変化。対人使用不可。",
+      "range": 19,
+      "element": "地",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 100
+          },
+          "catalyst": {
+              "type": "NQ",
+              "number": 3
+          },
+          "buff1": "星屑の加護",
+          "item1": "星屑の帽子,星屑のドレス",
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 80
+              }
+          ]
+      }
+  },
+  {
+      "name": "カオス バースト",
+      "casttime": 250,
+      "delay": 600,
+      "info": "圧縮された魔法の玉を放ち対象を混沌の炎で焼き尽くす ※竜化状態の時のみ使用可能 ※生命力スキルは足りなくても発動可能",
+      "detail": "魔力依存の単体攻撃魔法。",
+      "required": {
+          "catalyst": {
+              "type": "なし",
+              "number": 0
+          },
+          "cost": {
+              "type": "MP",
+              "value": 28
+          },
+          "buff1": "ドラゴン フォース",
+          "item1": "竜眼の指輪",
+          "skill": [
+              {
+                  "name": "生命力",
+                  "value": 50
+              }
+          ]
+      }
+  },
+  {
+      "name": "ダーク ディメンション",
+      "casttime": 277,
+      "delay": 479,
+      "info": "対象を暗黒空間に閉じ込めて空間ごと大爆発を引き起こす闇魔法 発動に必要なBuff : ネクロマンサー マスタリー or イビルナイト マスタリー",
+      "detail": "無属性無弾道単体攻撃魔法。ダメージは魔力と死の魔法スキル依存。",
+      "range": 18.5,
+      "element": "無",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 70
+          },
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "mastery": [
+              "ネクロマンサー",
+              "イビルナイト"
+          ],
+          "skill": [
+              {
+                  "name": "死の魔法",
+                  "value": 90
+              }
+          ]
+      }
+  },
+  {
+      "name": "カースド ポイズン",
+      "casttime": 261,
+      "delay": 354,
+      "info": "解毒ができない呪いの猛毒で 徐々に対象の身体を蝕み死へと追いやる",
+      "detail": "抵抗0に対して47毒ダメージ10秒間隔のDot*6 死毒や破壊毒と別枠のdotとなる。アンチドート、ディバインシャワー、ドルイドマスタリー、リムーバルポイズン、スワンで解除不可。",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 40
+          },
+          "catalyst": {
+              "type": "NQ",
+              "number": 2
+          },
+          "skill": [
+              {
+                  "name": "死の魔法",
+                  "value": 70
+              },
+              {
+                  "name": "暗黒命令",
+                  "value": 70
+              }
+          ]
+      }
+  },
+  {
+      "name": "プロテクト ウォール",
+      "required": {
+          "catalyst": {
+              "type": "なし",
+              "number": 0
+          },
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 90
+              },
+              {
+                  "name": "回復魔法",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 577,
+      "casttime": 277,
+      "range": 0,
+      "element": "?",
+      "info": "自分の周りに光の壁を召喚し、敵を退ける",
+      "detail": "※発動中に攻撃を行うと解除。自分中心の範囲魔法・ノックバック"
+  },
+  {
+      "name": "セイクリッド ウォール",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 100
+          },
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 80
+              },
+              {
+                  "name": "召喚魔法",
+                  "value": 30
+              }
+          ]
+      },
+      "delay": 356,
+      "casttime": 259,
+      "range": 0,
+      "element": "?",
+      "info": "光の防護壁を自分の周囲に召喚して、物理ダメージを軽減する",
+      "detail": "※効果中は移動速度が低下する"
+  },
+  {
+      "name": "ディバイン プルーミッジ",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 3
+          },
+          "cost": {
+              "type": "MP",
+              "value": 46
+          },
+          "skill": [
+              {
+                  "name": "回復魔法",
+                  "value": 80
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 356,
+      "casttime": 259,
+      "range": 24.8,
+      "element": "?",
+      "info": "光の羽衣を纏い さまざまな負の効果から身を守る",
+      "detail": "※ブルーミッジではなくプルーミッジ"
+  },
+  {
+      "name": "シャイニング フォース",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "mastery": [
+              "テンプルナイト"
+          ],
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 999,
+      "casttime": 277,
+      "range": 0,
+      "element": "?",
+      "info": "聖なる光のオーラを纏い ダメージを軽減する",
+      "detail": "undefined"
+  },
+  {
+      "name": "ファイアー リフレクション",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 90
+              },
+              {
+                  "name": "呪文抵抗力",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 378,
+      "casttime": 277,
+      "range": 0,
+      "element": "?",
+      "info": "火属性の魔法を跳ね返す特殊な結界を張ることが出来る",
+      "detail": "効果時間20秒。効果時間中は反射し続ける。ファイアーとアイスの同時使用は不可能。"
+  },
+  {
+      "name": "アイス リフレクション",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 90
+              },
+              {
+                  "name": "呪文抵抗力",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 378,
+      "casttime": 277,
+      "range": 0,
+      "element": "?",
+      "info": "水属性の魔法を跳ね返す特殊な結界を張ることが出来る",
+      "detail": "効果時間20秒。効果時間中は反射し続ける。ファイアーとアイスの同時使用は不可能。"
+  },
+  {
+      "name": "サンダー リフレクション",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 90
+              },
+              {
+                  "name": "呪文抵抗力",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 378,
+      "casttime": 277,
+      "range": 0,
+      "element": "?",
+      "info": "風属性の魔法を跳ね返す特殊な結界を張ることが出来る",
+      "detail": "undefined"
+  },
+  {
+      "name": "アース リフレクション",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 90
+              },
+              {
+                  "name": "呪文抵抗力",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 378,
+      "casttime": 277,
+      "range": 0,
+      "element": "?",
+      "info": "地属性の魔法を跳ね返す特殊な結界を張ることが出来る",
+      "detail": "undefined"
+  },
+  {
+      "name": "グレーター マジックシールド",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 3
+          },
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "skill": [
+              {
+                  "name": "強化魔法",
+                  "value": 80
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 356,
+      "casttime": 259,
+      "range": 99999,
+      "element": "?",
+      "info": "数秒間、対象が受ける魔法を無効化する",
+      "detail": "効果時間10秒固定？"
+  },
+  {
+      "name": "マジック プロテクション",
+      "casttime": 297,
+      "delay": 398,
+      "info": "PTメンバーの呪文抵抗力を少し上昇させる",
+      "detail": "グループエレメンタルアーマー。EAが優先される。効果量がEAの半分程度、効果時間が2倍。",
+      "range": 0,
+      "element": "?",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "skill": [
+              {
+                  "name": "強化魔法",
+                  "value": 90
+              },
+              {
+                  "name": "知能",
+                  "value": 50
+              }
+          ]
+      }
+  },
+  {
+      "name": "神の騎士",
+      "casttime": 297,
+      "delay": 398,
+      "info": "自分以外のキャラクターの身体能力(攻撃、命中、回避、防御)を10％上昇させる",
+      "detail": "2019年2月のFAIRY TAILコラボテクニック。効果時間3分。自分にはかけられない。バーサーク、ナイトマインド、ヴィガー、エンライテン等の同系統Buff、プリズムエフェクト、デボーテッドエイド、グレーターフルポテンシャルの併用可能。",
+      "range": 24.8,
+      "element": "?",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "skill": [
+              {
+                  "name": "強化魔法",
+                  "value": 90
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 60
+              }
+          ]
+      }
+  },
+  {
+      "name": "神の王冠",
+      "casttime": 297,
+      "delay": 398,
+      "info": "自分以外のキャラクターの全属性耐性を50％上昇させる",
+      "detail": "2019年2月のFAIRY TAILコラボテクニック。効果時間は5分。エレメンタルアーマーと併用可能。",
+      "range": 99999,
+      "element": "?",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "skill": [
+              {
+                  "name": "強化魔法",
+                  "value": 90
+              },
+              {
+                  "name": "回復魔法",
+                  "value": 60
+              }
+          ]
+      }
+  },
+  {
+      "name": "シー ウィークネス",
+      "casttime": 279,
+      "delay": 376,
+      "info": "周囲の敵の弱点を暴き、メイン攻撃を受けた時の被クリティカル率を上昇させる",
+      "detail": "ターゲット不要の自分中心範囲魔法。効果時間30秒固定。ヘイト上昇無し。",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 46
+          },
+          "catalyst": {
+              "type": "NQ",
+              "number": 3
+          },
+          "skill": [
+              {
+                  "name": "死の魔法",
+                  "value": 80
+              },
+              {
+                  "name": "破壊魔法",
+                  "value": 50
+              }
+          ]
+      }
+  },
+  {
+      "name": "キャンディ シャワー",
+      "casttime": 300,
+      "delay": 750,
+      "info": "周囲のプレイヤーに半ば強制的に「 飴ちゃん 」を配る 使用アイテム : リンゴ飴 1",
+      "detail": "謎肉のような特殊条件の「飴ちゃん」を周りのプレイヤーのインベントリに突っ込む。",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 23
+          },
+          "catalyst": {
+              "type": "リンゴ飴",
+              "number": 1
+          },
+          "skill": [
+              {
+                  "name": "料理",
+                  "value": 40
+              }
+          ]
+      }
+  },
+  {
+      "name": "スピリチュアル ボディ",
+      "casttime": 259,
+      "delay": 356,
+      "info": "神秘の力で自分の身体を覆い、対象に与えたダメージの一部をSTに変換して吸収する",
+      "detail": "自分専用。効果時間30秒で効果量は魔力依存。与ダメージの役15%のスタミナが回復する。",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 46
+          },
+          "catalyst": {
+              "type": "NQ",
+              "number": 3
+          },
+          "skill": [
+              {
+                  "name": "強化魔法",
+                  "value": 80
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 70
+              }
+          ]
+      }
+  },
+  {
+      "name": "レゾリューション アルケミー",
+      "casttime": 450,
+      "delay": 750,
+      "info": "ピュア ノア キューブを「ノア キューブ」2個、「ノア パウダー」3個、「ノア ダスト」3個に分解する",
+      "detail": "ピュア ノア キューブ（40G）→ノア キューブ*2（26G）＋ノア パウダー*3（12G）＋ノア ダスト*3（3G）＝41G",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 13
+          },
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "skill": [
+              {
+                  "name": "神秘",
+                  "value": 20
+              },
+              {
+                  "name": "知能",
+                  "value": 20
+              }
+          ]
+      }
+  },
+  {
+      "name": "リコール グレート レイション",
+      "casttime": 480,
+      "delay": 660,
+      "info": "コストをかけてより上質な食べ物を召喚する",
+      "detail": "「グレート サモンス ミート」を召喚する（効果24、アイコンがハム）。必要スキルが料理1以下のため、成功率100%にするには神秘38と料理-7必要となる。",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 15
+          },
+          "catalyst": {
+              "type": "NP",
+              "number": 1
+          },
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 30
+              },
+              {
+                  "name": "料理",
+                  "value": 1
+              }
+          ]
+      }
+  },
+  {
+      "name": "イグザースト",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 2
+          },
+          "cost": {
+              "type": "MP",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "死の魔法",
+                  "value": 70
+              },
+              {
+                  "name": "回復魔法",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 354,
+      "casttime": 261,
+      "range": 21.5,
+      "element": "?",
+      "info": "対象の全ての行動において、スタミナの消費が倍になる。",
+      "detail": "※NPCには移動速度が遅くなる効果。死の魔法の上昇判定あり。"
+  },
+  {
+      "name": "エレメンタル ブレイク",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 3
+          },
+          "cost": {
+              "type": "MP",
+              "value": 46
+          },
+          "skill": [
+              {
+                  "name": "死の魔法",
+                  "value": 80
+              },
+              {
+                  "name": "魔法熟練",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 356,
+      "casttime": 259,
+      "range": 22.5,
+      "element": "?",
+      "info": "闇の力により魔法耐久度を低下させる。",
+      "detail": "※3回まで重ね掛けが可能。"
+  },
+  {
+      "name": "ダークネス フォグ",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "skill": [
+              {
+                  "name": "死の魔法",
+                  "value": 90
+              },
+              {
+                  "name": "召喚魔法",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 398,
+      "casttime": 297,
+      "range": 99999,
+      "element": "?",
+      "info": "暗黒の霧を召喚し、周囲の敵の攻撃力を低下させる。",
+      "detail": "※効果中は技や魔法による攻撃力上昇を打ち消す。自分中心の範囲魔法。死の魔法の上昇判定あり。"
+  },
+  {
+      "name": "ポイズン ブレイド",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 2
+          },
+          "cost": {
+              "type": "MP",
+              "value": 33
+          },
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 70
+              },
+              {
+                  "name": "死の魔法",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 334,
+      "casttime": 241,
+      "range": 0,
+      "element": "地",
+      "info": "武器に毒を宿らせ 土属性を追加する。",
+      "detail": "※プレイヤーのメイン攻撃のみに属性を付加する。神秘魔法の上昇判定あり。1.5秒間隔の毒DoTが3回。攻撃するたびに上書きされる。"
+  },
+  {
+      "name": "ブラッティ ブレイド",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "skill": [
+              {
+                  "name": "死の魔法",
+                  "value": 90
+              },
+              {
+                  "name": "牙",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 398,
+      "casttime": 297,
+      "range": 0,
+      "element": "?",
+      "info": "武器に闇の力を宿らせ 対象の体力を奪う魔剣に変える。",
+      "detail": "※両手剣によるメイン攻撃にのみ効果がある。死の魔法の上昇判定あり。"
+  },
+  {
+      "name": "ネゲート ミスト",
+      "required": {
+          "catalyst": {
+              "type": "NP",
+              "number": 2
+          },
+          "cost": {
+              "type": "MP",
+              "value": 23
+          },
+          "skill": [
+              {
+                  "name": "死の魔法",
+                  "value": 40
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 268,
+      "casttime": 187,
+      "range": 18.5,
+      "element": "?",
+      "info": "黒い霧が対象を包み込み チャージされた魔法をかき消す。",
+      "detail": "※対Mobに対しては魔力を下げる効果。死の魔法の上昇判定あり。"
+  },
+  {
+      "name": "アクセラレイション",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 3
+          },
+          "cost": {
+              "type": "MP",
+              "value": 46
+          },
+          "skill": [
+              {
+                  "name": "強化魔法",
+                  "value": 80
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 356,
+      "casttime": 259,
+      "range": 99999,
+      "element": "?",
+      "info": "PTメンバーの反応速度を高めて 攻撃速度を上昇させる。",
+      "detail": "※自分中心の範囲魔法(PTのみ)。強化魔法の上昇判定あり。"
+  },
+  {
+      "name": "アクムレイト マナ",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 30
+          },
+          "skill": [
+              {
+                  "name": "強化魔法",
+                  "value": 90
+              },
+              {
+                  "name": "素手",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 750,
+      "range": 99999,
+      "element": "?",
+      "info": "拳にマナを集中させて 一時的に攻撃力を高める。最大(4段階)までマナを溜めることで 強力な一撃を発動することができる。",
+      "detail": "※バーサーク、ヴィガーと併用不可。リミットブレイクと併用可能。"
+  },
+  {
+      "name": "クイックサンド",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 2
+          },
+          "cost": {
+              "type": "MP",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 70
+              },
+              {
+                  "name": "自然調和",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 450,
+      "range": 0,
+      "element": "?",
+      "info": "砂地獄を足元に召喚する。",
+      "detail": "※自分の足元に多段引き寄せ効果のある砂地獄を召喚する。召喚枠に干渉する。召喚魔法の上昇判定あり。"
+  },
+  {
+      "name": "究極巨神タイターン",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 10
+          },
+          "cost": {
+              "type": "MP",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 90
+              },
+              {
+                  "name": "着こなし",
+                  "value": 90
+              },
+              {
+                  "name": "攻撃回避",
+                  "value": 90
+              },
+              {
+                  "name": "物まね",
+                  "value": 90
+              },
+              {
+                  "name": "装飾細工",
+                  "value": 90
+              },
+              {
+                  "name": "裁縫",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 1500,
+      "casttime": 300,
+      "range": 0,
+      "element": "?",
+      "info": "真のヒーローのみが呼び出すことができるロボット。タイターンを操り 悪を討て！",
+      "detail": "※Lv99、HP980のロボに乗り込むまで20秒ほど無防備。効果時間は3分程度。"
+  },
+  {
+      "name": "ナイト オブ カース",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 3
+          },
+          "cost": {
+              "type": "MP",
+              "value": 46
+          },
+          "mastery": [
+              "ネクロマンサー"
+          ],
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 376,
+      "casttime": 279,
+      "range": 23.5,
+      "element": "?",
+      "info": "アンデットを闇の力で 夜の間だけ強化することができる。",
+      "detail": "※攻撃・命中・回避・防御・魔力上昇。22時～4時以外の時間帯では逆に能力が低下する。他人のペットにもかけられる。召喚魔法のスキル上昇判定あり。"
+  },
+  {
+      "name": "ディバイン グレイス",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 10
+          },
+          "cost": {
+              "type": "MP",
+              "value": 34
+          },
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 60
+              },
+              {
+                  "name": "回復魔法",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 334,
+      "casttime": 241,
+      "range": 10.75,
+      "element": "?",
+      "info": "装備中の呪いアイテムから呪いを祓う 天の恵み。",
+      "detail": "undefined"
+  },
+  {
+      "name": "スタグネイション",
+      "required": {
+          "catalyst": {
+              "type": "NP",
+              "number": 3
+          },
+          "cost": {
+              "type": "MP",
+              "value": 28
+          },
+          "skill": [
+              {
+                  "name": "死の魔法",
+                  "value": 50
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 310,
+      "casttime": 225,
+      "range": 23.5,
+      "element": "?",
+      "info": "対象が感じる時間の流れを遅らせて 対象の行動や攻撃間隔を延ばす。",
+      "detail": "※ヘイトなし。死の魔法の上昇判定あり。"
+  },
+  {
+      "name": "グループ クイックニング",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 2
+          },
+          "cost": {
+              "type": "MP",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "強化魔法",
+                  "value": 70
+              },
+              {
+                  "name": "知能",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 334,
+      "casttime": 241,
+      "range": 99999,
+      "element": "?",
+      "info": "PTメンバーの動体視力を強化し 回避率を上げる。",
+      "detail": "※自分中心の範囲魔法(PTのみ)。強化魔法の上昇判定あり。クイックニングよりは効果が低い。"
+  },
+  {
+      "name": "グループ ブラッド ラッシュ",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 3
+          },
+          "cost": {
+              "type": "MP",
+              "value": 46
+          },
+          "skill": [
+              {
+                  "name": "強化魔法",
+                  "value": 80
+              },
+              {
+                  "name": "知能",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 376,
+      "casttime": 279,
+      "range": 99999,
+      "element": "?",
+      "info": "体内の血液を沸騰させ PTメンバーの最大HPを上げる。",
+      "detail": "※自分中心の範囲魔法(PTのみ)。強化魔法の上昇判定あり。ブラッド ラッシュよりは効果が低い。"
+  },
+  {
+      "name": "エンジェリック スプリング",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 2
+          },
+          "cost": {
+              "type": "MP",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 70
+              },
+              {
+                  "name": "強化魔法",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 660,
+      "casttime": 480,
+      "range": 99999,
+      "element": "?",
+      "info": "聖なる力で一度だけPTメンバーの跳躍力を大幅に上昇させる。",
+      "detail": "※自分中心の範囲魔法(PTのみ)。神秘魔法の上昇判定あり。"
+  },
+  {
+      "name": "エクスプロード ブレイド",
+      "required": {
+          "catalyst": {
+              "type": "GEP",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 46
+          },
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 80
+              },
+              {
+                  "name": "薬調合",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 356,
+      "casttime": 259,
+      "range": 0,
+      "element": "?",
+      "info": "攻撃と同時に対象を爆炎が包み込む。",
+      "detail": "※精神0で効果時間2分程度。神秘魔法の上昇判定あり。対象の火抵抗によって14～30ダメージ。"
+  },
+  {
+      "name": "プリズム エフェクト",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 3
+          },
+          "cost": {
+              "type": "MP",
+              "value": 39
+          },
+          "skill": [
+              {
+                  "name": "強化魔法",
+                  "value": 80
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 376,
+      "casttime": 279,
+      "range": 18.5,
+      "element": "?",
+      "info": "七色に輝くオーラを纏うことで7種類のステータスが少し上昇する。",
+      "detail": "※バーサーク、ナイトマインド、ヴィガー、エンライテンと併用可能。強化魔法の上昇判定あり。"
+  },
+  {
+      "name": "邪鬼封印",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 2
+          },
+          "cost": {
+              "type": "MP",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 70
+              },
+              {
+                  "name": "召喚魔法",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 600,
+      "casttime": 300,
+      "range": 21.5,
+      "element": "?",
+      "info": "邪悪な魔物を五行の力で封印して動きを止める。",
+      "detail": "※ダメージで解除される。プレイヤーに使用できない。ヘイトなし。神秘魔法の上昇判定あり。"
+  },
+  {
+      "name": "デボーテッド エイド",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "強化魔法",
+                  "value": 90
+              },
+              {
+                  "name": "魔法熟練",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 378,
+      "casttime": 277,
+      "range": 10.8,
+      "element": "?",
+      "info": "自分以外の対象の身体能力を少しの間だけ大幅に引き上げる",
+      "detail": "※攻撃・命中・回避・防御上昇。戦闘技術・強化魔法などと併用可能。魔力で効果量増減。"
+  },
+  {
+      "name": "グレーター フルポテンシャル",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "skill": [
+              {
+                  "name": "強化魔法",
+                  "value": 90
+              },
+              {
+                  "name": "回復魔法",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 378,
+      "casttime": 277,
+      "range": 0,
+      "element": "?",
+      "info": "自身の身体能力を上昇させる",
+      "detail": "2017年9月オーバーロードのコラボ品。自分の攻撃・命中・回避・防御・魔力・全抵抗が上昇。効果時間3分。魔力で上昇値変化。強化100・回復100・魔力150で12～13、魔力230で17～18。"
+  },
+  {
+      "name": "グレーター ハードニング",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 3
+          },
+          "cost": {
+              "type": "MP",
+              "value": 46
+          },
+          "skill": [
+              {
+                  "name": "強化魔法",
+                  "value": 80
+              },
+              {
+                  "name": "魔法熟練",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 356,
+      "casttime": 259,
+      "range": 0,
+      "element": "?",
+      "info": "自分の防御力を大幅に上昇させる",
+      "detail": "2017年9月オーバーロードのコラボ品。自分の防御が上昇。"
+  },
+  {
+      "name": "マジックウォード・ホーリー",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 34
+          },
+          "skill": [
+              {
+                  "name": "強化魔法",
+                  "value": 60
+              },
+              {
+                  "name": "回復魔法",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 312,
+      "casttime": 223,
+      "range": 0,
+      "element": "?",
+      "info": "耐無属性を大幅に上昇させる",
+      "detail": "2017年9月オーバーロードのコラボ品。自分の耐無属性が上昇。効果量は魔力依存。効果時間は3分。強化100・回復100・魔力100で83上昇。魔力207で104上昇。魔力297で128上昇。"
+  },
+  {
+      "name": "パーフェクト・ウォリアー",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 2
+          },
+          "cost": {
+              "type": "MP",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "強化魔法",
+                  "value": 70
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 334,
+      "casttime": 241,
+      "range": 0,
+      "element": "?",
+      "info": "攻撃力、命中、防御力が少し上昇する。ウォーリアー マスタリーが必要な技をマスタリー無しで発動できるが、魔法が使用できない。※ジャンプで解除可能",
+      "detail": "2017年9月オーバーロードのコラボ品。自分の攻撃・命中・防御が上昇。強化100・神秘98・魔力111で攻撃・命中・防御+8前後、効果1分。"
+  },
+  {
+      "name": "星屑のベール",
+      "required": {
+          "catalyst": {
+              "type": "NP",
+              "number": 1
+          },
+          "buff1": "星のお守り",
+          "item1": "ステラ イヤリング",
+          "cost": {
+              "type": "MP",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "強化魔法",
+                  "value": 30
+              }
+          ]
+      },
+      "delay": 266,
+      "casttime": 189,
+      "range": 0,
+      "element": "?",
+      "info": "無数の星屑が対象の周囲を囲み物理ダメージを20％軽減する",
+      "detail": "効果時間2分。魔力で効果や時間の変動なし。自分以外にもかけられる。"
+  },
+  {
+      "name": "ホーリー レコード",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 34
+          },
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 60
+              },
+              {
+                  "name": "召喚魔法",
+                  "value": 10
+              }
+          ]
+      },
+      "delay": 338,
+      "casttime": 243,
+      "range": 0,
+      "element": "?",
+      "info": "現在地をレコード ストーンに書き込む",
+      "detail": "/setlocmemo 文字列 でレコード ストーンにメモできる。"
+  },
+  {
+      "name": "セルフ サクリファイス",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 2
+          },
+          "cost": {
+              "type": "MP",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "死の魔法",
+                  "value": 70
+              },
+              {
+                  "name": "死体回収",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 378,
+      "casttime": 277,
+      "range": 99999,
+      "element": "?",
+      "info": "自分のHPをPTメンバーに分け与える。",
+      "detail": "※自分中心の範囲魔法(PTのみ)。自分のHPを1にしてPTメンバーを回復する。HP1のときに詠唱しても死なない。死の魔法の上昇判定あり。"
+  },
+  {
+      "name": "グループ リバイタル",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "skill": [
+              {
+                  "name": "回復魔法",
+                  "value": 90
+              },
+              {
+                  "name": "魔法熟練",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 398,
+      "casttime": 297,
+      "range": 99999,
+      "element": "?",
+      "info": "自分の近くにいるパーティメンバーのスタミナを回復する。",
+      "detail": "※自分中心の範囲魔法(PTのみ)。回復魔法の上昇判定あり。"
+  },
+  {
+      "name": "ディバイド マナ",
+      "required": {
+          "catalyst": {
+              "type": "NP",
+              "number": 3
+          },
+          "cost": {
+              "type": "MP",
+              "value": 50
+          },
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 50
+              },
+              {
+                  "name": "魔法熟練",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 290,
+      "casttime": 205,
+      "range": 16.5,
+      "element": "?",
+      "info": "自らのMPを味方に分け与える。",
+      "detail": "※神秘魔法の上昇判定あり。対象のMPが50回復する。"
+  },
+  {
+      "name": "リザレクション オール",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 3
+          },
+          "cost": {
+              "type": "MP",
+              "value": 120
+          },
+          "mastery": [
+              "紺碧の賢者"
+          ],
+          "skill": [
+              {
+                  "name": "回復魔法",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 660,
+      "casttime": 480,
+      "range": 99999,
+      "element": "?",
+      "info": "聖なる息吹で死者を完全な状態で蘇生させる。",
+      "detail": "※リザレクション オールのあとにリザレクションをかけるとリザレクションの効果で上書きされる。"
+  },
+  {
+      "name": "リムーバル ポイズン",
+      "required": {
+          "catalyst": {
+              "type": "NP",
+              "number": 3
+          },
+          "cost": {
+              "type": "MP",
+              "value": 28
+          },
+          "skill": [
+              {
+                  "name": "回復魔法",
+                  "value": 50
+              },
+              {
+                  "name": "暗黒命令",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 290,
+      "casttime": 205,
+      "range": 99999,
+      "element": "?",
+      "info": "PTメンバーにかかっている毒効果を吸収する。",
+      "detail": "※自分中心の範囲魔法(PTのみ)。回復魔法の上昇判定あり。"
+  },
+  {
+      "name": "ウォーター アート",
+      "required": {
+          "catalyst": {
+              "type": "ミニ ウォーター ボトル",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 23
+          },
+          "mastery": [
+              "物好き"
+          ],
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 600,
+      "range": 99999,
+      "element": "?",
+      "info": "周囲を和ませる 水を利用した芸術技。",
+      "detail": "※自分中心の範囲魔法。"
+  },
+  {
+      "name": "エナジー チャージ",
+      "required": {
+          "catalyst": {
+              "type": "NQ",
+              "number": 2
+          },
+          "cost": {
+              "type": "MP",
+              "value": 40
+          },
+          "mastery": [
+              "アルケミスト"
+          ],
+          "skill": [
+              {
+                  "name": "回復魔法",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 334,
+      "casttime": 241,
+      "range": 23.8,
+      "element": "?",
+      "info": "一定時間毎にSTが自動回復する。",
+      "detail": "※約12秒ごとに15回スタミナが回復する。回復魔法の上昇判定あり。"
+  },
+  {
+      "name": "アクティベイション",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 90
+              },
+              {
+                  "name": "強化魔法",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 398,
+      "casttime": 297,
+      "range": 99999,
+      "element": "?",
+      "info": "肉体を活性化させ、一時的にスタミナ自然回復量を上昇させる。",
+      "detail": "※神秘魔法の上昇判定あり。"
+  },
+  {
+      "name": "ウルティメイト エナジー",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "skill": [
+              {
+                  "name": "強化魔法",
+                  "value": 90
+              },
+              {
+                  "name": "魔法熟練",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 400,
+      "casttime": 295,
+      "range": 24.8,
+      "element": "?",
+      "info": "一定時間 最大STとST自然回復量が大幅に上昇する。",
+      "detail": "※強化魔法の上昇判定あり。アクティベイションが優先され併用不可。"
+  },
+  {
+      "name": "キュア",
+      "required": {
+          "catalyst": {
+              "type": "ND",
+              "number": 2
+          },
+          "cost": {
+              "type": "MP",
+              "value": 9
+          },
+          "skill": [
+              {
+                  "name": "回復魔法",
+                  "value": 10
+              },
+              {
+                  "name": "精神力",
+                  "value": 10
+              }
+          ]
+      },
+      "delay": 202,
+      "casttime": 133,
+      "range": 99999,
+      "element": "?",
+      "info": "手から発する光によって対象の体力とスタミナを少し回復する。直接触れる必要があるため、射程は短い。",
+      "detail": "※スタミナ回復量はマイナー リバイタルよりも多め。"
+  },
+  {
+      "name": "フォース オブ ネイチャー",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "mastery": [
+              "ドルイド"
+          ],
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "skill": [
+              {
+                  "name": "回復魔法",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 378,
+      "casttime": 277,
+      "range": 99999,
+      "element": "?",
+      "info": "大自然の力を利用して癒やしの効果を増幅し、パーティーメンバーにHPとSTの回復効果を付与する。",
+      "detail": "パーティーメンバーにリジェネレイションとエナジーチャージの効果。5秒間隔で効果時間は1分。魔力で効果量増減。魔力280で28回復。"
+  },
+  {
+      "name": "サクリファイス リザレクション",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "mastery": [
+              "テンプルナイト"
+          ],
+          "cost": {
+              "type": "MP",
+              "value": 180
+          },
+          "skill": [
+              {
+                  "name": "回復魔法",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 660,
+      "casttime": 480,
+      "range": 99999,
+      "element": "?",
+      "info": "自分の命を犠牲にして範囲内にいるパーティーメンバー全員を蘇生させる",
+      "detail": "効果はリザレクションと同じ。効果対象がいなくてもMP消費、いた場合5000紫ダメージを受ける。チャージ可。リボワなど可。プロテクトオーラなどは不可。"
+  },
+  {
+      "name": "リフレッシュ オール",
+      "casttime": 277,
+      "delay": 378,
+      "info": "魔力によってHPとSTを同時に大回復させる",
+      "detail": "魔力170回復100程度でHA378に対してリフレオールでHPST243回復（約65%程度）。",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 70
+          },
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "skill": [
+              {
+                  "name": "回復魔法",
+                  "value": 90
+              },
+              {
+                  "name": "強化魔法",
+                  "value": 70
+              }
+          ]
+      }
+  },
+  {
+      "name": "リコール インセクト",
+      "required": {
+          "catalyst": {
+              "type": "PD",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 11
+          },
+          "skill": [
+              {
+                  "name": "強化魔法",
+                  "value": 20
+              },
+              {
+                  "name": "召喚魔法",
+                  "value": 20
+              }
+          ]
+      },
+      "delay": 660,
+      "casttime": 480,
+      "range": 0,
+      "element": "?",
+      "info": "魔力によって昆虫を呼び出す。",
+      "detail": "※召喚時間は4分。召喚魔法のスキル値によって強くなり、召喚されるペットも変わる。召喚魔法39.9までフロスト スパイダー、69.9まで毒サソリ、100までテラワームが召喚される。"
+  },
+  {
+      "name": "リコール マーシー ライト",
+      "required": {
+          "catalyst": {
+              "type": "PD",
+              "number": 2
+          },
+          "cost": {
+              "type": "MP",
+              "value": 23
+          },
+          "skill": [
+              {
+                  "name": "強化魔法",
+                  "value": 50
+              },
+              {
+                  "name": "召喚魔法",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 520,
+      "casttime": 450,
+      "range": 0,
+      "element": "?",
+      "info": "詠唱者を守ってくれる小さな精霊を召喚する。",
+      "detail": "※召喚時間は4分。レベル45固定。マイナー ヒーリングとライト ヒーリングを使う。"
+  },
+  {
+      "name": "リコール エレメンタル",
+      "required": {
+          "catalyst": {
+              "type": "PD",
+              "number": 4
+          },
+          "cost": {
+              "type": "MP",
+              "value": 45
+          },
+          "skill": [
+              {
+                  "name": "強化魔法",
+                  "value": 90
+              },
+              {
+                  "name": "召喚魔法",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 450,
+      "range": 0,
+      "element": "?",
+      "info": "詠唱者と共に戦ってくれる精霊を召喚する。",
+      "detail": "※召喚時間は4分。一番高い呪文抵抗力に応じた属性のウィスプが召喚される。"
+  },
+  {
+      "name": "サモン ストロング ゾンビ",
+      "required": {
+          "catalyst": {
+              "type": "死体",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 40
+          },
+          "mastery": [
+              "ネクロマンサー"
+          ],
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 450,
+      "range": 0,
+      "element": "?",
+      "info": "プレイヤーの死体を触媒に強力なゾンビを召喚する。",
+      "detail": "※他のプレイヤーの死体を触媒にする。召喚魔法スキルで強さが変わる。召喚魔法100でLv80、HP540。"
+  },
+  {
+      "name": "サモン バディ",
+      "required": {
+          "catalyst": {
+              "type": "魚の餌",
+              "number": 10
+          },
+          "cost": {
+              "type": "MP",
+              "value": 28
+          },
+          "mastery": [
+              "海戦士"
+          ],
+          "skill": [
+              {
+                  "name": "水泳",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 650,
+      "casttime": 350,
+      "range": 0,
+      "element": "?",
+      "info": "相棒を呼び出し 共に戦う。",
+      "detail": "※水中でのみ発動可能。釣れる。水泳スキルで強さが変わる。水泳100でLv91、HP536。"
+  },
+  {
+      "name": "サモン オルタード モンスター",
+      "required": {
+          "catalyst": {
+              "type": "EB",
+              "number": 5
+          },
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 90
+              },
+              {
+                  "name": "強化魔法",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 450,
+      "range": 0,
+      "element": "?",
+      "info": "死者から生み出された凶暴な怪物を召喚する。",
+      "detail": "※強さ固定。Lv90、HP708、MP0。"
+  },
+  {
+      "name": "助けて！弁天丸",
+      "required": {
+          "catalyst": {
+              "type": "ノア クリスタル",
+              "number": 1
+          },
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 10950,
+      "casttime": 150,
+      "range": 0,
+      "element": "?",
+      "info": "『宇宙海賊船 弁天丸』を別の空間から呼び寄せる。",
+      "detail": "※MPではなくSTを使用。召喚時間は約3分。Lv60、HP315、MP210。"
+  },
+  {
+      "name": "アザゼル召喚",
+      "required": {
+          "catalyst": {
+              "type": "カレー ライス",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 450,
+      "range": 0,
+      "element": "?",
+      "info": "カレーライスを生贄に魔界からアザゼルを召喚する。グリモア ＜ 淫奔 ＞を使用して覚える。",
+      "detail": "undefined"
+  },
+  {
+      "name": "ベルゼブブ召喚",
+      "required": {
+          "catalyst": {
+              "type": "カレー ライス",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 450,
+      "range": 0,
+      "element": "?",
+      "info": "カレーライスを生贄に魔界からベルゼブブを召喚する。グリモア ＜ 暴露 ＞を使用して覚える。",
+      "detail": "undefined"
+  },
+  {
+      "name": "モロク召喚",
+      "required": {
+          "catalyst": {
+              "type": "カレー ライス",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 450,
+      "range": 0,
+      "element": "?",
+      "info": "カレーライスを生贄に魔界からモロクを召喚する。グリモア ＜ 暴虐 ＞を使用して覚える。",
+      "detail": "undefined"
+  },
+  {
+      "name": "サモン デビル プラント",
+      "required": {
+          "catalyst": {
+              "type": "デビル プラントの種",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 90
+              },
+              {
+                  "name": "栽培",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 450,
+      "range": 0,
+      "element": "?",
+      "info": "凶暴な魔界の食人植物を呼び出す。",
+      "detail": "※召喚時間は5分。Lv90、HP450、MP30。"
+  },
+  {
+      "name": "サモン ドラゴン ゾンビ",
+      "required": {
+          "catalyst": {
+              "type": "EB",
+              "number": 5
+          },
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "mastery": [
+              "ネクロマンサー"
+          ],
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 450,
+      "range": 0,
+      "element": "?",
+      "info": "魔界からゾンビとなったドラゴンを呼び寄せる。",
+      "detail": "※強さ固定。範囲技があるため巻き込みに注意。Lv92、HP577、MP276。"
+  },
+  {
+      "name": "サモン ノア ビット",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 20
+          },
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 30
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 30
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 450,
+      "range": 0,
+      "element": "?",
+      "info": "内蔵されたマナが切れるまで攻撃のサポートを行う。",
+      "detail": "※召喚時間は5分。MPが0になると消滅する。"
+  },
+  {
+      "name": "サモン メジェド",
+      "required": {
+          "catalyst": {
+              "type": "EB",
+              "number": 5
+          },
+          "cost": {
+              "type": "MP",
+              "value": 20
+          },
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 80
+              },
+              {
+                  "name": "死の魔法",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 450,
+      "range": 0,
+      "element": "?",
+      "info": "異界より打ち倒す者を呼び出す。",
+      "detail": "※バエル ウォッチャーのような浮遊型・遠隔AI。"
+  },
+  {
+      "name": "サモン ドローン",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 23
+          },
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 40
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 450,
+      "range": 0,
+      "element": "?",
+      "info": "命令を受けて自律飛行する飛行ロボット。搭載されたカメラにより離れた位置の映像を見ることができる。",
+      "detail": "undefined"
+  },
+  {
+      "name": "マジカルルビー召喚",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 20
+          },
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 450,
+      "range": 0,
+      "element": "?",
+      "info": "マジカルルビーを召喚する。カレイドステッキ [ マジカルルビー ]を使用して覚える。",
+      "detail": "※召喚者に物理保護(AC+24程度)、治療促進(1分間あたりHP、ST、MP+87回復)、魔術障壁(全呪文抵抗+23程度)、身体能力強化(最大HP+28、攻撃・命中・回避・魔力+18程度)をかける。効果時間は3分。魔力を上げると効果が上がる。"
+  },
+  {
+      "name": "マジカルサファイア召喚",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 20
+          },
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 450,
+      "range": 0,
+      "element": "?",
+      "info": "マジカルサファイアを召喚する。カレイドステッキ [ マジカルサファイア ]を使用して覚える。",
+      "detail": "※ルビーと同じ。"
+  },
+  {
+      "name": "リコール モノアイ ロボ",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 11
+          },
+          "skill": [
+              {
+                  "name": "鍛冶",
+                  "value": 20
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 630,
+      "casttime": 450,
+      "range": 0,
+      "element": "?",
+      "info": "ノアの力で動く単眼の中型兵器ロボット、使用者のスキルによって性能が変化する。",
+      "detail": "undefined"
+  },
+  {
+      "name": "デイモンコール",
+      "required": {
+          "catalyst": {
+              "type": "EB",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 9
+          },
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 20
+              },
+              {
+                  "name": "暗黒命令",
+                  "value": 20
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 450,
+      "range": 0,
+      "element": "?",
+      "info": "口の悪い悪霊を召喚する魔法　※スキルが低いと役に立たない",
+      "detail": "undefined"
+  },
+  {
+      "name": "式神召喚",
+      "required": {
+          "catalyst": {
+              "type": "PD",
+              "number": 3
+          },
+          "cost": {
+              "type": "MP",
+              "value": 20
+          },
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 30
+              },
+              {
+                  "name": "暗黒命令",
+                  "value": 30
+              }
+          ]
+      },
+      "delay": 500,
+      "casttime": 200,
+      "range": 0,
+      "element": "?",
+      "info": "式札を触媒として式神を召喚する",
+      "detail": "undefined"
+  },
+  {
+      "name": "サモン キング マミー",
+      "required": {
+          "catalyst": {
+              "type": "EB",
+              "number": 3
+          },
+          "cost": {
+              "type": "MP",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 70
+              },
+              {
+                  "name": "死の魔法",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 450,
+      "range": 0,
+      "element": "?",
+      "info": "魔界から驚異的な再生能力を持つミイラを呼び出す",
+      "detail": "undefined"
+  },
+  {
+      "name": "リコール ハンティング ガン",
+      "required": {
+          "catalyst": {
+              "type": "PD",
+              "number": 4
+          },
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "skill": [
+              {
+                  "name": "銃器",
+                  "value": 90
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 2500,
+      "casttime": 150,
+      "range": 0,
+      "element": "?",
+      "info": "遠隔操作が可能な4丁の猟銃を特殊召喚する技",
+      "detail": "なぜか赤バハで使えない"
+  },
+  {
+      "name": "サモン クラーケン",
+      "required": {
+          "catalyst": {
+              "type": "魚の餌",
+              "number": 30
+          },
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "mastery": [
+              "海戦士"
+          ],
+          "skill": [
+              {
+                  "name": "水泳",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 650,
+      "casttime": 350,
+      "range": 0,
+      "element": "?",
+      "info": "海の怪物クラーケンを呼び出し使役することができる。※地上で召喚した場合は移動速度が著しく低下する",
+      "detail": "undefined"
+  },
+  {
+      "name": "リコール マリオネット",
+      "required": {
+          "catalyst": {
+              "type": "PD",
+              "number": 2
+          },
+          "cost": {
+              "type": "MP",
+              "value": 23
+          },
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 50
+              },
+              {
+                  "name": "パフォーマンス",
+                  "value": 30
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 450,
+      "range": 0,
+      "element": "?",
+      "info": "傀儡子の手を召喚して対象を操り、術者の強化や敵の動きを制限させる",
+      "detail": "マリオネットを召喚すると召喚者にマリオネット モーションのバフが付き、攻撃・命中・回避が上昇、待機・移動モーションが変化し移動速度が低下する。"
+  },
+  {
+      "name": "鳥獣戯画",
+      "required": {
+          "catalyst": {
+              "type": "未記入のスクロール",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 15
+          },
+          "item1": "複製可能なペン",
+          "mastery": [
+              "グレート クリエイター"
+          ],
+          "skill": [
+              {
+                  "name": "複製",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 300,
+      "casttime": 350,
+      "range": 0,
+      "element": "?",
+      "info": "魂を込めて描かれた絵には命が宿ると云われる",
+      "detail": "レベルは複製依存。"
+  },
+  {
+      "name": "第3位階天使召喚",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 3
+          },
+          "cost": {
+              "type": "MP",
+              "value": 46
+          },
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 80
+              },
+              {
+                  "name": "召喚魔法",
+                  "value": 20
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 450,
+      "range": 0,
+      "element": "?",
+      "info": "アークエンジェル・フレイムを召喚する。",
+      "detail": "2017年9月オーバーロードのコラボ品。"
+  },
+  {
+      "name": "アクセルシューター",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 70
+              },
+              {
+                  "name": "召喚魔法",
+                  "value": 30
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 450,
+      "range": 0,
+      "element": "?",
+      "info": "一定時間命令可能な二つの光弾を召喚して対象を攻撃する魔法※最大10発まで同時に召喚可能",
+      "detail": "2018年2月の魔法少女リリカルなのはReflectionのコラボテク。かかれをすると一回攻撃して消える。"
+  },
+  {
+      "name": "サモン ヒール スフィア",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "cost": {
+              "type": "MP",
+              "value": 34
+          },
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 60
+              },
+              {
+                  "name": "回復魔法",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 450,
+      "range": 0,
+      "element": "?",
+      "info": "一定間隔で周囲に癒やしの効果がある光球を召喚する※一定時間が経過するか召喚者が離れると消える",
+      "detail": "HP250前後。召喚時間は約1分半で、15秒間隔で近くにいるプレイヤーのHP50～60を回復する。6回回復すると消える。登場時は敵の攻撃が当たっていたが、更新で無敵に変更された。"
+  },
+  {
+      "name": "サモン スカルパスナイト",
+      "required": {
+          "buff1": "悪魔の書",
+          "item1": "悪魔の書",
+          "catalyst": {
+              "type": "EB",
+              "number": 3
+          },
+          "cost": {
+              "type": "MP",
+              "value": 23
+          },
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 450,
+      "range": 0,
+      "element": "?",
+      "info": "悪魔の書の力で魔界からスカルパスナイトを召喚する",
+      "detail": "Lv40 HP243.6 MP0.5 ATK48.6 DEF48.5"
+  },
+  {
+      "name": "サモン ガシャドクロ",
+      "required": {
+          "mastery": [
+              "ネクロマンサー"
+          ],
+          "catalyst": {
+              "type": "EB",
+              "number": 5
+          },
+          "cost": {
+              "type": "MP",
+              "value": 46
+          },
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 450,
+      "range": 0,
+      "element": "?",
+      "info": "埋葬されなかった死者達の怨念が形となった巨大な骸骨を対象の足元に召喚する",
+      "detail": "Lv90 HP1274.4 MP0.5 ATK153.8 DEF65.1。対象をターゲットしないと使えない。ガシャドクロは移動不可。効果時間は5分。前方範囲攻撃あり。"
+  },
+  {
+      "name": "リコール モアイ",
+      "required": {
+          "catalyst": {
+              "type": "NP",
+              "number": 3
+          },
+          "cost": {
+              "type": "MP",
+              "value": 28
+          },
+          "skill": [
+              {
+                  "name": "解読",
+                  "value": 50
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 450,
+      "range": 0,
+      "element": "?",
+      "info": "人面を模した謎の石像彫刻を敵の頭上へ召喚する",
+      "detail": "モアイのレベルは解読スキル-9。"
+  },
+  {
+      "name": "サモン ジンジャーブレッドマン",
+      "delay": 750,
+      "casttime": 450,
+      "info": "お菓子の精霊を召喚する。触媒として「ジンジャーブレッドマン」が必要です。※レシピ：料理30 クッキーミックス+鶏の卵+バター+砂糖+生姜で3個作成できます。",
+      "detail": "Lv30 HP240 AC Lv*1.2、その他 Lv*1.0。召喚時間5分。かわいい。2018/12/18のメンテナンスでサクリ可能になった。",
+      "range": 0,
+      "element": "?",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 23
+          },
+          "mastery": [
+              "厨房師"
+          ],
+          "catalyst": {
+              "type": "ジンジャーブレッドマン",
+              "number": 1
+          },
+          "skill": [
+              {
+                  "name": "料理",
+                  "value": 40
+              }
+          ]
+      }
+  },
+  {
+      "name": "サモン マイナーズ",
+      "casttime": 450,
+      "delay": 750,
+      "info": "鉱員達を召喚して採掘の手助けをしてもらう",
+      "detail": "Lv33。召喚時間5分、採掘速度1回/10秒。銅、スズ10-15ダメージ（8割ほど命中）、鉄、炭9-10ダメージ（5-6割ほど命中）、銀、金、ミスリル4-6ダメージ（2割ほど命中）。",
+      "range": 0,
+      "element": "?",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 23
+          },
+          "catalyst": {
+              "type": "PD",
+              "number": 2
+          },
+          "mastery": [
+              "マイン ビショップ"
+          ],
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 40
+              }
+          ]
+      }
+  },
+  {
+      "name": "小犬座の扉",
+      "casttime": 450,
+      "delay": 750,
+      "info": "小犬座の星霊ニコラを召喚する ※近くにいる場合、MPが減っていると10秒ごとに20回復してくれる",
+      "detail": "2019年2月のFAIRY TAILコラボテクニック。無敵のニトラ(Lv10)を召喚する。1体制限かつ召喚枠を最大まで占有する。",
+      "range": 0,
+      "element": "?",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 5
+          },
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 1
+              },
+              {
+                  "name": "魔法熟練",
+                  "value": 1
+              }
+          ]
+      }
+  },
+  {
+      "name": "宝瓶宮の扉",
+      "casttime": 450,
+      "delay": 750,
+      "info": "宝瓶宮の星霊アクエリアスを召喚する",
+      "detail": "2019年2月のFAIRY TAILコラボテクニック。召喚 アクエリアス LV80 HP405 MP540 攻撃80 防御96 命中80 回避80 魔力120 飛行型",
+      "range": 0,
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 23
+          },
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 70
+              },
+              {
+                  "name": "魔法熟練",
+                  "value": 70
+              }
+          ]
+      }
+  },
+  {
+      "name": "サモン チョコ キャット",
+      "casttime": 450,
+      "delay": 750,
+      "info": "チョコでできたあびにゃんを召喚する 発動に必要なBuff : 厨房師 マスタリー 使用アイテム : バレンタイン チョコレート 1 ※レシピ：料理0 砂糖+ラム+カカオで5個作成できます。",
+      "detail": "召喚時間5分。複数同時召喚可能。召喚 チョコあびにゃん LV30 HP240 MP0 攻撃38 防御30 命中32 回避35 魔力0",
+      "range": 0,
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 23
+          },
+          "catalyst": {
+              "type": "バレンタイン チョコレート",
+              "number": 1
+          },
+          "mastery": [
+              "厨房師"
+          ],
+          "skill": [
+              {
+                  "name": "料理",
+                  "value": 40
+              }
+          ]
+      }
+  },
+  {
+      "name": "サモン ヘッドレス ナイト",
+      "casttime": 450,
+      "delay": 750,
+      "info": "冥界より雷を操る首無し騎士を召喚する 発動に必要なBuff : ネクロマンサー マスタリー",
+      "detail": "デュラハンと同じ外見のヘッドレス ナイトを召喚する。Lv98、HP583、MP388、ATK128、DEF141。",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "catalyst": {
+              "type": "EB",
+              "number": 5
+          },
+          "mastery": [
+              "ネクロマンサー"
+          ],
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 90
+              }
+          ]
+      }
+  },
+  {
+      "name": "フレイム ピラー",
+      "casttime": 450,
+      "delay": 750,
+      "info": "対象の足元に魔法陣を展開して火柱による継続ダメージを与える",
+      "detail": "対象の中心に炎の柱を召喚する。複数召喚可。",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 100
+          },
+          "catalyst": {
+              "type": "PNQ",
+              "number": 1
+          },
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 90
+              },
+              {
+                  "name": "罠",
+                  "value": 40
+              }
+          ]
+      }
+  },
+  {
+      "name": "サモン ブラスト ファーネス",
+      "casttime": 450,
+      "delay": 750,
+      "info": "自分だけの魔法の溶鉱炉を召喚して利用することができる 発動に必要なBuff : マイン ビショップ マスタリー",
+      "detail": "5分で消える溶鉱炉を召喚する。コンバイン中に消えたらコンバイン失敗。",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 28
+          },
+          "catalyst": {
+              "type": "コークス",
+              "number": 1
+          },
+          "mastery": [
+              "マイン ビショップ"
+          ],
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 50
+              }
+          ]
+      }
+  },
+  {
+      "name": "サモン ゴーストシップ",
+      "casttime": 450,
+      "delay": 750,
+      "info": "冥界を彷徨う幽霊船を召喚する",
+      "detail": "でかい「ゴーストシップ」を召喚する。LV99.0 HP981.0 MP0.0 攻121.2 防181.2 命101.0 回0.0 魔2.0 火25.7 水25.7 地25.7 風25.7 無25.7",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 53
+          },
+          "catalyst": {
+              "type": "EB",
+              "number": 5
+          },
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 90
+              },
+              {
+                  "name": "死の魔法",
+                  "value": 70
+              }
+          ]
+      }
+  }
+]

@@ -1,0 +1,71 @@
+[{
+    "skill_type": "銃器",
+    "skill_value": 10,
+    "name": "エイム ファイアー",
+    "cost_type": "ST",
+    "cost_value": 15,
+    "info": "しゃがみ撃ちする<br>移動は遅くなるが、命中率が大幅に上がる<br>※ジャンプでキャンセル可能"
+}, {
+    "skill_type": "銃器",
+    "skill_value": 20,
+    "name": "アサルト ファイアー",
+    "cost_type": "ST",
+    "cost_value": 11,
+    "info": "伏せ撃ちする<br>移動できなくなるが 回避率と耐地属性が大幅に上昇する"
+}, {
+    "skill_type": "銃器",
+    "skill_value": 30,
+    "name": "ブラスト ファイアー",
+    "cost_type": "ST",
+    "cost_value": 15,
+    "info": "地面に向けて抱え銃を発砲する<br>※反動で後ろ向きに飛び戦線離脱できる<br>※スキル値によりディレイが短くなります"
+}, {
+    "skill_type": "銃器",
+    "skill_value": 40,
+    "name": "ダイイング ファイアー",
+    "cost_type": "ST",
+    "cost_value": 19,
+    "info": "抱え銃を暴発させ 自分の周りの者に大ダメージを与える<br>※抱え銃は使い物にならなくなり 自身も負傷してしまう"
+}, {
+    "skill_type": "銃器",
+    "skill_value": 50,
+    "name": "キャノン プレイスメント",
+    "cost_type": "ST",
+    "cost_value": 23,
+    "info": "20"
+}, {
+    "skill_type": "銃器",
+    "skill_value": 60,
+    "name": "キャノン リペア",
+    "cost_type": "ST",
+    "cost_value": 28,
+    "info": "設置されている大砲を修理する"
+}, {
+    "skill_type": "銃器",
+    "skill_value": 70,
+    "name": "キャノン クラッシャー",
+    "cost_type": "ST",
+    "cost_value": 33,
+    "info": "設置された大砲を破壊する"
+}, {
+    "skill_type": "銃器",
+    "skill_value": 80,
+    "name": "キャノン コントロール",
+    "cost_type": "ST",
+    "cost_value": 38,
+    "info": "大砲に乗り込み弾を発射する<br>※大砲の厚い装甲に守られて 防御力と攻撃力が上昇するが<br>風属性の抵抗力と移動速度は落ちる<br>※ジャンプすると大砲から出ることができる<br>使用アイテム : ドワーヴン キャノン 1"
+}, {
+    "skill_type": "銃器",
+    "skill_value": 90,
+    "name": "キャノン ディスチャージ",
+    "cost_type": "ST",
+    "cost_value": 40,
+    "info": "乗り込んだ大砲から周囲を巻き込む強力な大砲の弾を発射する"
+}, {
+    "skill_type": "銃器",
+    "skill_value": 90,
+    "name": "マッスル キャノン",
+    "cost_type": "ST",
+    "cost_value": 45,
+    "info": "大砲にパーティメンバーを詰めて遠くへ飛ばす"
+}]

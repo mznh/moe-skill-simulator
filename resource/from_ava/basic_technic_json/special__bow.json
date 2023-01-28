@@ -1,0 +1,50 @@
+[{
+    "skill_type": "弓",
+    "skill_value": 20,
+    "name": "バルク ショット",
+    "cost_type": "ST",
+    "cost_value": 11,
+    "info": "複数の矢を連続して射る<br>※スキル上昇と共に回数が増える"
+}, {
+    "skill_type": "弓",
+    "skill_value": 40,
+    "name": "ジャッジメント ショット",
+    "cost_type": "ST",
+    "cost_value": 19,
+    "info": "敵に矢を射て突き刺さった矢に稲妻を落とす"
+}, {
+    "skill_type": "弓",
+    "skill_value": 50,
+    "name": "ソニック アロー",
+    "cost_type": "ST",
+    "cost_value": 23,
+    "info": "有効レンジは短いが、ガードを貫通する攻撃"
+}, {
+    "skill_type": "弓",
+    "skill_value": 60,
+    "name": "ホープレス ショット",
+    "cost_type": "ST",
+    "cost_value": 28,
+    "info": "対象の武器に付加されているエンチャントを解除する"
+}, {
+    "skill_type": "弓",
+    "skill_value": 70,
+    "name": "ホークアイ ショット",
+    "cost_type": "ST",
+    "cost_value": 33,
+    "info": "鷹の目のように鋭く敵を睨みつけ 目視できるギリギリの距離まで矢を飛ばす"
+}, {
+    "skill_type": "弓",
+    "skill_value": 80,
+    "name": "シール ショット",
+    "cost_type": "ST",
+    "cost_value": 38,
+    "info": "対象に弓ダメージを与え 更にスペルブックにチャージされている魔法を解除する"
+}, {
+    "skill_type": "弓",
+    "skill_value": 90,
+    "name": "ゴルゴタ ショット",
+    "cost_type": "ST",
+    "cost_value": 45,
+    "info": "パーティメンバーの力を借り、敵を突き抜ける矢を発射する<br>※自分を含めて2人以上のパーティを組んでいる時に発動可能"
+}]

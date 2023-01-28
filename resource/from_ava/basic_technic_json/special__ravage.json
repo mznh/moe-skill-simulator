@@ -1,0 +1,59 @@
+[{
+    "skill_type": "刀剣",
+    "skill_value": 20,
+    "name": "チャージド スラッシュ",
+    "cost_type": "ST",
+    "cost_value": 15,
+    "info": "力を溜めて激しく敵に斬りつけることにより<br>ガード技を無視してダメージを貫通させる<br>※成功すると 敵をスタンさせることができる"
+}, {
+    "skill_type": "刀剣",
+    "skill_value": 40,
+    "name": "ダイイング スタブ",
+    "cost_type": "ST",
+    "cost_value": 21,
+    "info": "対象をえぐるようにして突き刺し 巨大な傷口を作る<br>※斬った後もダメージが続く"
+}, {
+    "skill_type": "刀剣",
+    "skill_value": 50,
+    "name": "ニューロン ストライク",
+    "cost_type": "ST",
+    "cost_value": 23,
+    "info": "剣で斬りつけて属性防御値を下げる"
+}, {
+    "skill_type": "刀剣",
+    "skill_value": 60,
+    "name": "エクセキューション",
+    "cost_type": "ST",
+    "cost_value": 28,
+    "info": "ジャンプ斬りで敵の脳天を叩き割り 大ダメージを与える<br>※技発動中は無防備になる"
+}, {
+    "skill_type": "刀剣",
+    "skill_value": 70,
+    "name": "ソニック ストライク",
+    "cost_type": "ST",
+    "cost_value": 33,
+    "info": "手にしている剣を投げて 離れた敵を攻撃する<br>※投げた武器は失ってしまう"
+}, {
+    "skill_type": "刀剣",
+    "skill_value": 80,
+    "name": "ヴァルキリー ブレイド",
+    "cost_type": "ST",
+    "cost_value": 38,
+    "info": "力一杯敵を切りつけ 大ダメージを与える。<br>※武器の損傷も大きくなる"
+}, {
+    "skill_type": "刀剣",
+    "skill_value": 80,
+    "name": "ウィンド エッジ",
+    "cost_type": "ST",
+    "cost_value": 38,
+    "catalyst_type": "原初の粉",
+    "catalyst_number": 1,
+    "info": "風の刃を飛ばし、遠くにいる敵を斬りつけることができる技"
+}, {
+    "skill_type": "刀剣",
+    "skill_value": 90,
+    "name": "ソード ダンス",
+    "cost_type": "ST",
+    "cost_value": 45,
+    "info": "装備している武器で敵の直接攻撃をはじき返し ダメージを与える"
+}]

@@ -1,0 +1,57 @@
+[{
+    "skill_type": "槍",
+    "skill_value": 10,
+    "name": "ガード ブレイカー",
+    "cost_type": "ST",
+    "cost_value": 11,
+    "info": "ガードの隙間をぬって 無理やりダメージを与える"
+}, {
+    "skill_type": "槍",
+    "skill_value": 20,
+    "name": "タイダル スピアー",
+    "cost_type": "ST",
+    "cost_value": 15,
+    "info": "後退した後に前方に踏み込み攻撃する"
+}, {
+    "skill_type": "槍",
+    "skill_value": 40,
+    "name": "ポール シフト",
+    "cost_type": "ST",
+    "cost_value": 19,
+    "info": "槍を利用して前方向に飛び上がる"
+}, {
+    "skill_type": "槍",
+    "skill_value": 50,
+    "name": "ドラゴン テイル",
+    "cost_type": "ST",
+    "cost_value": 23,
+    "info": "対象の防具と　ガードの隙間を狙って攻撃する<br>※成功すると敵はスタン状態になる"
+}, {
+    "skill_type": "槍",
+    "skill_value": 60,
+    "name": "ペネトレイション",
+    "cost_type": "ST",
+    "cost_value": 28,
+    "info": "ダメージは低いが、離れた敵にまで届く貫通攻撃を与える"
+}, {
+    "skill_type": "槍",
+    "skill_value": 70,
+    "name": "ハラキリ スピアー",
+    "cost_type": "ST",
+    "cost_value": 33,
+    "info": "自分の腹を貫通させて 後ろの敵に奇襲攻撃を与える"
+}, {
+    "skill_type": "槍",
+    "skill_value": 80,
+    "name": "ドラゴン フォール",
+    "cost_type": "ST",
+    "cost_value": 38,
+    "info": "大ジャンプを行い 落下中に<br>空中制動して頭上から槍を突き立てる"
+}, {
+    "skill_type": "槍",
+    "skill_value": 90,
+    "name": "デドリー ホロウ",
+    "cost_type": "ST",
+    "cost_value": 45,
+    "info": "ダメージを与えながら前方に突進する"
+}]

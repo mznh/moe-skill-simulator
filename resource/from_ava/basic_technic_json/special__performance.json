@@ -1,0 +1,206 @@
+[{
+    "skill_type": "パフォーマンス",
+    "skill_value": 1,
+    "name": "Ｍ.Ａ.Ｎ",
+    "cost_type": "ST",
+    "cost_value": 2,
+    "info": "弁解する"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 1,
+    "name": "Ｓ.Ｄ.Ｍ",
+    "cost_type": "ST",
+    "cost_value": 4,
+    "info": "白鳥の舞"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 10,
+    "name": "Ｔ.Ｓ",
+    "cost_type": "ST",
+    "cost_value": 1,
+    "info": "膝を組んだ座り方"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 10,
+    "name": "Ｎ.Ｏ",
+    "cost_type": "ST",
+    "cost_value": 2,
+    "info": "はっきりと否定するポーズ"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 20,
+    "name": "Ｉ.Ｔ.Ｅ",
+    "cost_type": "ST",
+    "cost_value": 1,
+    "info": "思いっきり転ぶ"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 20,
+    "name": "Ｙ.Ｓ.Ｋ",
+    "cost_type": "ST",
+    "cost_value": 2,
+    "info": "木を切る振りをする"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 30,
+    "name": "Ｍ.Ｄ.Ｌ",
+    "cost_type": "ST",
+    "cost_value": 1,
+    "info": "ファッションモデルになりきる"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 30,
+    "name": "Ｇ.Ｉ.Ｋ",
+    "cost_type": "ST",
+    "cost_value": 2,
+    "info": "ノコギリを引く振りをする"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 30,
+    "name": "Ｌ.Ｏ.Ｖ",
+    "cost_type": "ST",
+    "cost_value": 0,
+    "info": "説明なし"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 30,
+    "name": "Ｏ.Ｔ.Ｍ",
+    "cost_type": "ST",
+    "cost_value": 0,
+    "info": "性別を超えた愛の表現"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 30,
+    "name": "シード ショット",
+    "cost_type": "ST",
+    "cost_value": 15,
+    "catalyst_type": "カット スイカ",
+    "catalyst_number": 1,
+    "info": "スイカの種を高速で口から飛ばす"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 40,
+    "name": "Ｎ.Ｙ.Ａ",
+    "cost_type": "ST",
+    "cost_value": 3,
+    "info": "にゃーんのポーズ"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 40,
+    "name": "Ｋ.Ｙ.Ｒ",
+    "cost_type": "ST",
+    "cost_value": 2,
+    "info": "辺りを見回す"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 50,
+    "name": "Ｍ.Ｔ.Ｒ",
+    "cost_type": "ST",
+    "cost_value": 1,
+    "info": "必死になって全力疾走する"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 50,
+    "name": "Ｓ.Ｓ.Ｐ",
+    "cost_type": "ST",
+    "cost_value": 2,
+    "info": "さり気なくいたす"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 60,
+    "name": "Ｎ.Ｊ.Ｋ",
+    "cost_type": "ST",
+    "cost_value": 5,
+    "info": "伝説の名優になりきる"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 60,
+    "name": "Ｏ.Ｒ.Ａ",
+    "cost_type": "ST",
+    "cost_value": 2,
+    "info": "肩で風を切って歩く"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 60,
+    "name": "Ｂ.Ｋ.Ｄ",
+    "cost_type": "ST",
+    "cost_value": 2,
+    "info": "転んでしりもちをつく"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 70,
+    "name": "Ｈ.Ｇ",
+    "cost_type": "ST",
+    "cost_value": 1,
+    "info": "肉体美を強調する"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 70,
+    "name": "Ｈ.Ｇ バージョン2",
+    "cost_type": "ST",
+    "cost_value": 7,
+    "info": "肉体美を強調する"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 70,
+    "name": "Ｈ.Ｇ バージョン3",
+    "cost_type": "ST",
+    "cost_value": 7,
+    "info": "肉体美を強調する"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 70,
+    "name": "Ｈ.Ｋ.Ｄ",
+    "cost_type": "ST",
+    "cost_value": 2,
+    "info": "派手に吹き飛ばされる"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 70,
+    "name": "Ｓ.Ｐ.Ｉ",
+    "cost_type": "ST",
+    "cost_value": 2,
+    "info": "身構える"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 80,
+    "name": "Ｙ.Ｋ.Ｓ",
+    "cost_type": "ST",
+    "cost_value": 5,
+    "info": "気合の入った座り方をして、周囲にガンを飛ばす"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 80,
+    "name": "Ｕ.Ｋ.Ｍ",
+    "cost_type": "ST",
+    "cost_value": 2,
+    "info": "後ろ受身をとる"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 80,
+    "name": "Ｐ.Ｉ.Ｃ",
+    "cost_type": "ST",
+    "cost_value": 2,
+    "info": "鍵を開けるフリをする"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 90,
+    "name": "Ｍ.Ｏ.Ｅ",
+    "cost_type": "ST",
+    "cost_value": 9,
+    "info": "娯楽の達人が、見えない仕掛けを使って最高に目立つポーズをキメる"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 90,
+    "name": "Ｋ.Ｂ.Ｋ",
+    "cost_type": "ST",
+    "cost_value": 2,
+    "info": "大見得を切る"
+}, {
+    "skill_type": "パフォーマンス",
+    "skill_value": 90,
+    "name": "Ｍ.Ｂ.Ｋ",
+    "cost_type": "ST",
+    "cost_value": 2,
+    "info": "さりげなく頂戴する"
+}]

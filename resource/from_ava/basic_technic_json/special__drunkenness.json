@@ -1,0 +1,71 @@
+[{
+    "skill_type": "酩酊",
+    "skill_value": 1,
+    "name": "ボーンレス",
+    "cost_type": "ST",
+    "cost_value": 5,
+    "info": "酔った状態で予測不可能な動きをして攻撃をかわす<br>※効果終了後、隙が少し出来てしまう"
+}, {
+    "skill_type": "酩酊",
+    "skill_value": 10,
+    "name": "リカバー センス",
+    "cost_type": "ST",
+    "cost_value": 8,
+    "info": "自分の顔を激しく叩いて 酔いを醒ます<br>※逃走したい時などに使用する"
+}, {
+    "skill_type": "酩酊",
+    "skill_value": 20,
+    "name": "マイティー グラブ",
+    "cost_type": "ST",
+    "cost_value": 11,
+    "info": "敵の足元にまとわりつき 動きを封じる"
+}, {
+    "skill_type": "酩酊",
+    "skill_value": 30,
+    "name": "ストーン マッスル",
+    "cost_type": "ST",
+    "cost_value": 15,
+    "info": "体を石のように堅くし全ての攻撃を高確率で無効化する"
+}, {
+    "skill_type": "酩酊",
+    "skill_value": 40,
+    "name": "センスレス",
+    "cost_type": "ST",
+    "cost_value": 19,
+    "info": "死んだふりをして敵を欺く<br>※寝ている間は HP回復速度が上昇するが防御力が落ちる"
+}, {
+    "skill_type": "酩酊",
+    "skill_value": 50,
+    "name": "ディザスター ナップ",
+    "cost_type": "ST",
+    "cost_value": 23,
+    "info": "耳を覆いたくなるほど大きなイビキをかき 敵の攻撃を妨害する<br>（ダメージを受けることで、効果は解除される）"
+}, {
+    "skill_type": "酩酊",
+    "skill_value": 60,
+    "name": "ドブロク スプレイ",
+    "cost_type": "ST",
+    "cost_value": 28,
+    "info": "酒を吹き付け 前方にいる対象のBuff効果を古いものから1つ剥がす"
+}, {
+    "skill_type": "酩酊",
+    "skill_value": 70,
+    "name": "ビッグバン フィスト",
+    "cost_type": "ST",
+    "cost_value": 33,
+    "info": "泥酔した状態で腕を振り回し 周囲の敵を攻撃する<br>※範囲攻撃の効果"
+}, {
+    "skill_type": "酩酊",
+    "skill_value": 80,
+    "name": "フレイム ブレス",
+    "cost_type": "ST",
+    "cost_value": 38,
+    "info": "口に酒を含み 敵に炎を吹き付ける<br>※アルコール度数の高い酒が必要"
+}, {
+    "skill_type": "酩酊",
+    "skill_value": 90,
+    "name": "キヨミズ パッション",
+    "cost_type": "ST",
+    "cost_value": 30,
+    "info": "パーティのスタミナを吸収し 巨大なエネルギー弾を発動する<br>※エネルギーを貯めた後に攻撃を受けると 効果が止まってしまう<br>※自分を含めて2人以上のパーティを組んでいる時に発動可能"
+}]

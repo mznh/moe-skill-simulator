@@ -1,0 +1,73 @@
+[{
+    "skill_type": "調教",
+    "skill_value": 1,
+    "name": "アニマル フェイタライズ",
+    "cost_type": "ST",
+    "cost_value": 5,
+    "info": "動物を手なずけ従わせる<br>※警戒を解くこともできる"
+}, {
+    "skill_type": "調教",
+    "skill_value": 10,
+    "name": "チェリッシング",
+    "cost_type": "ST",
+    "cost_value": 8,
+    "info": "愛情を込めてペットをなで、ヒット・ポイント(HP)を回復させる"
+}, {
+    "skill_type": "調教",
+    "skill_value": 20,
+    "name": "チアー ショット",
+    "cost_type": "ST",
+    "cost_value": 11,
+    "info": "ペットに気合を入れて強化させる"
+}, {
+    "skill_type": "調教",
+    "skill_value": 30,
+    "name": "ワーシップ ネイチャー",
+    "cost_type": "ST",
+    "cost_value": 15,
+    "catalyst_type": "ワーシップ ドール",
+    "catalyst_number": 1,
+    "info": "大いなる自然の力を借り、死亡したペットを生き返らせる"
+}, {
+    "skill_type": "調教",
+    "skill_value": 40,
+    "name": "テラー ウィップ",
+    "cost_type": "ST",
+    "cost_value": 5,
+    "info": "手で威嚇し 敵の召喚 ペットを追い払う"
+}, {
+    "skill_type": "調教",
+    "skill_value": 50,
+    "name": "マンカインド フェイタライズ",
+    "cost_type": "ST",
+    "cost_value": 23,
+    "info": "人型の敵を調教し従わせる"
+}, {
+    "skill_type": "調教",
+    "skill_value": 60,
+    "name": "パフォーミング ウィップ",
+    "cost_type": "ST",
+    "cost_value": 28,
+    "info": "ペットに特殊攻撃をさせる<br>※ペットが特殊攻撃を使える状態の時のみ発動する"
+}, {
+    "skill_type": "調教",
+    "skill_value": 70,
+    "name": "ミラクル ケイジ",
+    "cost_type": "ST",
+    "cost_value": 33,
+    "info": "ペットをアイテム化する<br>※アニマル ケイジを一つ使用します"
+}, {
+    "skill_type": "調教",
+    "skill_value": 80,
+    "name": "ドラゴン フェイタライズ",
+    "cost_type": "ST",
+    "cost_value": 38,
+    "info": "地上最強と謳われる竜族を従わせる"
+}, {
+    "skill_type": "調教",
+    "skill_value": 90,
+    "name": "ドミニオン",
+    "cost_type": "ST",
+    "cost_value": 45,
+    "info": "魂をペットに乗り移らせ ペットを操作できるようになる<br>※乗り移っている間 ペットに負担がかかり、徐々にHPが減少していく"
+}]

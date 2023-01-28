@@ -1,0 +1,75 @@
+[{
+    "skill_type": "素手",
+    "skill_value": 0,
+    "name": "アタック",
+    "cost_type": "ST",
+    "cost_value": 0,
+    "info": "アタック"
+}, {
+    "skill_type": "素手",
+    "skill_value": 10,
+    "name": "ジャブ",
+    "cost_type": "ST",
+    "cost_value": 8,
+    "info": "立て続けに素早いパンチを繰り出す<br>※敵の行動を阻害する"
+}, {
+    "skill_type": "素手",
+    "skill_value": 20,
+    "name": "チャージド フィスト",
+    "cost_type": "ST",
+    "cost_value": 11,
+    "info": "力を溜めて敵を激しく殴りつけることにより、<br>ガード技を無視してダメージを貫通させる<br>※成功すると スタンさせることができる"
+}, {
+    "skill_type": "素手",
+    "skill_value": 40,
+    "name": "サクリファイス フィスト",
+    "cost_type": "ST",
+    "cost_value": 19,
+    "info": "己の肉体を武器と化し、爆発的なダメージを与える<br>※攻撃の成功・不成功に関わらず自分もダメージを受ける"
+}, {
+    "skill_type": "素手",
+    "skill_value": 50,
+    "name": "ブラインド ジャブ",
+    "cost_type": "ST",
+    "cost_value": 23,
+    "info": "顔面に ジャブをお見舞いする<br>対象は 視界を一定時奪われる<br>※NPCは、対象を見失う事がある"
+}, {
+    "skill_type": "素手",
+    "skill_value": 60,
+    "name": "ディザーム ガード",
+    "cost_type": "ST",
+    "cost_value": 28,
+    "info": "敵が装備している武器を外し、2秒くらいの間、<br>右と左スロットの装備を付け替えできなくさせる"
+}, {
+    "skill_type": "素手",
+    "skill_value": 70,
+    "name": "イリュージョン フィンガー",
+    "cost_type": "ST",
+    "cost_value": 33,
+    "catalyst_type": "サム オブ レジェンド",
+    "catalyst_number": 1,
+    "info": "親指で対象を連打攻撃して全身に身につけている装飾品を全て脱がす<br>※この技の発動には 指にバネを仕込まなければならない"
+}, {
+    "skill_type": "素手",
+    "skill_value": 80,
+    "name": "スパルタン フィスト",
+    "cost_type": "ST",
+    "cost_value": 33,
+    "info": "対象の気の力を増幅させて、<br>ヒット・ポイント(HP)を回復する"
+}, {
+    "skill_type": "素手",
+    "skill_value": 90,
+    "name": "拳聖乱舞",
+    "cost_type": "ST",
+    "cost_value": 44,
+    "info": "素手攻撃の究極奥義。相手に無数のパンチを浴びせつつ、<br>気を溜めて放出する。<br>途中で空振りすると、攻撃は止まってしまう。"
+}, {
+    "skill_type": "素手",
+    "skill_value": 90,
+    "name": "サイズミック ウェーブ",
+    "cost_type": "ST",
+    "cost_value": 45,
+    "catalyst_type": "原初の粉",
+    "catalyst_number": 1,
+    "info": "大地を伝わる衝撃波で周囲にダメージを与える技"
+}]

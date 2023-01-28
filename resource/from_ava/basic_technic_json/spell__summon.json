@@ -1,0 +1,208 @@
+[{
+    "skill_type": "召喚魔法",
+    "skill_value": 1,
+    "name": "サモン ヴァンパイアバット",
+    "cost_type": "MP",
+    "cost_value": 5,
+    "catalyst_type": "EB",
+    "catalyst_number": 1,
+    "info": "魔界から吸血コウモリを呼び出す"
+}, {
+    "skill_type": "召喚魔法",
+    "skill_value": 1,
+    "name": "ブラッド ディール",
+    "cost_type": "MP",
+    "cost_value": 5,
+    "catalyst_type": "ND",
+    "catalyst_number": 1,
+    "info": "一定時間 HPを犠牲にMP回復速度を増加させる"
+}, {
+    "skill_type": "召喚魔法",
+    "skill_value": 10,
+    "name": "ブラッド ルーレット",
+    "cost_type": "MP",
+    "cost_value": 9,
+    "catalyst_type": "ND",
+    "catalyst_number": 2,
+    "info": "ペットが攻撃を受けた時に50%の確率でダメージを反射する"
+}, {
+    "skill_type": "召喚魔法",
+    "skill_value": 10,
+    "name": "サンクン アンカー",
+    "cost_type": "MP",
+    "cost_value": 9,
+    "catalyst_type": "ND",
+    "catalyst_number": 2,
+    "info": "超重量の錘を召喚し 対象の所持アイテム総重量に加算させる"
+}, {
+    "skill_type": "召喚魔法",
+    "skill_value": 10,
+    "name": "サモン ゾンビ ラット",
+    "cost_type": "MP",
+    "cost_value": 9,
+    "catalyst_type": "EB",
+    "catalyst_number": 1,
+    "info": "魔界から 腐肉をあさるゾンビラットを呼び出す"
+}, {
+    "skill_type": "召喚魔法",
+    "skill_value": 20,
+    "name": "ゴースト ダンス",
+    "cost_type": "MP",
+    "cost_value": 13,
+    "catalyst_type": "ND",
+    "catalyst_number": 2,
+    "info": "対象の回りに見えない亡霊がまとわりつき 一定時間ごとにダメージを与える"
+}, {
+    "skill_type": "召喚魔法",
+    "skill_value": 20,
+    "name": "サモン ゾンビ アーミー",
+    "cost_type": "MP",
+    "cost_value": 13,
+    "catalyst_type": "EB",
+    "catalyst_number": 2,
+    "info": "魔界からゾンビアーミーを呼び出す"
+}, {
+    "skill_type": "召喚魔法",
+    "skill_value": 30,
+    "name": "ウォーン パニッシュメント",
+    "cost_type": "MP",
+    "cost_value": 18,
+    "catalyst_type": "NP",
+    "catalyst_number": 1,
+    "info": "近くにいる下僕達のHPを回復する"
+}, {
+    "skill_type": "召喚魔法",
+    "skill_value": 30,
+    "name": "スティーム ドライブ",
+    "cost_type": "MP",
+    "cost_value": 18,
+    "catalyst_type": "NP",
+    "catalyst_number": 1,
+    "info": "近くにいる下僕に対し ACを犠牲にすることで移動速度を速めてやる"
+}, {
+    "skill_type": "召喚魔法",
+    "skill_value": 30,
+    "name": "冥の鼓動",
+    "cost_type": "MP",
+    "cost_value": 18,
+    "catalyst_type": "OP",
+    "catalyst_number": 1,
+    "info": "大地を揺るがす 冥門の化身を召喚する"
+}, {
+    "skill_type": "召喚魔法",
+    "skill_value": 40,
+    "name": "イムサマス グレイブ",
+    "cost_type": "MP",
+    "cost_value": 23,
+    "catalyst_type": "NP",
+    "catalyst_number": 2,
+    "info": "戦慄の記憶を植え付け 墓に近づいた者を走れなくする"
+}, {
+    "skill_type": "召喚魔法",
+    "skill_value": 40,
+    "name": "サモン スカルパスメイジ",
+    "cost_type": "MP",
+    "cost_value": 23,
+    "catalyst_type": "EB",
+    "catalyst_number": 3,
+    "info": "魔界からスカルパスメイジを呼び出す"
+}, {
+    "skill_type": "召喚魔法",
+    "skill_value": 50,
+    "name": "クライシス コール",
+    "cost_type": "MP",
+    "cost_value": 28,
+    "catalyst_type": "NP",
+    "catalyst_number": 3,
+    "info": "ペットを一体だけ手元に呼び戻す"
+}, {
+    "skill_type": "召喚魔法",
+    "skill_value": 50,
+    "name": "サモン ケルベロス",
+    "cost_type": "MP",
+    "cost_value": 28,
+    "catalyst_type": "EB",
+    "catalyst_number": 3,
+    "info": "地獄の番人ケルベロスを召喚する"
+}, {
+    "skill_type": "召喚魔法",
+    "skill_value": 60,
+    "name": "バニッシュ サモンズ",
+    "cost_type": "MP",
+    "cost_value": 34,
+    "catalyst_type": "NQ",
+    "catalyst_number": 1,
+    "info": "敵が召喚したモンスターを元の世界に戻す"
+}, {
+    "skill_type": "召喚魔法",
+    "skill_value": 60,
+    "name": "サモン バエルウォッチャー",
+    "cost_type": "MP",
+    "cost_value": 34,
+    "catalyst_type": "EB",
+    "catalyst_number": 4,
+    "info": "雷と眠りの魔法が得意な目玉を召喚する"
+}, {
+    "skill_type": "召喚魔法",
+    "skill_value": 70,
+    "name": "デス マーチ",
+    "cost_type": "MP",
+    "cost_value": 40,
+    "catalyst_type": "NQ",
+    "catalyst_number": 2,
+    "info": "近くにいる下僕に対し 魔力を犠牲にすることで攻撃力を高めてやる"
+}, {
+    "skill_type": "召喚魔法",
+    "skill_value": 70,
+    "name": "サモン ゾンビオルヴァン",
+    "cost_type": "MP",
+    "cost_value": 40,
+    "catalyst_type": "EB",
+    "catalyst_number": 4,
+    "info": "魔界からオルヴァンのゾンビを呼び出す"
+}, {
+    "skill_type": "召喚魔法",
+    "skill_value": 80,
+    "name": "サモン クイーンオブヘル",
+    "cost_type": "MP",
+    "cost_value": 46,
+    "catalyst_type": "EB",
+    "catalyst_number": 5,
+    "info": "魔界から女王を呼び出す<br>※限られた時間しか地上にいられない"
+}, {
+    "skill_type": "召喚魔法",
+    "skill_value": 80,
+    "name": "ファイナル オーダー",
+    "cost_type": "MP",
+    "cost_value": 46,
+    "catalyst_type": "NQ",
+    "catalyst_number": 3,
+    "info": "自分のペットを爆発させて近くの敵に大ダメージ"
+}, {
+    "skill_type": "召喚魔法",
+    "skill_value": 90,
+    "name": "サモン マブスアンバッサダー",
+    "cost_type": "MP",
+    "cost_value": 53,
+    "catalyst_type": "EB",
+    "catalyst_number": 5,
+    "info": "戦闘能力の高い死神を召喚する"
+}, {
+    "skill_type": "召喚魔法",
+    "skill_value": 90,
+    "name": "サモン ボーンナイト",
+    "cost_type": "MP",
+    "cost_value": 53,
+    "catalyst_type": "EB",
+    "catalyst_number": 5,
+    "info": "最大HPの半分を犠牲にして 混沌の剣士を召喚する<br>召喚時に現在のHPの半分をダメージとして受ける。<br>※ゾーン移動時も召喚時と同様にダメージを受けます。"
+}, {
+    "skill_type": "召喚魔法",
+    "skill_value": 90,
+    "name": "サモン カオス テンタクル",
+    "cost_type": "MP",
+    "cost_value": 53,
+    "catalyst_type": "OP",
+    "catalyst_number": 1,
+    "info": "異空間よりカオス生物を召喚する"
+}]

@@ -1,0 +1,7840 @@
+[
+  {
+      "name": "ボンバー エクスプロージョン",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "mastery": [
+              "爆弾男"
+          ],
+          "skill": [
+              {
+                  "name": "罠",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 1500,
+      "casttime": 400,
+      "info": "自分の周りにいる敵を巻き込んで自爆する",
+      "detail": "undefined"
+  },
+  {
+      "name": "牙斬",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "mastery": [
+              "サムライ"
+          ],
+          "skill": [
+              {
+                  "name": "刀剣",
+                  "value": 90
+              },
+              {
+                  "name": "精神力",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1000,
+      "casttime": 170,
+      "info": "左に持った武器で攻撃を弾き怯んだ相手に斬撃を与える二段攻撃",
+      "detail": "undefined"
+  },
+  {
+      "name": "スナイパー ショット",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "mastery": [
+              "傭兵"
+          ],
+          "skill": [
+              {
+                  "name": "銃器",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 910,
+      "casttime": 190,
+      "info": "遥か遠くにいる対象を狙い撃つことができる。攻撃を受けた者は詠唱を強制的に中断させられる",
+      "detail": "undefined"
+  },
+  {
+      "name": "トリプル フィレッツ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 27
+          },
+          "mastery": [
+              "厨房師"
+          ],
+          "skill": [
+              {
+                  "name": "料理",
+                  "value": 30
+              }
+          ]
+      },
+      "delay": 1050,
+      "casttime": 150,
+      "info": "魚を捌くかのように対象を切る。料理スキル依存ダメージ。",
+      "detail": "undefined"
+  },
+  {
+      "name": "ネオ トルネード",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "skill": [
+              {
+                  "name": "戦闘技術",
+                  "value": 60
+              },
+              {
+                  "name": "キック",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 1250,
+      "casttime": 295,
+      "info": "周囲の敵を引き寄せ、蹴り飛ばす",
+      "detail": "undefined"
+  },
+  {
+      "name": "デストロイ ウェポン",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 28
+          },
+          "skill": [
+              {
+                  "name": "鍛冶",
+                  "value": 60
+              },
+              {
+                  "name": "暗黒命令",
+                  "value": 30
+              }
+          ]
+      },
+      "delay": 1150,
+      "casttime": 150,
+      "info": "ターゲットに少量のダメージを与え、武器の耐久度を大幅に減らす",
+      "detail": "undefined"
+  },
+  {
+      "name": "グレネード弾",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "skill": [
+              {
+                  "name": "銃器",
+                  "value": 90
+              },
+              {
+                  "name": "罠",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1500,
+      "casttime": 155,
+      "info": "対象に直撃するとその周囲を巻き込み燃え上がる",
+      "detail": "undefined"
+  },
+  {
+      "name": "ポイズン バイト",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "牙",
+                  "value": 70
+              },
+              {
+                  "name": "死の魔法",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1300,
+      "casttime": 150,
+      "info": "対象の体内に直接毒を注入する",
+      "detail": "undefined"
+  },
+  {
+      "name": "フェリング スラッシュ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 28
+          },
+          "skill": [
+              {
+                  "name": "伐採",
+                  "value": 30
+              },
+              {
+                  "name": "木工",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 800,
+      "casttime": 100,
+      "info": "伐採で鍛え上げられた肉体から繰り出される一撃（伐採斧専用）",
+      "detail": "undefined"
+  },
+  {
+      "name": "カオス ブレイカー",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 20
+          },
+          "item1": "武器",
+          "skill": [
+              {
+                  "name": "生命力",
+                  "value": 30
+              }
+          ]
+      },
+      "delay": 900,
+      "casttime": 200,
+      "info": "カオス生物に対して絶大な威力を持つ生命エネルギーを放つ技",
+      "detail": "undefined"
+  },
+  {
+      "name": "タイム ボム",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "skill": [
+              {
+                  "name": "罠",
+                  "value": 90
+              },
+              {
+                  "name": "薬調合",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 1300,
+      "casttime": 125,
+      "info": "時限式の爆弾を対象に設置する。制限時間内に解除できなければ大ダメージを受ける",
+      "detail": "undefined"
+  },
+  {
+      "name": "ギャラクシー ダイナマイト キック",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "mastery": [
+              "荒くれ者"
+          ],
+          "skill": [
+              {
+                  "name": "キック",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1225,
+      "casttime": 325,
+      "info": "世界の法則を無視するかの如く繰り出される移動可能な強烈ドロップキック。ヒット後は、アピールしないと気持ちが収まらない",
+      "detail": "undefined"
+  },
+  {
+      "name": "パワー インパクト",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "skill": [
+              {
+                  "name": "こんぼう",
+                  "value": 90
+              },
+              {
+                  "name": "筋力",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 1300,
+      "casttime": 195,
+      "info": "渾身の力で振り下ろし大地ごと周囲の敵を打ち砕く",
+      "detail": "undefined"
+  },
+  {
+      "name": "マジック ショット",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 39
+          },
+          "skill": [
+              {
+                  "name": "銃器",
+                  "value": 80
+              },
+              {
+                  "name": "破壊魔法",
+                  "value": 30
+              }
+          ]
+      },
+      "delay": 1300,
+      "casttime": 140,
+      "info": "魔法の弾を発射して直線上の敵を撃ち抜く",
+      "detail": "undefined"
+  },
+  {
+      "name": "一閃",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "skill": [
+              {
+                  "name": "刀剣",
+                  "value": 70
+              },
+              {
+                  "name": "自然調和",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 120,
+      "info": "一瞬で間合いを詰めて 敵を貫く",
+      "detail": "undefined"
+  },
+  {
+      "name": "バラージ ショット",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "skill": [
+              {
+                  "name": "弓",
+                  "value": 90
+              },
+              {
+                  "name": "キック",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 1300,
+      "casttime": 155,
+      "info": "強靭な脚力で飛び上がり、上空から前方の敵を一斉に射抜く",
+      "detail": "undefined"
+  },
+  {
+      "name": "ゲイル スラスト",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "skill": [
+              {
+                  "name": "槍",
+                  "value": 70
+              },
+              {
+                  "name": "強化魔法",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 125,
+      "info": "疾風の如き速さで 無数の突きを繰りだす",
+      "detail": "undefined"
+  },
+  {
+      "name": "フィニッシング エンド",
+      "required": {
+          "catalyst": {
+              "type": "エクスプロード ポーション",
+              "number": 1
+          },
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "mastery": [
+              "荒くれ者"
+          ],
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1800,
+      "casttime": 350,
+      "info": "パフォ依存。後方にいる悪を打ち倒すトドメの大爆発※爆発には火薬が必要",
+      "detail": "undefined"
+  },
+  {
+      "name": "フィニッシング エンド スパーク",
+      "required": {
+          "catalyst": {
+              "type": "エクスプロード ポーション",
+              "number": 1
+          },
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "mastery": [
+              "コスプレイヤー"
+          ],
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1800,
+      "casttime": 350,
+      "info": "パフォ依存。後方にいる悪を打ち倒すトドメの大爆発※爆発には火薬が必要",
+      "detail": "undefined"
+  },
+  {
+      "name": "パイ投げ",
+      "required": {
+          "catalyst": {
+              "type": "ショート ケーキ",
+              "number": 1
+          },
+          "cost": {
+              "type": "ST",
+              "value": 9
+          },
+          "skill": [
+              {
+                  "name": "料理",
+                  "value": 30
+              },
+              {
+                  "name": "投げ",
+                  "value": 10
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 110,
+      "info": "ケーキを対象の顔めがけて投げつける",
+      "detail": "undefined"
+  },
+  {
+      "name": "セット マイン",
+      "required": {
+          "catalyst": {
+              "type": "グレート エクスプロード ポーション",
+              "number": 1
+          },
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "skill": [
+              {
+                  "name": "罠",
+                  "value": 80
+              },
+              {
+                  "name": "薬調合",
+                  "value": 80
+              },
+              {
+                  "name": "呪文抵抗力",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 2000,
+      "casttime": 100,
+      "info": "地雷を設置することができる",
+      "detail": "undefined"
+  },
+  {
+      "name": "チャージ ショット",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "skill": [
+              {
+                  "name": "弓",
+                  "value": 90
+              },
+              {
+                  "name": "集中力",
+                  "value": 30
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 250,
+      "info": "力を込めた強力なショット",
+      "detail": "ガード貫通効果が追加された。191008"
+  },
+  {
+      "name": "ウォーター ストリーム",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "mastery": [
+              "海戦士"
+          ],
+          "skill": [
+              {
+                  "name": "槍",
+                  "value": 90
+              },
+              {
+                  "name": "水泳",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 1100,
+      "casttime": 170,
+      "info": "水を操り 敵を押し流す",
+      "detail": "undefined"
+  },
+  {
+      "name": "レッグ スラッシュ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 23
+          },
+          "skill": [
+              {
+                  "name": "刀剣",
+                  "value": 50
+              },
+              {
+                  "name": "知能",
+                  "value": 30
+              }
+          ]
+      },
+      "delay": 1100,
+      "casttime": 155,
+      "info": "両足を斬り付け動きを鈍らす※対象の移動速度上昇技を無効化させる",
+      "detail": "undefined"
+  },
+  {
+      "name": "酔避連撃",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 19
+          },
+          "mastery": [
+              "酔拳士"
+          ],
+          "skill": [
+              {
+                  "name": "酩酊",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 1460,
+      "casttime": 500,
+      "info": "酔拳の動きで相手を翻弄し 紙一重で相手の攻撃を避け強力な連続攻撃を繰り出す",
+      "detail": "undefined"
+  },
+  {
+      "name": "ゲイル シュート",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "skill": [
+              {
+                  "name": "キック",
+                  "value": 80
+              },
+              {
+                  "name": "筋力",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 950,
+      "casttime": 80,
+      "info": "高速で繰り出された蹴りから生じた 真空の刃が敵を襲う。反動で自らもダメージを受ける",
+      "detail": "undefined"
+  },
+  {
+      "name": "真・剣聖乱舞",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "skill": [
+              {
+                  "name": "刀剣",
+                  "value": 90
+              },
+              {
+                  "name": "戦闘技術",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 1100,
+      "casttime": 530,
+      "info": "刀剣攻撃の奥義。相手に素早い剣撃を浴びせかけ 上空からの攻撃で止めを刺す。途中で空振りすると 攻撃は止まってしまう",
+      "detail": "undefined"
+  },
+  {
+      "name": "レール ショット",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "skill": [
+              {
+                  "name": "投げ",
+                  "value": 90
+              },
+              {
+                  "name": "破壊魔法",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 1360,
+      "casttime": 160,
+      "info": "雷の電磁力を体内から腕へと巡らせ加速させた電磁力と共に 投てき武器を撃ちだす",
+      "detail": "undefined"
+  },
+  {
+      "name": "ドリル ディグ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "buff1": "採掘モード",
+          "item1": "ドリル アーム",
+          "skill": [
+              {
+                  "name": "採掘",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 950,
+      "casttime": 105,
+      "info": "手に装備したドリル アームで採掘を行う",
+      "detail": "undefined"
+  },
+  {
+      "name": "ヤンキー ウェイ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 28
+          },
+          "mastery": [
+              "チンピラ"
+          ],
+          "skill": [
+              {
+                  "name": "こんぼう",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 920,
+      "info": "肩が触れた対象を威嚇し理不尽な怒りを ぶちまける",
+      "detail": "undefined"
+  },
+  {
+      "name": "タライ落とし",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 23
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 50
+              },
+              {
+                  "name": "召喚魔法",
+                  "value": 20
+              }
+          ]
+      },
+      "delay": 1140,
+      "casttime": 250,
+      "info": "対象の頭上にタライを召喚し落とす",
+      "detail": "undefined"
+  },
+  {
+      "name": "ジャベリン スロウ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "skill": [
+              {
+                  "name": "槍",
+                  "value": 70
+              },
+              {
+                  "name": "投げ",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 1500,
+      "casttime": 130,
+      "info": "装備した槍を前方の敵めがけて 全力で投げる※対象を基準に 後方の敵も貫く　投げた武器は失ってしまう",
+      "detail": "191008の更新で武器が消滅せず（耐久大幅減）装備スロットから外れるように、ディレイ1.5倍に修正された。1000→1500"
+  },
+  {
+      "name": "火遁の術",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "mastery": [
+              "アサシン"
+          ],
+          "skill": [
+              {
+                  "name": "薬調合",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1080,
+      "casttime": 180,
+      "info": "口から巨大な火の玉を飛ばす忍術。炎ダメージと火傷によるスリップダメージを与える",
+      "detail": "undefined"
+  },
+  {
+      "name": "インパクト ウェーブ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "skill": [
+              {
+                  "name": "こんぼう",
+                  "value": 70
+              },
+              {
+                  "name": "集中力",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 180,
+      "info": "大地を振動させて 衝撃波を生み出し 周囲の敵を吹き飛ばす",
+      "detail": "undefined"
+  },
+  {
+      "name": "アロー レイン",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "mastery": [
+              "フォレスター"
+          ],
+          "skill": [
+              {
+                  "name": "弓",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 1100,
+      "casttime": 330,
+      "info": "上空に矢を放ち 無数の矢を雨のように降らす",
+      "detail": "undefined"
+  },
+  {
+      "name": "乱れ桜",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "mastery": [
+              "サムライ"
+          ],
+          "skill": [
+              {
+                  "name": "刀剣",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 300,
+      "info": "桜吹雪の幻影と共に 一瞬で敵の周囲を切りつける美技",
+      "detail": "undefined"
+  },
+  {
+      "name": "グレネード ブラスト",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "mastery": [
+              "傭兵"
+          ],
+          "skill": [
+              {
+                  "name": "銃器",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1800,
+      "casttime": 250,
+      "info": "ハンド グレネードを投げつける※爆発に巻き込まれ 自らもダメージを受ける",
+      "detail": "undefined"
+  },
+  {
+      "name": "アーマー ブレイク",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "skill": [
+              {
+                  "name": "こんぼう",
+                  "value": 90
+              },
+              {
+                  "name": "破壊魔法",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 1300,
+      "casttime": 190,
+      "info": "魔力を込めた一撃で対象の防御力を無効化して攻撃する",
+      "detail": "undefined"
+  },
+  {
+      "name": "練気弾",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 100
+          },
+          "mastery": [
+              "酔拳士"
+          ],
+          "skill": [
+              {
+                  "name": "酩酊",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 1650,
+      "casttime": 250,
+      "info": "酩酊依存？生命エネルギーを溜めて放つ。スタミナ消費は激しいが 無属性の魔法ダメージを与えることができる。",
+      "detail": "undefined"
+  },
+  {
+      "name": "スパイダー ネット",
+      "required": {
+          "catalyst": {
+              "type": "スパイダー シルク",
+              "number": 1
+          },
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "skill": [
+              {
+                  "name": "罠",
+                  "value": 80
+              },
+              {
+                  "name": "暗黒命令",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 1370,
+      "casttime": 170,
+      "info": "蜘蛛の糸を撃ちだし 絡めて動きを鈍らせる",
+      "detail": "undefined"
+  },
+  {
+      "name": "マナ スラスト",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 30
+          },
+          "skill": [
+              {
+                  "name": "槍",
+                  "value": 40
+              },
+              {
+                  "name": "精神力",
+                  "value": 30
+              }
+          ]
+      },
+      "delay": 1100,
+      "casttime": 135,
+      "info": "槍をマナの力で強化して 対象の防御を無効化する一撃を放つ",
+      "detail": "undefined"
+  },
+  {
+      "name": "ヴァンパイア ノクターン",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "mastery": [
+              "ブラッドバード"
+          ],
+          "skill": [
+              {
+                  "name": "音楽",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1250,
+      "casttime": 250,
+      "info": "ヴァンパイアをイメージした幻想的な歌。周囲の敵から生命力を吸い取る。",
+      "detail": "undefined"
+  },
+  {
+      "name": "ファイナル アルティメット ヒーロー ビーム",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "mastery": [
+              "コスプレイヤー"
+          ],
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1680,
+      "casttime": 400,
+      "info": "ピンチの時に使用できるヒーローの必殺技。技を受ける者に避けてはいけない雰囲気を与える。",
+      "detail": "※最大HPが3割以下で発動可能"
+  },
+  {
+      "name": "クロスファイヤー ボム",
+      "required": {
+          "catalyst": {
+              "type": "グレート エクスプロード ポーション",
+              "number": 1
+          },
+          "cost": {
+              "type": "ST",
+              "value": 21
+          },
+          "mastery": [
+              "爆弾男"
+          ],
+          "skill": [
+              {
+                  "name": "罠",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 340,
+      "casttime": 60,
+      "info": "お手製の特殊な爆弾を設置する。",
+      "detail": "※自分が爆発の範囲内にいた場合はダメージを受ける。※範囲内に他の爆弾がある場合は誘爆する。※スキル値が高いほど、威力や射程が増加する。"
+  },
+  {
+      "name": "ヒドゥン ショット",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 28
+          },
+          "mastery": [
+              "フォレスター"
+          ],
+          "skill": [
+              {
+                  "name": "弓",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 1100,
+      "casttime": 150,
+      "info": "一発目と同じ軌道で 防御不能な見えない二発目を射る。",
+      "detail": "undefined"
+  },
+  {
+      "name": "雷光弾",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "buff1": "ライトニング ブレイド（神秘魔法90）",
+          "skill": [
+              {
+                  "name": "銃器",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 140,
+      "info": "ライトニング ブレイド の効果を込めて放つ魔弾",
+      "detail": "発動後もLBの効果が残るように修正された。"
+  },
+  {
+      "name": "マインド ショット",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "精神力",
+                  "value": 70
+              },
+              {
+                  "name": "知能",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 1380,
+      "casttime": 180,
+      "info": "マナを一点に集約させて弾丸のように放つ技",
+      "detail": "undefined"
+  },
+  {
+      "name": "バックハンド チョップ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 15
+          },
+          "mastery": [
+              "荒くれ者"
+          ],
+          "skill": [
+              {
+                  "name": "素手",
+                  "value": 30
+              }
+          ]
+      },
+      "delay": 980,
+      "casttime": 120,
+      "info": "対象の胸元めがけて 水平にチョップする。",
+      "detail": "undefined"
+  },
+  {
+      "name": "睡眠ガス弾",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "skill": [
+              {
+                  "name": "銃器",
+                  "value": 70
+              },
+              {
+                  "name": "薬調合",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 1500,
+      "casttime": 155,
+      "info": "対象に直撃すると その周囲に強力な眠り効果のあるガスを噴出させる。",
+      "detail": "undefined"
+  },
+  {
+      "name": "アブストラクション ショット",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "skill": [
+              {
+                  "name": "弓",
+                  "value": 80
+              },
+              {
+                  "name": "呪文抵抗力",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 160,
+      "info": "詠唱妨害効果のある矢を放つ",
+      "detail": "undefined"
+  },
+  {
+      "name": "パリィ カウンター",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "skill": [
+              {
+                  "name": "槍",
+                  "value": 80
+              },
+              {
+                  "name": "戦闘技術",
+                  "value": 80
+              },
+              {
+                  "name": "攻撃回避",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 1300,
+      "casttime": 95,
+      "info": "敵の攻撃を槍で受け流して反撃する",
+      "detail": "undefined"
+  },
+  {
+      "name": "ヘビー クラッシュ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "skill": [
+              {
+                  "name": "こんぼう",
+                  "value": 70
+              },
+              {
+                  "name": "戦闘技術",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 180,
+      "info": "重量を生かした強烈な一撃。",
+      "detail": "※武器の重さでダメージ倍率が変動"
+  },
+  {
+      "name": "カース オブ デス",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "skill": [
+              {
+                  "name": "暗黒命令",
+                  "value": 90
+              },
+              {
+                  "name": "死の魔法",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 3200,
+      "casttime": 200,
+      "info": "対象に死の呪いを与える。呪いを受けた者は90秒後に即死級のダメージを受ける",
+      "detail": "※発動中は移動不可な上に攻撃範囲がせまいため、動き回っている敵には当てにくい。"
+  },
+  {
+      "name": "龍気発勁",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "skill": [
+              {
+                  "name": "素手",
+                  "value": 80
+              },
+              {
+                  "name": "精神力",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 1000,
+      "casttime": 200,
+      "info": "大地に流れる気を集めて放出する技",
+      "detail": "undefined"
+  },
+  {
+      "name": "アシッド レイン",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 28
+          },
+          "mastery": [
+              "ドルイド"
+          ],
+          "skill": [
+              {
+                  "name": "自然調和",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 1700,
+      "casttime": 280,
+      "info": "天に祈りを捧げて 強酸性の雨を降らせ、対象の防御力を低下させる。",
+      "detail": "undefined"
+  },
+  {
+      "name": "ツイン ショット",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "skill": [
+              {
+                  "name": "銃器",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 900,
+      "casttime": 140,
+      "info": "ガンファイター ハンドガン(片手銃)を装備時のみ発動可能・両手装備時は2連攻撃となる。",
+      "detail": "undefined"
+  },
+  {
+      "name": "ヴフト シュトース",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "buff1": "ヴァイス",
+          "item1": "ヴァール グランツ オハン",
+          "skill": [
+              {
+                  "name": "盾",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 900,
+      "casttime": 170,
+      "info": "対象の攻撃を受け流して 所持している武器で鋭く突き刺す。",
+      "detail": "undefined"
+  },
+  {
+      "name": "回転斬り",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "skill": [
+              {
+                  "name": "刀剣",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 1300,
+      "casttime": 160,
+      "info": "リヴァイが得意とする高速回転切り。※空中で発動可能",
+      "detail": "undefined"
+  },
+  {
+      "name": "フルスウィング",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "skill": [
+              {
+                  "name": "こんぼう",
+                  "value": 90
+              },
+              {
+                  "name": "集中力",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 1500,
+      "casttime": 240,
+      "info": "構えた武器を渾身の力で振りぬき吹き飛ばす。",
+      "detail": "undefined"
+  },
+  {
+      "name": "居合斬り",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "mastery": [
+              "サムライ"
+          ],
+          "skill": [
+              {
+                  "name": "刀剣",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 1500,
+      "casttime": 180,
+      "info": "異国の剣士が編み出した秘奥義の一つ。対象の装甲を貫く目にも止まらぬ音速の一撃。",
+      "detail": "undefined"
+  },
+  {
+      "name": "ブレイク ダンス",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "skill": [
+              {
+                  "name": "ダンス",
+                  "value": 80
+              },
+              {
+                  "name": "持久力",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 480,
+      "info": "高度な技術と身体能力が必要なストリートダンス。ウィンドミルからのヘッドスピンにより周囲の敵を蹴散らす。",
+      "detail": "undefined"
+  },
+  {
+      "name": "インフィニティ ラッシュ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "skill": [
+              {
+                  "name": "キック",
+                  "value": 90
+              },
+              {
+                  "name": "筋力",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 1700,
+      "casttime": 200,
+      "info": "前方の敵に対して無数の蹴りを高速で繰り出す技。※最大で5HITする",
+      "detail": "undefined"
+  },
+  {
+      "name": "ムーンサルト ブレイカー",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "item1": "両手武器",
+          "skill": [
+              {
+                  "name": "筋力",
+                  "value": 90
+              },
+              {
+                  "name": "戦闘技術",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 1350,
+      "casttime": 150,
+      "info": "上空から回転の力を加えた強烈な一撃を対象の脳天めがけて打ち下ろす。※発動するには両手武器が必要",
+      "detail": "undefined"
+  },
+  {
+      "name": "インバース トルネード",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "skill": [
+              {
+                  "name": "キック",
+                  "value": 80
+              },
+              {
+                  "name": "攻撃回避",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 1650,
+      "casttime": 150,
+      "info": "逆さになって開脚した状態で高速回転する技",
+      "detail": "undefined"
+  },
+  {
+      "name": "ウォーター バズーカ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "buff1": "ウォーター チャージ",
+          "item1": "ウォーター バズーカ",
+          "skill": [
+              {
+                  "name": "銃器",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 480,
+      "casttime": 120,
+      "info": "水鉄砲の水を勢い良く飛ばす専用技",
+      "detail": "undefined"
+  },
+  {
+      "name": "ライジング ドラゴン",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 30
+          },
+          "buff1": "封印されし龍神",
+          "item1": "龍神の籠手",
+          "skill": [
+              {
+                  "name": "素手",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 1300,
+      "casttime": 180,
+      "info": "右腕に封印された龍神の力を解放して大ダメージを与える。",
+      "detail": "undefined"
+  },
+  {
+      "name": "功夫乱舞",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 30
+          },
+          "skill": [
+              {
+                  "name": "素手",
+                  "value": 80
+              },
+              {
+                  "name": "キック",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 1600,
+      "casttime": 280,
+      "info": "拳と蹴りによる華麗な舞で周囲の敵を蹴散らす連撃",
+      "detail": "undefined"
+  },
+  {
+      "name": "双棍乱舞",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "item1": "片手棍棒",
+          "skill": [
+              {
+                  "name": "こんぼう",
+                  "value": 90
+              },
+              {
+                  "name": "戦闘技術",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 1600,
+      "casttime": 500,
+      "info": "左右の棍棒から繰りだす連続攻撃",
+      "detail": "※全ての攻撃を発動させるには左右に片手棍棒を装備している必要があります。"
+  },
+  {
+      "name": "インフィニット スラスト",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "item1": "片手槍",
+          "skill": [
+              {
+                  "name": "槍",
+                  "value": 90
+              },
+              {
+                  "name": "攻撃回避",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 1350,
+      "casttime": 200,
+      "info": "目にも留まらぬ高速の連続突きで敵を翻弄する。",
+      "detail": "191009の更新で倍率が0.3倍から0.35倍に、範囲が調整された。"
+  },
+  {
+      "name": "ステークス ブロー",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "skill": [
+              {
+                  "name": "こんぼう",
+                  "value": 90
+              },
+              {
+                  "name": "戦闘技術",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 1500,
+      "casttime": 200,
+      "info": "隙は大きいが渾身の力を込めて放つ一か八かの一撃。※0.5～3.0倍の範囲で倍率が変動",
+      "detail": "191009の更新で倍率が0.1倍～2.0倍から0.5倍～3.0倍に変更された。"
+  },
+  {
+      "name": "アサシネイト",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "mastery": [
+              "アサシン"
+          ],
+          "skill": [
+              {
+                  "name": "刀剣",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 2000,
+      "casttime": 120,
+      "info": "敵に気づかれずに背後から攻撃することで大ダメージを与える暗殺術。背後以外から攻撃出来ない",
+      "detail": "undefined"
+  },
+  {
+      "name": "レイジブロー",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 9
+          },
+          "item1": "両手剣",
+          "skill": [
+              {
+                  "name": "刀剣",
+                  "value": 10
+              },
+              {
+                  "name": "戦闘技術",
+                  "value": 10
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 150,
+      "info": "踏み込みと共に両手剣で斬り裂く攻撃",
+      "detail": "undefined"
+  },
+  {
+      "name": "バックスタブ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 15
+          },
+          "skill": [
+              {
+                  "name": "刀剣",
+                  "value": 30
+              },
+              {
+                  "name": "盗み",
+                  "value": 30
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 120,
+      "info": "相手の背後から片手剣を急所に突き刺し、ダメージを与える。背後以外から発動できない",
+      "detail": "undefined"
+  },
+  {
+      "name": "刈り払い",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 19
+          },
+          "mastery": [
+              "フォレスター"
+          ],
+          "skill": [
+              {
+                  "name": "刀剣",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 800,
+      "casttime": 120,
+      "info": "防具の隙間を素早く横に薙ぎ払うように斬りつける",
+      "detail": "undefined"
+  },
+  {
+      "name": "ヘイトレッド",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 19
+          },
+          "skill": [
+              {
+                  "name": "刀剣",
+                  "value": 40
+              },
+              {
+                  "name": "暗黒命令",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 200,
+      "info": "勢いよく踏み込むと共に剣を上から振り下ろす攻撃",
+      "detail": "undefined"
+  },
+  {
+      "name": "サイコキャノン",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 60
+          },
+          "buff1": "サイコチャージ",
+          "item1": "ノアガン アーム",
+          "skill": [
+              {
+                  "name": "精神力",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 1080,
+      "casttime": 180,
+      "info": "ノアガンアームにチャージされたノアストーンのエネルギーを放出する",
+      "detail": "※精神スキルで消費MPが軽減される。サイコチャージのバフはMP自然回復量が少し上がる。"
+  },
+  {
+      "name": "ギガンテック ウェポン",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 39
+          },
+          "item1": "両手武器",
+          "skill": [
+              {
+                  "name": "精神力",
+                  "value": 80
+              },
+              {
+                  "name": "戦闘技術",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 1500,
+      "casttime": 180,
+      "info": "魔法の力で武器を巨大化して一刀両断にする技",
+      "detail": "※発動するためには両手持ちの近接武器が必要。装備している武器が巨大化する。"
+  },
+  {
+      "name": "トラップ ボックス",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 23
+          },
+          "skill": [
+              {
+                  "name": "罠",
+                  "value": 50
+              },
+              {
+                  "name": "暗黒命令",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 2150,
+      "casttime": 150,
+      "info": "近寄った者を襲う人食い宝箱を設置する",
+      "detail": "undefined"
+  },
+  {
+      "name": "インファリブル スロウ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "mastery": [
+              "アサシン"
+          ],
+          "skill": [
+              {
+                  "name": "投げ",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1380,
+      "casttime": 110,
+      "info": "3連続で対象に向かって魔力を帯びた投擲武器を投げつけ、障害物で遮られても必ず当てることが出来る技",
+      "detail": "※シールドガード等の技によって防ぐことは可能"
+  },
+  {
+      "name": "張り手",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 28
+          },
+          "buff1": "力士",
+          "item1": "スモウ スーツ",
+          "skill": [
+              {
+                  "name": "素手",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 1000,
+      "casttime": 160,
+      "info": "両腕から強烈な張り手を繰り出して敵を押し出す",
+      "detail": "※力士バフ＝鍛え上げられた肉体による攻撃力上昇効果と分厚い脂肪によるダメージ軽減効果を併せ持つ"
+  },
+  {
+      "name": "水遁の術",
+      "required": {
+          "catalyst": {
+              "type": "サモンス ウォーター",
+              "number": 1
+          },
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "mastery": [
+              "アサシン"
+          ],
+          "skill": [
+              {
+                  "name": "自然調和",
+                  "value": 80
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 20
+              }
+          ]
+      },
+      "delay": 1000,
+      "casttime": 160,
+      "info": "少量の水を触媒にして大量の水を口から吐き出す忍術。水属性ダメージと水圧によるノックバック効果を与える",
+      "detail": "undefined"
+  },
+  {
+      "name": "インファリブル ショット",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "skill": [
+              {
+                  "name": "銃器",
+                  "value": 80
+              },
+              {
+                  "name": "戦闘技術",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 1500,
+      "casttime": 140,
+      "info": "敵を捉えて狙い撃つことで確実に当てることができる技。※狙いが外れていた（ミスザマーク）場合は当たらない",
+      "detail": "undefined"
+  },
+  {
+      "name": "チューチュー ドレイン",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 19
+          },
+          "buff1": "モスキート スナッチ",
+          "item1": "モスキート フェイスガード",
+          "skill": [
+              {
+                  "name": "牙",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 150,
+      "info": "頭に付いた口吻を突き刺して血を吸いスタミナに変換する。※WarAgeでは効果が無い",
+      "detail": "undefined"
+  },
+  {
+      "name": "炎遁の術",
+      "required": {
+          "catalyst": {
+              "type": "GEP",
+              "number": 1
+          },
+          "cost": {
+              "type": "ST",
+              "value": 39
+          },
+          "buff1": "秘奥義",
+          "item1": "秘伝の巻物",
+          "mastery": [
+              "アサシン"
+          ],
+          "skill": [
+              {
+                  "name": "薬調合",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 1680,
+      "casttime": 150,
+      "info": "口から巨大な炎の塊を飛ばす忍術。対象に火属性の魔法ダメージを与える。",
+      "detail": "火遁よりも射程が長くダメージも大きい(約1.7倍)。移動不可。"
+  },
+  {
+      "name": "タンク キャノン",
+      "required": {
+          "catalyst": {
+              "type": "弾(種類問わず)",
+              "number": 1
+          },
+          "cost": {
+              "type": "ST",
+              "value": 10
+          },
+          "buff1": "戦車リュック",
+          "item1": "戦車リュック",
+          "skill": [
+              {
+                  "name": "筋力",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 1320,
+      "casttime": 120,
+      "info": "背中に仕込んだ放題から弾を発射する",
+      "detail": "筋力スキルに依存して威力が上がる。"
+  },
+  {
+      "name": "グラビティ ダーク",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "skill": [
+              {
+                  "name": "暗黒命令",
+                  "value": 90
+              },
+              {
+                  "name": "死の魔法",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 1500,
+      "casttime": 150,
+      "info": "暗黒の力で対象の動きを止めて、最大HP20％分の魔法ダメージを与える※最大で200ダメージを与える",
+      "detail": "3秒移動・テク不可。防御テク(DS、マジガなど)で防げない。わさび・MRP・スワン解除不可。"
+  },
+  {
+      "name": "オーラ ナックル",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "mastery": [
+              "酔拳士",
+              "荒くれ者"
+          ],
+          "skill": [
+              {
+                  "name": "素手",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 140,
+      "info": "気を拳に集中させて威力を高めた一撃を放つ※ダメージ反射効果を無効化してダメージを与える※シールド ガードを貫通することはできない",
+      "detail": "PC、NPCともに倍率1.6。PA・ソーン・パニ・百花・SD・WGなどで防御不可。"
+  },
+  {
+      "name": "漆黒の瘴気",
+      "required": {
+          "buff1": "憑神の力",
+          "item1": "憑神",
+          "cost": {
+              "type": "ST",
+              "value": 30
+          },
+          "skill": [
+              {
+                  "name": "暗黒命令",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 1400,
+      "casttime": 160,
+      "info": "漆黒の瘴気が対象を包み、防御力と魔法抵抗力を低下させる。※プレイヤーには効果が無い",
+      "detail": "魔法ダメージ。効果時間は暗黒命令スキルがいくつでも16秒固定。計測対象ささみ 魔法ダメージ68 AC-68.6 全抵抗-41.5"
+  },
+  {
+      "name": "助けて！なのはさん",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 78
+          },
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 78
+              }
+          ]
+      },
+      "delay": 7800,
+      "casttime": 200,
+      "info": "ミッドチルダ式魔導を扱う空戦魔導師「高町なのは」を呼び出して助けてもらえる※一度だけ「ディバインバスター」で攻撃してくれます※WarAgeでは呼び出せません",
+      "detail": "2018年2月の魔法少女リリカルなのはReflectionのコラボテク。かかれをするとディバインバスターで攻撃して帰る。実は召喚0でも呼び出せる。"
+  },
+  {
+      "name": "グランド インパクト",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "skill": [
+              {
+                  "name": "素手",
+                  "value": 80
+              },
+              {
+                  "name": "筋力",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 1800,
+      "casttime": 200,
+      "info": "力を込めた一撃が地面を伝わって広がり周囲にいる敵にダメージを与える",
+      "detail": "筋力非依存の範囲魔法ダメージ。抵抗でダメージ軽減。盾やDSなどで防げない。武器を装備していても発動可。"
+  },
+  {
+      "name": "魔王玉",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 30
+          },
+          "skill": [
+              {
+                  "name": "暗黒命令",
+                  "value": 42
+              },
+              {
+                  "name": "戦闘技術",
+                  "value": 42
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 240,
+      "info": "魔力の象徴である炎球を自在に操るラハールの必殺技",
+      "detail": "2018年ディスガイアのコラボテクニック。DoTで火抵抗で軽減。PC相手には発動しなくなった。"
+  },
+  {
+      "name": "プリニー落とし",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 10
+          },
+          "skill": [
+              {
+                  "name": "投げ",
+                  "value": 8
+              },
+              {
+                  "name": "暗黒命令",
+                  "value": 8
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 180,
+      "info": "その技のために一体どれだけのプリニーを犠牲にしたんだァッー！",
+      "detail": "2018年ディスガイアのコラボテクニック。射程は20程度のDoT。範囲は2キャラ程度。投げ98でヘルミナに110ダメージ。"
+  },
+  {
+      "name": "ラブナックル",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 12
+          },
+          "skill": [
+              {
+                  "name": "素手",
+                  "value": 8
+              },
+              {
+                  "name": "生命力",
+                  "value": 8
+              }
+          ]
+      },
+      "delay": 1050,
+      "casttime": 180,
+      "info": "ただ全力で放つ愛の拳！この気持ち！まさしく愛です！",
+      "detail": "2018年ディスガイアのコラボテクニック。PC倍率1.1、NPC倍率1.3。対象に一瞬足止めのデバフがつく。"
+  },
+  {
+      "name": "フォーリン アロー",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 48
+          },
+          "skill": [
+              {
+                  "name": "弓",
+                  "value": 42
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 42
+              }
+          ]
+      },
+      "delay": 1300,
+      "casttime": 155,
+      "info": "イエス！フォーリンアロー！",
+      "detail": "2018年ディスガイアのコラボテクニック。タゲ不要の範囲テク。ミス有り。かかしLv1にATK149で物理ダメージ96前後。追加ダメージは物理ダメージの約半分。"
+  },
+  {
+      "name": "爆弾ノック",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 10
+          },
+          "skill": [
+              {
+                  "name": "こんぼう",
+                  "value": 8
+              },
+              {
+                  "name": "罠",
+                  "value": 8
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 130,
+      "info": "伝説のバッター、現る",
+      "detail": "2018年ディスガイアのコラボテクニック。遠距離の魔法ダメージ。バーサクなどは乗らない。ダメージはこんぼうスキル依存。"
+  },
+  {
+      "name": "コンビネーション ラッシュ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 39
+          },
+          "skill": [
+              {
+                  "name": "素手",
+                  "value": 80
+              },
+              {
+                  "name": "攻撃回避",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 1300,
+      "casttime": 140,
+      "info": "隙の少ない連打で確実に対象へダメージを与える",
+      "detail": "発動中移動可能。倍率1.0の必中物理ダメージ。"
+  },
+  {
+      "name": "フット スウィープ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 19
+          },
+          "skill": [
+              {
+                  "name": "キック",
+                  "value": 40
+              },
+              {
+                  "name": "戦闘技術",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 725,
+      "casttime": 75,
+      "info": "低い姿勢から素早く足を払い、相手を転倒させて隙をつくる",
+      "detail": "キック100でささみに平均66.2ダメージ。射程はサイドキック程度。回避を下げるデバフが付くが効果時間が短い。 "
+  },
+  {
+      "name": "毒霧",
+      "required": {
+          "catalyst": {
+              "type": "練りワサビ",
+              "number": 1
+          },
+          "cost": {
+              "type": "ST",
+              "value": 28
+          },
+          "mastery": [
+              "荒くれ者"
+          ],
+          "skill": [
+              {
+                  "name": "素手",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 1050,
+      "casttime": 150,
+      "info": "口に含んだ特殊な液体を対象の顔めがけて吹きかけて視界を奪う",
+      "detail": "移動可能なターゲット不要の範囲攻撃。必中・ガード不可の4回のDoT毒ダメージと命中率低下効果が付く。毒を解除する方法で解除可。地属性で軽減。"
+  },
+  {
+      "name": "バラージ ファイア",
+      "required": {
+          "buff1": "支援ユニット",
+          "item1": "ジョイント アーム ウェポン",
+          "cost": {
+              "type": "ST",
+              "value": 20
+          },
+          "skill": [
+              {
+                  "name": "銃器",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 1600,
+      "casttime": 120,
+      "info": "対象に集中砲火を浴びせてダメージを与える※銃器スキルが高いほどダメージが増加する",
+      "detail": "8回のDoT。抵抗でダメージ軽減。DoT一回のダメージは3（半減レジスト）～30の間くらい？"
+  },
+  {
+      "name": "ブレイン ブレイカー",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "mastery": [
+              "デュエリスト"
+          ],
+          "skill": [
+              {
+                  "name": "槍",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 1500,
+      "casttime": 150,
+      "info": "高速で無数の突きを繰り出し、対象のMPを削り取る",
+      "detail": "移動発動不可。対象に回避可能なHPダメージ1回（対人0.7倍）とMPダメージ6回が同時に発生。発生は速い。HPダメージは盾可能。"
+  },
+  {
+      "name": "アンガー スウィープ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "skill": [
+              {
+                  "name": "銃器",
+                  "value": 90
+              },
+              {
+                  "name": "戦闘技術",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 1800,
+      "casttime": 200,
+      "info": "怒りにまかせて前方の敵に対して薙ぎ払うように銃を連射する※発動には弾が最大5発必要※狙いを定めないため、攻撃中は命中率が低下する",
+      "detail": "移動可能のターゲット不要範囲テク。弾の効果は乗らず、ノックバックあり、盾貫通。レンジ11.8。武器耐久6回分消費。命中率は50%程度ダウン。倍率0.4。"
+  },
+  {
+      "name": "ブラッド ドロー",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 10
+          },
+          "buff1": "白衣の天使",
+          "item1": "ナース ウェア・ナース キャップ",
+          "skill": [
+              {
+                  "name": "包帯",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 1100,
+      "casttime": 120,
+      "info": "注射で対象の血液を採取する※HPとMPを吸収する",
+      "detail": "HPとMPの魔法ダメージ。射程5、包帯スキル値で効果が増減。対ささみ：包帯0 20～26、包帯60 40～44、包帯90 49～53。対カカシ50：42～45。対カカシ100：包帯90 38～40。"
+  },
+  {
+      "name": "ディメンター ソウル",
+      "delay": 2000,
+      "casttime": 200,
+      "info": "周囲に物理ダメージを与えて、与えたダメージの25%分のマナを回復する",
+      "detail": "死魔依存の必中かもしれない範囲近接物理テクニック。ACで軽減。2018/12/18のメンテナンスでイビルナイトでも使えるようになった。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "mastery": [
+              "ネクロマンサー",
+              "イビルナイト"
+          ],
+          "skill": [
+              {
+                  "name": "死の魔法",
+                  "value": 70
+              }
+          ]
+      }
+  },
+  {
+      "name": "サウザンド スラッシュ",
+      "casttime": 120,
+      "delay": 1000,
+      "info": "無数の刃が食材を切り刻む※発動には刀剣武器が必要です。※対象は収穫可能なオブジェクト（Mob）のみです。",
+      "detail": "収穫可能な対象物に10ダメージ*10回。ダメージは固定。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "item1": "刀剣",
+          "skill": [
+              {
+                  "name": "料理",
+                  "value": 60
+              }
+          ]
+      }
+  },
+  {
+      "name": "雷光十字剣",
+      "casttime": 180,
+      "delay": 1500,
+      "info": "左の初撃で対象の動きを止めて右の追撃で雷ダメージを与える※発動には左右に刀剣武器を装備する必要がある",
+      "detail": "宮殿儀式100回報酬。左手と右手の刀剣で攻撃する。麻痺の追加効果あり。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "item1": "左右に刀剣",
+          "skill": [
+              {
+                  "name": "刀剣",
+                  "value": 90
+              },
+              {
+                  "name": "精神力",
+                  "value": 40
+              }
+          ]
+      }
+  },
+  {
+      "name": "大切断",
+      "casttime": 140,
+      "delay": 1350,
+      "info": "大木を切り倒すような強力な一撃で敵を斬りつける",
+      "detail": "宮殿転生100回報酬。ノックバックあり。ダメージ倍率1.5倍。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "skill": [
+              {
+                  "name": "刀剣",
+                  "value": 70
+              },
+              {
+                  "name": "筋力",
+                  "value": 80
+              }
+          ]
+      }
+  },
+  {
+      "name": "ディスポイル",
+      "casttime": 120,
+      "delay": 1800,
+      "info": "対象に物理ダメージを与え、さらにアイテムを盗むことができる。※対象のHPが少ないほど成功率が上がります",
+      "detail": "盗めるのはスティール枠。ダメージ量はATKに依存。投げのダメージ仕様と同じ模様。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 19
+          },
+          "skill": [
+              {
+                  "name": "盗み",
+                  "value": 40
+              },
+              {
+                  "name": "筋力",
+                  "value": 50
+              }
+          ]
+      }
+  },
+  {
+      "name": "火竜の咆哮",
+      "casttime": 150,
+      "delay": 1550,
+      "info": "口から灼熱の炎のブレスを放つ",
+      "detail": "2019年2月のFAIRY TAILコラボテクニック。お酒のいらないフレイムブレス。ダメージは生命力依存？の4回ダメージの単体技。",
+      "range": 15,
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "skill": [
+              {
+                  "name": "生命力",
+                  "value": 70
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 20
+              }
+          ]
+      }
+  },
+  {
+      "name": "火竜の鉄拳",
+      "casttime": 90,
+      "delay": 1200,
+      "info": "炎を纏った拳で敵を殴りつける ※ドラゴンタイプに特効効果あり",
+      "detail": "2019年2月のFAIRY TAILコラボテクニック。右手に素手武器を装備していないと発動しない。一瞬技名のバフが点灯するのでバフ枠に注意。ATK1倍＋ATK0.6倍の魔法ダメージ。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 23
+          },
+          "skill": [
+              {
+                  "name": "素手",
+                  "value": 50
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 20
+              }
+          ]
+      }
+  },
+  {
+      "name": "天輪・繚乱の剣",
+      "casttime": 220,
+      "delay": 1500,
+      "info": "すれ違い様に、無数の刃が対象を連続で切り裂く ※発動には左右に刀剣武器を装備する必要がある",
+      "detail": "2019年2月のFAIRY TAILコラボテクニック。1回の物理ダメージ＋6回のDoT魔法ダメージ。AC軽減。カカシLv1にATK125で113+22*6、ATK181で170+32*6ダメージ。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "mastery": [
+              "ウォーリアー",
+              "サムライ",
+              "騎士（ザ・ナイト）"
+          ],
+          "item1": "左右の刀剣",
+          "skill": [
+              {
+                  "name": "刀剣",
+                  "value": 90
+              }
+          ]
+      }
+  },
+  {
+      "name": "フライング ボディプレス",
+      "casttime": 160,
+      "delay": 1200,
+      "info": "空高く飛び上がり対象に自身の体を浴びせる技 発動に必要なBuff : 荒くれ者 マスタリー",
+      "detail": "自分中心ターゲット不要移動可の3ヒット範囲技。ノックバックあり。",
+      "range": 4,
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "mastery": [
+              "荒くれ者"
+          ],
+          "skill": [
+              {
+                  "name": "素手",
+                  "value": 70
+              }
+          ]
+      }
+  },
+  {
+      "name": "ローリング ラリアット",
+      "casttime": 160,
+      "delay": 1200,
+      "info": "軸足を中心に独楽のように回転しながら相手の首元にラリアットを決める",
+      "detail": "自分中心ターゲット不要移動可範囲技。",
+      "range": 4,
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "skill": [
+              {
+                  "name": "素手",
+                  "value": 80
+              },
+              {
+                  "name": "キック",
+                  "value": 80
+              }
+          ]
+      }
+  },
+  {
+      "name": "アクア ダイブ",
+      "casttime": 180,
+      "delay": 1250,
+      "info": "水の力を纏った状態で大ジャンプを行い、頭上めがけて槍を突き刺し水属性の追加ダメージを与える",
+      "detail": "ドラゴンフォールのモーションで物理ダメージ＋水属性魔法ダメージ3回。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "skill": [
+              {
+                  "name": "槍",
+                  "value": 70
+              },
+              {
+                  "name": "水泳",
+                  "value": 40
+              }
+          ]
+      }
+  },
+  {
+      "name": "ドラゴン テイル ウィップ",
+      "casttime": 150,
+      "delay": 950,
+      "info": "回転しながら尻尾で周囲の敵を薙ぎ払う※竜化状態の時のみ使用可能※筋力スキルは足りなくても発動可能",
+      "detail": "筋力依存の物理範囲攻撃。竜眼の指輪の装備バフ『竜化の秘宝』中に使える『ドラゴン フォース』バフが必要。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 23
+          },
+          "buff1": "ドラゴン フォース",
+          "item1": "竜眼の指輪",
+          "skill": [
+              {
+                  "name": "筋力",
+                  "value": 50
+              }
+          ]
+      }
+  },
+  {
+      "name": "ダーティ スロウ",
+      "casttime": 120,
+      "delay": 800,
+      "info": "対象に汚物と共に投げつけて追加で毒ダメージを与える",
+      "detail": "ヽ( ・∀・)ﾉ● ｳﾝｺｰ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 19
+          },
+          "catalyst": {
+              "type": "投げ武器",
+              "number": 1
+          },
+          "skill": [
+              {
+                  "name": "投げ",
+                  "value": 30
+              },
+              {
+                  "name": "薬調合",
+                  "value": 30
+              }
+          ]
+      }
+  },
+  {
+      "name": "ファイヤー バード",
+      "casttime": 200,
+      "delay": 1500,
+      "info": "不死鳥の炎を身に纏い、両腕を広げて突進して前方に火属性のダメージを与える技 発動に必要なBuff : 不死鳥の力",
+      "detail": "ターゲット不要の前方扇状の範囲攻撃。ダメージは生命依存。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 23
+          },
+          "buff1": "不死鳥の力",
+          "item1": "フェニックスヒーロー装備",
+          "skill": [
+              {
+                  "name": "生命力",
+                  "value": 50
+              }
+          ]
+      }
+  },
+  {
+      "name": "落石トラップ",
+      "casttime": 100,
+      "delay": 2000,
+      "info": "落石注意の看板を設置して、周囲に落石を発生させる",
+      "detail": "落石注意の看板が設置され、およそ1分かけて6回の落石による範囲攻撃。 ダメージは罠スキル依存。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "skill": [
+              {
+                  "name": "罠",
+                  "value": 70
+              },
+              {
+                  "name": "自然調和",
+                  "value": 50
+              }
+          ]
+      }
+  },
+  {
+      "name": "プロメテウスの炎",
+      "casttime": 130,
+      "delay": 450,
+      "info": "杖の力を借りて炎の玉を放つ ※スキルが足りなくても発動可能、破壊魔法スキルで威力が上がる 発動に必要なBuff : 火神の力",
+      "detail": "魔力依存なし。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 22
+          },
+          "buff1": "火神の力",
+          "item1": "イグニス ロッド",
+          "skill": [
+              {
+                  "name": "破壊魔法",
+                  "value": 1
+              }
+          ]
+      }
+  },
+  {
+      "name": "無限風刃",
+      "casttime": 180,
+      "delay": 1400,
+      "info": "無数の風の刃を放ち対象を切り刻む ※使用には スロウ系ナイフ が必要となります。 使用アイテム : スロウ系ナイフ",
+      "detail": "対象に投げスキル値依存の風属性ダメージを5回与える。投げられるものなら何でも使用可。『叛逆性ミリオンアーサー』コラボのコラボテクニック。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "item1": "スロウ系ナイフ",
+          "skill": [
+              {
+                  "name": "投げ",
+                  "value": 80
+              },
+              {
+                  "name": "戦闘技術",
+                  "value": 60
+              }
+          ]
+      }
+  },
+  {
+      "name": "スティール ハート ショット",
+      "casttime": 140,
+      "delay": 1200,
+      "info": "ハートの矢で対象を射抜きHPを吸収する",
+      "detail": "与えたダメージと同じ量のHPを回復する。『叛逆性ミリオンアーサー』コラボのコラボテクニック。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "skill": [
+              {
+                  "name": "弓",
+                  "value": 70
+              },
+              {
+                  "name": "盗み",
+                  "value": 30
+              }
+          ]
+      }
+  },
+  {
+      "name": "鮪型魚雷",
+      "casttime": 150,
+      "delay": 1050,
+      "info": "追尾式の鮪型魚雷を操り敵を撃沈する ※地上でも発動可能です",
+      "detail": "召喚ペット枠ではないマグロをぶつけて火属性の範囲魔法ダメージ。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 28
+          },
+          "mastery": [
+              "海戦士"
+          ],
+          "skill": [
+              {
+                  "name": "水泳",
+                  "value": 60
+              }
+          ]
+      }
+  },
+  {
+      "name": "徹甲弾",
+      "casttime": 155,
+      "delay": 1500,
+      "info": "金属の被帽で加工した特殊な弾で貫通力を高めて対象の装甲を貫く ※対象の防御力を無視してダメージを与える",
+      "detail": "防御無視遠距離物理攻撃。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "skill": [
+              {
+                  "name": "銃器",
+                  "value": 80
+              },
+              {
+                  "name": "鍛冶",
+                  "value": 40
+              }
+          ]
+      }
+  },
+  {
+      "name": "ジャンピング ヒップ アタック",
+      "casttime": 120,
+      "delay": 1000,
+      "info": "相手に背を向けながら臀部を後ろに突き出して対象の胸付近に飛び込む技 発動に必要なBuff : 荒くれ者 マスタリー",
+      "detail": "発動後に前方に飛び、飛んだ場所から90度の扇形の範囲攻撃。移動発動可。移動後に攻撃するため近すぎると攻撃対象をすり抜けて当たらない。",
+      "range": 4,
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 28
+          },
+          "mastery": [
+              "荒くれ者"
+          ],
+          "skill": [
+              {
+                  "name": "素手",
+                  "value": 60
+              }
+          ]
+      }
+  },
+  {
+      "name": "メテオ ドライブ",
+      "casttime": 200,
+      "delay": 1600,
+      "info": "狙いを定めた対象に誘導した小型の隕石を落とす技",
+      "detail": "物理ダメージ後にATKに依存した魔法の追加ダメージ。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "skill": [
+              {
+                  "name": "弓",
+                  "value": 90
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 70
+              }
+          ]
+      }
+  },
+  {
+      "name": "桜花一閃",
+      "casttime": 150,
+      "delay": 1500,
+      "info": "桜吹雪と共に一閃を放ち、舞い散る花びらが対象の視界を奪う 発動に必要なBuff : サムライ マスタリー or 桜花爛漫",
+      "detail": "倍率1.3の物理ダメージ。サムライマスタリーか肩掛け桜花の羽織を装備すると使用可能。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "mastery": [
+              "サムライ"
+          ],
+          "buff1": "桜花爛漫",
+          "item1": "肩掛け桜花の羽織",
+          "skill": [
+              {
+                  "name": "刀剣",
+                  "value": 90
+              }
+          ]
+      }
+  },
+  {
+      "name": "ロック スマッシュ",
+      "casttime": 220,
+      "delay": 870,
+      "info": "硬い岩石やゴーレムをドリルで粉砕する技 発動に必要なBuff : 採掘魂",
+      "detail": "筋力100採掘100で金の鉱石相手に50+17x6(計152)ダメージ。同構成にて、マインロードピックアクス(1/2)の採掘43ダメージ、ドリルディグ30+6x2(計42)ダメージ。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 15
+          },
+          "buff1": "採掘魂",
+          "skill": [
+              {
+                  "name": "採掘",
+                  "value": 30
+              }
+          ]
+      }
+  },
+  {
+      "name": "エリア フェリング",
+      "casttime": 150,
+      "delay": 1000,
+      "info": "遠心力を利用して周囲の大木を切り倒す",
+      "detail": "自分中心の必中範囲攻撃。伐採の2.3倍程度のダメージ。このダメージを出すには、伐採に使う装備（斧など）の必要装備スキルを満たす必要がある。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 19
+          },
+          "skill": [
+              {
+                  "name": "伐採",
+                  "value": 40
+              },
+              {
+                  "name": "木工",
+                  "value": 40
+              }
+          ]
+      }
+  },
+  {
+      "name": "超ドラゴンフォール",
+      "casttime": 205,
+      "delay": 1440,
+      "info": "遥か上空へ大ジャンプを行い 落下中に空中制動して頭上から槍を突き立てる",
+      "detail": "対Mobで2.0倍、対人で1.65倍程度のダメージ。移動発動可。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "skill": [
+              {
+                  "name": "槍",
+                  "value": 90
+              },
+              {
+                  "name": "キック",
+                  "value": 60
+              }
+          ]
+      }
+  },
+  {
+      "name": "ライジング スラッシュ",
+      "casttime": 140,
+      "delay": 1250,
+      "info": "下から上へ垂直に飛び上がりながら斬りつける剣技",
+      "detail": "対Mobで1.56倍、対人で1.3倍程度のダメージ。攻撃対象が後ろ上へ若干ノックバックする。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "skill": [
+              {
+                  "name": "刀剣",
+                  "value": 80
+              },
+              {
+                  "name": "戦闘技術",
+                  "value": 80
+              }
+          ]
+      }
+  },
+  {
+      "name": "ゴッド ハンマー",
+      "casttime": 150,
+      "delay": 1350,
+      "info": "悪を滅する神の鉄槌 アンデッド系には大ダメージを与える 発動に必要なBuff : テンプルナイト マスタリー",
+      "detail": "対Mobで約1.4倍、対アンデッドで約3.0倍のダメージ。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "mastery": [
+              "テンプルナイト"
+          ],
+          "skill": [
+              {
+                  "name": "こんぼう",
+                  "value": 80
+              }
+          ]
+      }
+  },
+  {
+      "name": "ケロっと ショット",
+      "casttime": 140,
+      "delay": 1240,
+      "info": "対象を背中の水鉄砲でずぶ濡れにして移動速度を低下させる 発動に必要なBuff : ウォーター タンク",
+      "detail": "対象にダメージと水抵抗減少と鈍足デバフを追加。ささみに水泳100で68ダメージ、 水泳0で15ダメージ。鈍足効果時間は5秒程度。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 15
+          },
+          "buff1": "ウォーター タンク",
+          "item1": "ケロっとランチャー",
+          "skill": [
+              {
+                  "name": "水泳",
+                  "value": 30
+              }
+          ]
+      }
+  },
+  {
+      "name": "底なし沼",
+      "casttime": 60,
+      "delay": 1400,
+      "info": "粘土の高い泥状の沼を地面に設置して沼に落ちた敵の動きを止める 使用アイテム : 泥1",
+      "detail": "効果範囲に1秒ごとに移動速度90%ダウンのデバフ。ジャンプ解除可。沼の持続時間は約15秒。罠扱いで罠テクニック可。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 28
+          },
+          "catalyst": {
+              "type": "泥",
+              "number": 1
+          },
+          "skill": [
+              {
+                  "name": "罠",
+                  "value": 60
+              },
+              {
+                  "name": "自然調和",
+                  "value": 50
+              }
+          ]
+      }
+  },
+  {
+      "name": "ファンタスティック ボディ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "mastery": [
+              "荒くれ者"
+          ],
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 70
+              },
+              {
+                  "name": "生命力",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1000,
+      "casttime": 320,
+      "info": "鍛えぬかれたボディであらゆる攻撃を受け止める",
+      "detail": "undefined"
+  },
+  {
+      "name": "ロック ミミック",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 40
+          },
+          "mastery": [
+              "マイン ビショップ"
+          ],
+          "skill": [
+              {
+                  "name": "物まね",
+                  "value": 30
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1260,
+      "casttime": 60,
+      "info": "イワへと姿を変え、自然と一体化して敵を欺く。",
+      "detail": "最大HP防御力、土属性が大幅上昇、回避が大幅に下がる。"
+  },
+  {
+      "name": "ウェポン ガード",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 28
+          },
+          "item1": "両手武器",
+          "skill": [
+              {
+                  "name": "戦闘技術",
+                  "value": 90
+              },
+              {
+                  "name": "盾",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 900,
+      "casttime": 190,
+      "info": "装備している両手武器で敵の直接攻撃を防御する。両手武器専用",
+      "detail": "undefined"
+  },
+  {
+      "name": "プロテクト オーラ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "skill": [
+              {
+                  "name": "盾",
+                  "value": 90
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1500,
+      "casttime": 180,
+      "info": "守りのオーラをPTメンバーへ飛ばし、一度だけ攻撃を軽減、又は無力化する。",
+      "detail": "undefined"
+  },
+  {
+      "name": "ミスト フォーム",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 28
+          },
+          "skill": [
+              {
+                  "name": "牙",
+                  "value": 60
+              },
+              {
+                  "name": "自然調和",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 1000,
+      "casttime": 60,
+      "info": "霧に姿を変えて攻撃をかわす",
+      "detail": "undefined"
+  },
+  {
+      "name": "地蔵変化",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 20
+          },
+          "buff1": "大きな葉っぱ",
+          "item1": "大きな葉っぱ",
+          "skill": [
+              {
+                  "name": "物まね",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 1120,
+      "casttime": 120,
+      "info": "地蔵に変身して物理攻撃を防ぐ。※変身中は移動、行動不可。",
+      "detail": "undefined"
+  },
+  {
+      "name": "リフレクト バリア",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "mastery": [
+              "アルケミスト"
+          ],
+          "skill": [
+              {
+                  "name": "魔法熟練",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1320,
+      "casttime": 120,
+      "info": "魔法の障壁で 魔法と遠距離攻撃を跳ね返す。",
+      "detail": "undefined"
+  },
+  {
+      "name": "Total Protection",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "buff1": "Total Protection Service",
+          "item1": "マカフィー シールド",
+          "skill": [
+              {
+                  "name": "盾",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 35300,
+      "casttime": 300,
+      "info": "一度だけ物理ダメージを軽減することができる。",
+      "detail": "※ダメージを93％防ぐ。ダメージを受けると効果消滅。※マカフィー シールドを装備すると必要Buff点灯。"
+  },
+  {
+      "name": "エンデュランス",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "mastery": [
+              "ウォーリアー",
+              "ブレイブナイト",
+              "パーフェクト・ウォリアー"
+          ],
+          "skill": [
+              {
+                  "name": "生命力",
+                  "value": 80
+              },
+              {
+                  "name": "持久力",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 2320,
+      "casttime": 120,
+      "info": "即死級のダメージを受けても一度だけ　HPが1残り耐えることができる。",
+      "detail": "undefined"
+  },
+  {
+      "name": "リプレイス マナ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "skill": [
+              {
+                  "name": "魔法熟練",
+                  "value": 70
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 2020,
+      "casttime": 120,
+      "info": "MPが0になるまで ダメージをMPで受ける。",
+      "detail": "※MP以上のダメージを受けた場合はHPが減ります。※ジャンプキャンセル可"
+  },
+  {
+      "name": "百花繚乱",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 23
+          },
+          "skill": [
+              {
+                  "name": "ダンス",
+                  "value": 50
+              },
+              {
+                  "name": "戦闘技術",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 1600,
+      "casttime": 180,
+      "info": "花吹雪と共に高速で回転して敵の攻撃をはじき返し、魔法を無効化する防御技。",
+      "detail": "undefined"
+  },
+  {
+      "name": "木ノ葉風陣の術",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 23
+          },
+          "mastery": [
+              "アサシン"
+          ],
+          "skill": [
+              {
+                  "name": "自然調和",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 1780,
+      "casttime": 180,
+      "info": "自分の周囲を特殊な木の葉で覆い物理ダメージを軽減する術。",
+      "detail": "undefined"
+  },
+  {
+      "name": "ウインドミル スピアー",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "item1": "両手槍",
+          "skill": [
+              {
+                  "name": "槍",
+                  "value": 90
+              },
+              {
+                  "name": "戦闘技術",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 1650,
+      "casttime": 135,
+      "info": "槍を前方で高速回転させることで 敵の攻撃を跳ね返しダメージを与える。",
+      "detail": "undefined"
+  },
+  {
+      "name": "リベンジ スウィング",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "skill": [
+              {
+                  "name": "こんぼう",
+                  "value": 70
+              },
+              {
+                  "name": "集中力",
+                  "value": 20
+              }
+          ]
+      },
+      "delay": 1000,
+      "casttime": 110,
+      "info": "放たれた魔法や遠距離攻撃を打ち返す。",
+      "detail": "undefined"
+  },
+  {
+      "name": "クロス カウンター",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "skill": [
+              {
+                  "name": "素手",
+                  "value": 70
+              },
+              {
+                  "name": "攻撃回避",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1140,
+      "casttime": 90,
+      "info": "相手の攻撃をギリギリで交してカウンター気味にパンチを放つ。",
+      "detail": "undefined"
+  },
+  {
+      "name": "ゾーン タイム",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 39
+          },
+          "skill": [
+              {
+                  "name": "攻撃回避",
+                  "value": 80
+              },
+              {
+                  "name": "集中力",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1500,
+      "casttime": 100,
+      "info": "極度の集中状態となり、全ての物理攻撃を見切ることができる。",
+      "detail": "※効果中に行動した場合、集中力が途切れて効果が解除される。"
+  },
+  {
+      "name": "マジック シュート",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 33
+          },
+          "skill": [
+              {
+                  "name": "キック",
+                  "value": 70
+              },
+              {
+                  "name": "戦闘技術",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1270,
+      "casttime": 70,
+      "info": "MPを消費して魔力を身に纏うことで相手の魔法を蹴り返すことができる。",
+      "detail": "※移動発動不可、アタックキャンセル可。"
+  },
+  {
+      "name": "プロテクト ガード",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "mastery": [
+              "ウォーリアー",
+              "ブレイブナイト",
+              "パーフェクト・ウォリアー"
+          ],
+          "skill": [
+              {
+                  "name": "盾",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 1920,
+      "casttime": 120,
+      "info": "範囲内にいるPTメンバーのダメージを一定時間肩代わりする。",
+      "detail": "※Buffが付与されていないPTメンバーとBuffが付与されていても範囲外のPTメンバーのダメージは肩代わりしません。"
+  },
+  {
+      "name": "メドゥーサ ガード",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 27
+          },
+          "buff1": "アイギスの盾",
+          "item1": "アイギスの盾",
+          "skill": [
+              {
+                  "name": "盾",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 135,
+      "info": "ガードに成功するとメドゥーサの瞳が発動して対象を石化させる。",
+      "detail": "※近接・遠隔をガード。ガードブレイクあり。ガードすると敵に【メドゥーサの瞳】バフが付く。※【アイギスの盾】のバフ効果：一定確率(10%)で攻撃を跳ね返す。※【メドゥーサの瞳】のバフ効果：移動・テク不可。タウント ダンスなどで解除可。"
+  },
+  {
+      "name": "呪いの藁人形",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 21
+          },
+          "buff1": "藁人形の呪い",
+          "item1": "藁人形",
+          "skill": [
+              {
+                  "name": "盾",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 135,
+      "info": "藁人形でガード中に攻撃を受けた場合、藁人形の呪いを対象に発動する。",
+      "detail": "アタックキャンセル可能。ガードすると相手に連続して20回1ダメージのDoT。"
+  },
+  {
+      "name": "バック フリップ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 27
+          },
+          "skill": [
+              {
+                  "name": "攻撃回避",
+                  "value": 60
+              },
+              {
+                  "name": "パフォーマンス",
+                  "value": 20
+              }
+          ]
+      },
+      "delay": 1220,
+      "casttime": 20,
+      "info": "連続でバク転を行うことで、攻撃の的を絞らせず回避する技。※バク転中は徐々にスタミナを消費します。※行動を行うと解除されます。",
+      "detail": "使用するとバックフリップのバフが点灯。8秒間すべての物理攻撃を回避。8秒間でST40消費。移動、テク使用、POT等使用（アイテムディレイ）で解除。"
+  },
+  {
+      "name": "不浄衝撃盾",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 27
+          },
+          "skill": [
+              {
+                  "name": "牙",
+                  "value": 60
+              },
+              {
+                  "name": "盾",
+                  "value": 30
+              }
+          ]
+      },
+      "delay": 1600,
+      "casttime": 110,
+      "info": "自分の周囲に赤黒い衝撃波を発生させ、防御と攻撃を同時に行う。※発動時に自身に魔法無効化の効果と周囲にダメージ+ノックバック効果を与える",
+      "detail": "undefined"
+  },
+  {
+      "name": "ブレイク カウンター",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 27
+          },
+          "skill": [
+              {
+                  "name": "盾",
+                  "value": 60
+              },
+              {
+                  "name": "戦闘技術",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 120,
+      "info": "相手のガードブレイク技を防いでカウンターでスタンさせる技。※通常の攻撃は防げない",
+      "detail": "ガードを貫通する物理攻撃を5秒スタンさせる。効果時間のAC軽減なし。盾の種類は問わず発動100%。アタックキャンセル可。"
+  },
+  {
+      "name": "ネプチューン スキン",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "mastery": [
+              "海戦士"
+          ],
+          "skill": [
+              {
+                  "name": "水泳",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 2000,
+      "casttime": 180,
+      "info": "海神の加護で水属性の攻撃を吸収して、回復に変換することができる。",
+      "detail": "水属性の攻撃を受けるとダメージを無効化し、本来受けるダメージの半分のHPを回復する。デバフなどの効果は受ける。水泳100で効果時間20秒。発動後に効果が出るまで2秒かかり、発動中は移動不可。"
+  },
+  {
+      "name": "かばう",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "mastery": [
+              "ブレイブナイト"
+          ],
+          "skill": [
+              {
+                  "name": "盾",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1300,
+      "casttime": 20,
+      "info": "味方一人のダメージを一定時間肩代わりする。※Buffが付与されていても範囲外の場合はダメージを肩代わりしません。",
+      "detail": "かばわれた側がバフを消すと解除される。効果10秒くらい？"
+  },
+  {
+      "name": "高速ツッコミ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 90
+              },
+              {
+                  "name": "死体回収",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 400,
+      "casttime": 60,
+      "info": "ボケを拾い続けることで身に着けた鋭いツッコミで対象の攻撃や魔法を打ち消して無効化（Avoid）する",
+      "detail": "詳細不明"
+  },
+  {
+      "name": "氷鏡の壁",
+      "casttime": 140,
+      "delay": 1140,
+      "info": "物理攻撃を防ぐ氷の壁を生成して、壁に触れた対象を凍らす 発動に必要なBuff : 氷炎の使い手",
+      "detail": "近接物理攻撃を高確率でAVOIDし、攻撃者に2秒間テク・移動が不可となる氷柱DebuffとHP5％程度のダメージを与える(上限200ダメージ）。持ち替えマクロ可。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 19
+          },
+          "buff1": "氷炎の使い手",
+          "item1": "氷炎の籠手",
+          "skill": [
+              {
+                  "name": "着こなし",
+                  "value": 30
+              }
+          ]
+      }
+  },
+  {
+      "name": "アブソーブ ガード",
+      "casttime": 110,
+      "delay": 1460,
+      "info": "盾でダメージ回避した分のHPを回復するガード技 ※ダメージを完全回避した場合でも回復する上限は100となります 発動に必要なBuff : ウォーリアー マスタリー or ブレイブナイト マスタリー or パーフェクト・ウォーリアー or シュッツァー",
+      "detail": "近接物理攻撃のみガード可能。アタックキャンセル可、ガードロストあり、ガードブレイクあり。マスタリーがあればシュッツアーバフがなくても使用可能。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 27
+          },
+          "mastery": [
+              "ウォーリアー",
+              "ブレイブナイト",
+              "パーフェクト・ウォーリアー"
+          ],
+          "buff1": "シュッツアー",
+          "item1": "リッター シルト",
+          "skill": [
+              {
+                  "name": "盾",
+                  "value": 60
+              }
+          ]
+      }
+  },
+  {
+      "name": "霧隠れの術",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 100
+          },
+          "mastery": [
+              "アサシン"
+          ],
+          "skill": [
+              {
+                  "name": "自然調和",
+                  "value": 90
+              },
+              {
+                  "name": "物まね",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 4000,
+      "casttime": 200,
+      "info": "自分の周りに霧を発生させて味方の姿を隠す。タゲ切り技。",
+      "detail": "undefined"
+  },
+  {
+      "name": "アトラクト",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 28
+          },
+          "mastery": [
+              "ブレイブナイト"
+          ],
+          "skill": [
+              {
+                  "name": "着こなし",
+                  "value": 80
+              },
+              {
+                  "name": "戦闘技術",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 140,
+      "info": "敵の注意を引き付けて味方を守る。",
+      "detail": "undefined"
+  },
+  {
+      "name": "キャッチ ターゲット",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 35
+          },
+          "mastery": [
+              "海戦士"
+          ],
+          "skill": [
+              {
+                  "name": "釣り",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 800,
+      "casttime": 595,
+      "info": "極めし者の技 地上の獲物も軽々と釣り上げる。",
+      "detail": "undefined"
+  },
+  {
+      "name": "プロストレイト",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "skill": [
+              {
+                  "name": "戦闘技術",
+                  "value": 90
+              },
+              {
+                  "name": "攻撃回避",
+                  "value": 90
+              },
+              {
+                  "name": "筋力",
+                  "value": 90
+              },
+              {
+                  "name": "包帯",
+                  "value": 90
+              },
+              {
+                  "name": "精神力",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 240,
+      "info": "威厳に満ちたオーラで周囲の敵を平伏させる。1の固定ダメージ",
+      "detail": "undefined"
+  },
+  {
+      "name": "バック ステップ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 28
+          },
+          "skill": [
+              {
+                  "name": "戦闘技術",
+                  "value": 70
+              },
+              {
+                  "name": "攻撃回避",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 500,
+      "casttime": 20,
+      "info": "後ろへ飛ぶことにより攻撃を避ける",
+      "detail": "undefined"
+  },
+  {
+      "name": "リミット ブレイク",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "skill": [
+              {
+                  "name": "戦闘技術",
+                  "value": 70
+              },
+              {
+                  "name": "強化魔法",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 1300,
+      "casttime": 260,
+      "info": "潜在能力を引き出し、爆発的に攻撃力を上げることができるが、テクニックのスタミナ消費が二倍になる。ジャンプで解除可能",
+      "detail": "undefined"
+  },
+  {
+      "name": "ラスト スパート",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "自然調和",
+                  "value": 70
+              },
+              {
+                  "name": "水泳",
+                  "value": 70
+              },
+              {
+                  "name": "自然回復",
+                  "value": 70
+              },
+              {
+                  "name": "持久力",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1860,
+      "casttime": 60,
+      "info": "最後の力を振り絞って全力で走る",
+      "detail": "undefined"
+  },
+  {
+      "name": "サイコキネシス",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "skill": [
+              {
+                  "name": "暗黒命令",
+                  "value": 90
+              },
+              {
+                  "name": "死の魔法",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 1500,
+      "casttime": 240,
+      "info": "念力により周囲の敵の行動を制限する",
+      "detail": "undefined"
+  },
+  {
+      "name": "レゾナンス フォース",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 9
+          },
+          "skill": [
+              {
+                  "name": "生命力",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1100,
+      "casttime": 100,
+      "info": "特殊テクニックが使用可能になる。レゾナンスフォース前提テクニックが使えるようになる。",
+      "detail": "undefined"
+  },
+  {
+      "name": "ソウル ハイド",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "自然調和",
+                  "value": 30
+              },
+              {
+                  "name": "死体回収",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1100,
+      "casttime": 100,
+      "info": "自らの魂を自然に溶け込ませることにより気配を完全に消す",
+      "detail": "undefined"
+  },
+  {
+      "name": "レビテイション",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 800,
+      "casttime": 200,
+      "info": "その場で浮くことができる",
+      "detail": "undefined"
+  },
+  {
+      "name": "Ｓ.Ｎ.Ｆ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 19
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 40
+              },
+              {
+                  "name": "ダンス",
+                  "value": 20
+              }
+          ]
+      },
+      "delay": 1800,
+      "casttime": 520,
+      "info": "自分の周囲を明るく照らす(サタデー ナイト フィーバー)",
+      "detail": "undefined"
+  },
+  {
+      "name": "エリア クリーニング",
+      "required": {
+          "catalyst": {
+              "type": "シャンプー",
+              "number": 3
+          },
+          "cost": {
+              "type": "ST",
+              "value": 28
+          },
+          "mastery": [
+              "ハウスキーパー"
+          ],
+          "skill": [
+              {
+                  "name": "美容",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1800,
+      "casttime": 220,
+      "info": "周囲を洗浄し、汚れとともにDebuffを一つ洗い流す。",
+      "detail": "undefined"
+  },
+  {
+      "name": "スター マイン",
+      "required": {
+          "catalyst": {
+              "type": "エクスプロード ポーション",
+              "number": 1
+          },
+          "cost": {
+              "type": "ST",
+              "value": 28
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 60
+              },
+              {
+                  "name": "薬調合",
+                  "value": 30
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 170,
+      "info": "空高く舞い上がり　夜空に美しい大輪の花を咲かせる",
+      "detail": "undefined"
+  },
+  {
+      "name": "ゴッド ハンド",
+      "required": {
+          "catalyst": {
+              "type": "ゴッドアイ",
+              "number": 1
+          },
+          "cost": {
+              "type": "ST",
+              "value": 25
+          },
+          "skill": [
+              {
+                  "name": "鍛冶",
+                  "value": 90
+              },
+              {
+                  "name": "裁縫",
+                  "value": 90
+              },
+              {
+                  "name": "木工",
+                  "value": 90
+              },
+              {
+                  "name": "装飾細工",
+                  "value": 90
+              },
+              {
+                  "name": "複製",
+                  "value": 90
+              },
+              {
+                  "name": "料理",
+                  "value": 90
+              },
+              {
+                  "name": "醸造",
+                  "value": 90
+              },
+              {
+                  "name": "薬調合",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 30300,
+      "casttime": 150,
+      "info": "極めしものが到達できる領域",
+      "detail": "※生産ルーレットのスピードが遅くなる。効果が数秒なので急いでも2回が限界。"
+  },
+  {
+      "name": "ブリーディング ウィップ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 28
+          },
+          "mastery": [
+              "ブリーダー"
+          ],
+          "skill": [
+              {
+                  "name": "調教",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 2510,
+      "casttime": 110,
+      "info": "ペットに特殊攻撃をさせる。※ペットが特殊攻撃を使える状態の時のみ発動する",
+      "detail": "undefined"
+  },
+  {
+      "name": "ワイド スターマイン",
+      "required": {
+          "catalyst": {
+              "type": "エクスプロード ポーション",
+              "number": 3
+          },
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "薬調合",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 1600,
+      "casttime": 100,
+      "info": "広範囲に連続で打ち上がる花火を設置する。",
+      "detail": "undefined"
+  },
+  {
+      "name": "マジカル ブラシ(赤)",
+      "required": {
+          "catalyst": {
+              "type": "カラー インク",
+              "number": 1
+          },
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 500,
+      "casttime": 20,
+      "info": "足元に色を残しラインを描くことができる",
+      "detail": "undefined"
+  },
+  {
+      "name": "マジカル ブラシ(緑)",
+      "required": {
+          "catalyst": {
+              "type": "カラー インク",
+              "number": 1
+          },
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 500,
+      "casttime": 20,
+      "info": "足元に色を残しラインを描くことができる",
+      "detail": "undefined"
+  },
+  {
+      "name": "マジカル ブラシ(青)",
+      "required": {
+          "catalyst": {
+              "type": "カラー インク",
+              "number": 1
+          },
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 500,
+      "casttime": 20,
+      "info": "足元に色を残しラインを描くことができる",
+      "detail": "undefined"
+  },
+  {
+      "name": "Ｃ.Ｈ.Ｗ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 59
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 30
+              },
+              {
+                  "name": "精神力",
+                  "value": 30
+              }
+          ]
+      },
+      "delay": 1020,
+      "casttime": 500,
+      "info": "体内の精神力を一点に集中させ一気に放出する超必殺技。その見た目は 相手を一撃で倒せそうな気にさせる。",
+      "detail": "undefined"
+  },
+  {
+      "name": "オンステージ",
+      "required": {
+          "catalyst": {
+              "type": "グレート ライト ポーション",
+              "number": 1
+          },
+          "cost": {
+              "type": "ST",
+              "value": 20
+          },
+          "skill": [
+              {
+                  "name": "薬調合",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 4100,
+      "casttime": 100,
+      "info": "頭上にミラーボールを設置する。",
+      "detail": "※描画が重いらしいので使用は計画的に。"
+  },
+  {
+      "name": "タイダウン ローピング",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 28
+          },
+          "mastery": [
+              "アドベンチャラー"
+          ],
+          "skill": [
+              {
+                  "name": "盗み",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 1360,
+      "casttime": 160,
+      "info": "盗みの力を加えたベルトを対象に投げ捕らえた対象の行動を盗む。※移動速度、攻撃速度、詠唱速度が低下する",
+      "detail": "undefined"
+  },
+  {
+      "name": "鬼火",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 15
+          },
+          "skill": [
+              {
+                  "name": "死体回収",
+                  "value": 30
+              },
+              {
+                  "name": "パフォーマンス",
+                  "value": 30
+              }
+          ]
+      },
+      "delay": 2150,
+      "casttime": 150,
+      "info": "自分の周囲に人魂を呼び出す",
+      "detail": "undefined"
+  },
+  {
+      "name": "ダークネス フォース",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "mastery": [
+              "イビルナイト"
+          ],
+          "skill": [
+              {
+                  "name": "死の魔法",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 9999,
+      "casttime": 300,
+      "info": "自らの命を生贄に捧げ闇の力を得る。※身体能力が大幅に上昇するが一定時間後に術者は死ぬ",
+      "detail": "undefined"
+  },
+  {
+      "name": "スタンドマイク",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "音楽",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 2120,
+      "casttime": 120,
+      "info": "スタンドマイクを召喚する。スタンドマイクにライトポーションをトレードするとスポットライトが点灯します",
+      "detail": "undefined"
+  },
+  {
+      "name": "クイックステップ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 28
+          },
+          "skill": [
+              {
+                  "name": "キック",
+                  "value": 80
+              },
+              {
+                  "name": "攻撃回避",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 50,
+      "info": "一瞬で対象との間合いをつめる",
+      "detail": "undefined"
+  },
+  {
+      "name": "ホーム レコード",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 0
+          },
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 500,
+      "casttime": 100,
+      "info": "ホームレコーダーを介して、レコードポイント/ホームポイントを記録する",
+      "detail": "undefined"
+  },
+  {
+      "name": "シークレット シーフ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "mastery": [
+              "スパイ",
+              "アドベンチャラー"
+          ],
+          "skill": [
+              {
+                  "name": "盗み",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 1640,
+      "casttime": 140,
+      "info": "集中力を高めて 一定時間 盗める確率を上昇させる。",
+      "detail": "undefined"
+  },
+  {
+      "name": "エア ジャンプ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 23
+          },
+          "mastery": [
+              "アサシン",
+              "アスリート"
+          ],
+          "skill": [
+              {
+                  "name": "自然調和",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 180,
+      "casttime": 0,
+      "info": "空中でも発動可能な跳躍。",
+      "detail": "undefined"
+  },
+  {
+      "name": "モラール ブースター",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "mastery": [
+              "デュエリスト"
+          ],
+          "skill": [
+              {
+                  "name": "シャウト",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1700,
+      "casttime": 200,
+      "info": "後方にいる味方を鼓舞して 一時的に仲間の攻撃力を上昇させる。",
+      "detail": "undefined"
+  },
+  {
+      "name": "エキスパート センス",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "mastery": [
+              "クリエイター"
+          ],
+          "skill": [
+              {
+                  "name": "採掘",
+                  "value": 40
+              },
+              {
+                  "name": "伐採",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 1640,
+      "casttime": 140,
+      "info": "採掘と伐採の命中率を上昇させる。",
+      "detail": "undefined"
+  },
+  {
+      "name": "グレア アイ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 19
+          },
+          "mastery": [
+              "チンピラ"
+          ],
+          "skill": [
+              {
+                  "name": "こんぼう",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 1180,
+      "casttime": 180,
+      "info": "周囲を睨みつける。睨まれたものは目を反らして 身動きが取れなくなる。",
+      "detail": "undefined"
+  },
+  {
+      "name": "フリー マーケット",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "取引",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 1450,
+      "casttime": 450,
+      "info": "フリーマーケット用のシートを足元に召喚する。",
+      "detail": "※召喚した『フリマ スペース』を右クリックすることで露店中に近くにいる客の呼び込みを行うことができる。"
+  },
+  {
+      "name": "サイクロン バキューム",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "buff1": "お掃除モード",
+          "item1": "サイクロン バスター",
+          "skill": [
+              {
+                  "name": "素手",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 1550,
+      "casttime": 200,
+      "info": "サイクロン バスターで前方にある全ての物を吸い込む。",
+      "detail": "undefined"
+  },
+  {
+      "name": "マジカル ウィグル ブラシ",
+      "required": {
+          "catalyst": {
+              "type": "カラー インク",
+              "number": 1
+          },
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 500,
+      "casttime": 20,
+      "info": "僅かな魔力で誰でも使えるアートスペル。足元に残したラインがくねくねと動き出す。※座る事で解除が可能",
+      "detail": "undefined"
+  },
+  {
+      "name": "ランディング アチチュード",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "skill": [
+              {
+                  "name": "落下耐性",
+                  "value": 70
+              },
+              {
+                  "name": "パフォーマンス",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 920,
+      "casttime": 120,
+      "info": "どんな高所からも完璧な着地姿勢を取ることでダメージを軽減することができる。※空中で発動可",
+      "detail": "undefined"
+  },
+  {
+      "name": "ブーステッド レッグス",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "skill": [
+              {
+                  "name": "キック",
+                  "value": 80
+              },
+              {
+                  "name": "強化魔法",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 1030,
+      "casttime": 130,
+      "info": "一時的に脚力を増幅させる。",
+      "detail": "undefined"
+  },
+  {
+      "name": "立体機動",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "buff1": "立体機動装置",
+          "item1": "立体機動装置",
+          "skill": [
+              {
+                  "name": "戦闘技術",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 420,
+      "casttime": 20,
+      "info": "対象にアンカーを撃ち込み、ワイヤーを巻き上げることで高速移動ができる。",
+      "detail": "※対象は採取可能なオブジェクト、アクションポイント、巨人"
+  },
+  {
+      "name": "心臓を捧げよ！",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 1
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 390,
+      "casttime": 190,
+      "info": "右手を心臓に当てて敬礼するモーション",
+      "detail": "undefined"
+  },
+  {
+      "name": "マジック サークル",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 3
+          },
+          "cost": {
+              "type": "ST",
+              "value": 23
+          },
+          "skill": [
+              {
+                  "name": "精神力",
+                  "value": 50
+              },
+              {
+                  "name": "知能",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 2200,
+      "casttime": 200,
+      "info": "足元に魔法陣を展開させて魔法陣内にいるキャラクターの魔力とMP回復速度を上昇させる。",
+      "detail": "undefined"
+  },
+  {
+      "name": "アジリティ サークル",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 3
+          },
+          "cost": {
+              "type": "ST",
+              "value": 23
+          },
+          "skill": [
+              {
+                  "name": "精神力",
+                  "value": 50
+              },
+              {
+                  "name": "知能",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 2200,
+      "casttime": 200,
+      "info": "足元に魔法陣を展開させて魔法陣内にいるキャラクターの回避と攻撃速度を上昇させる。",
+      "detail": "undefined"
+  },
+  {
+      "name": "Ｓ.Ｃ.Ｐ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 1500,
+      "casttime": 20,
+      "info": "カッコいいポーズで周囲の人を魅了する。",
+      "detail": "undefined"
+  },
+  {
+      "name": "Ｈ.Ｋ.Ｓ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 1
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 380,
+      "casttime": 180,
+      "info": "くしゃみをするモーション。",
+      "detail": "undefined"
+  },
+  {
+      "name": "Ｙ.Ｗ.Ｐ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 1
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 830,
+      "casttime": 330,
+      "info": "ヤッターマンの勝利のポーズ。",
+      "detail": "undefined"
+  },
+  {
+      "name": "ポータブル ステージ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "音楽",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 2150,
+      "casttime": 150,
+      "info": "携帯ステージを召喚する。",
+      "detail": "undefined"
+  },
+  {
+      "name": "Ｓ.Ｉ.Ｚ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 820,
+      "casttime": 220,
+      "info": "膝を揃えて畳んで座る。",
+      "detail": "undefined"
+  },
+  {
+      "name": "Ｉ.Ｎ.Ｄ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 1240,
+      "casttime": 750,
+      "info": "みんなで楽しく盛り上がれるダンス。",
+      "detail": "undefined"
+  },
+  {
+      "name": "ひよこ鑑定",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 15
+          },
+          "mastery": [
+              "ブリーダー"
+          ],
+          "skill": [
+              {
+                  "name": "調教",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 150,
+      "info": "ひよこの性別を鑑定することができる",
+      "detail": "undefined"
+  },
+  {
+      "name": "Ｒ.Ｄ.Ｍ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 700,
+      "casttime": 200,
+      "info": "弧を描くようにクルクル回るダンスモーション。",
+      "detail": "undefined"
+  },
+  {
+      "name": "Ｆ.Ｓ.Ｍ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 800,
+      "casttime": 300,
+      "info": "フィギュアの回転モーション。",
+      "detail": "undefined"
+  },
+  {
+      "name": "タケミカヅチ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 90
+              },
+              {
+                  "name": "呪文抵抗力",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 3720,
+      "casttime": 120,
+      "info": "己の肉体に雷の力を取り込み、反応速度を極限まで高める技。※効果が切れると反動により、HP/ST/MPが激減する",
+      "detail": "undefined"
+  },
+  {
+      "name": "Ｉ.Ｇ.Ｐ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 0
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 770,
+      "casttime": 270,
+      "info": "アイドルのために捧げる応援のパフォーマンス。",
+      "detail": "undefined"
+  },
+  {
+      "name": "のぼり召喚（大安売り）",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "取引",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 150,
+      "info": "大安売りの旗を立てる",
+      "detail": "undefined"
+  },
+  {
+      "name": "のぼり召喚（新商品）",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "取引",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 150,
+      "info": "新商品の旗を立てる",
+      "detail": "undefined"
+  },
+  {
+      "name": "のぼり召喚（冷やし中華）",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "取引",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 150,
+      "info": "冷やし中華の旗を立てる",
+      "detail": "undefined"
+  },
+  {
+      "name": "のぼり召喚（メンバー募集）",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "取引",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 150,
+      "info": "メンバー募集の旗を立てる",
+      "detail": "undefined"
+  },
+  {
+      "name": "グライディング フライト",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "buff1": "ムササビ モード",
+          "item1": "ムササビ スーツ",
+          "skill": [
+              {
+                  "name": "自然調和",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 1260,
+      "casttime": 60,
+      "info": "ムササビ スーツの飛膜を広げてグライダーのように滑空することができる。",
+      "detail": "※空中で発動可能。地面に接地すると効果が切れます。"
+  },
+  {
+      "name": "Ｋ.Ｋ.Ｄ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 1080,
+      "casttime": 580,
+      "info": "切れのあるダンスを披露する。",
+      "detail": "undefined"
+  },
+  {
+      "name": "ウォーター バズーカ 2",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "buff1": "ウォーター チャージ",
+          "item1": "ウォーター バズーカ",
+          "skill": [
+              {
+                  "name": "銃器",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 480,
+      "casttime": 120,
+      "info": "水鉄砲の水を勢い良く味方に向かって飛ばす専用技。",
+      "detail": "※水に濡れることで火属性ダメージを一時的に軽減する。"
+  },
+  {
+      "name": "Ｒ.Ｄ.Ｇ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 770,
+      "casttime": 270,
+      "info": "華麗に回転しながら豪快に土下座をする。",
+      "detail": "undefined"
+  },
+  {
+      "name": "バトル オーラ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 20
+          },
+          "skill": [
+              {
+                  "name": "戦闘技術",
+                  "value": 1
+              },
+              {
+                  "name": "パフォーマンス",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 1180,
+      "casttime": 180,
+      "info": "全身から闘気を解放して相手を威嚇する。気持ちが高まって戦闘力がほんの少し上昇する。",
+      "detail": "undefined"
+  },
+  {
+      "name": "地中潜行",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 0
+          },
+          "buff1": "土遁の術",
+          "item1": "忍びの竹筒",
+          "skill": [
+              {
+                  "name": "自然調和",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 1300,
+      "casttime": 100,
+      "info": "地中を水中のように泳ぎながら移動できる。",
+      "detail": "※地中に潜るが当たり判定は地上のまま。"
+  },
+  {
+      "name": "妖力解放",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "buff1": "九尾の力",
+          "item1": "妖狐の九尾",
+          "skill": [
+              {
+                  "name": "精神力",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 54000,
+      "casttime": 150,
+      "info": "九尾の妖力を解放することで一時的に魔力を大幅に上昇させるが、体にかかる負荷も大きい。",
+      "detail": "※再使用には魔力回復のために時間がかかる。"
+  },
+  {
+      "name": "ヴァンパイア フォーム",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "skill": [
+              {
+                  "name": "牙",
+                  "value": 80
+              },
+              {
+                  "name": "暗黒命令",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 1800,
+      "casttime": 80,
+      "info": "吸血鬼に変身する。牙の攻撃力と命中率が上昇し、通常攻撃に吸血の効果が付与される。さらに移動速度が上昇する ",
+      "detail": "※War Ageでは効果が無い"
+  },
+  {
+      "name": "Ｍ.Ｋ.Ｄ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 850,
+      "casttime": 350,
+      "info": "両腕を上下に振りながら楽しそうに踊る。",
+      "detail": "undefined"
+  },
+  {
+      "name": "ボリテイション",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "buff1": "レビテイション",
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 100,
+      "casttime": 20,
+      "info": "レビテイション中に使用することで一定時間飛行能力を得ることができる。※高低差を変更することはできません。",
+      "detail": "undefined"
+  },
+  {
+      "name": "ねじりんポール",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 15
+          },
+          "skill": [
+              {
+                  "name": "美容",
+                  "value": 15
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 150,
+      "info": "美容師の看板となるオブジェクトを召喚する。",
+      "detail": "undefined"
+  },
+  {
+      "name": "Ｍ.Ｃ.Ｍ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 1648,
+      "casttime": 648,
+      "info": "変身シーンを自作自演できる、これであなたも正義の味方",
+      "detail": "undefined"
+  },
+  {
+      "name": "Ｌ.Ｄ.Ｍ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 200,
+      "info": "ラインダンスモーション。腰に手を当てて交互に足を上げるモーション",
+      "detail": "undefined"
+  },
+  {
+      "name": "マジック スプリング",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 28
+          },
+          "mastery": [
+              "アルケミスト"
+          ],
+          "skill": [
+              {
+                  "name": "魔法熟練",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 70,
+      "casttime": 0,
+      "info": "宙に魔法の足場を出現させて飛び跳ねるように移動することができる。",
+      "detail": "undefined"
+  },
+  {
+      "name": "ビジョン スティール",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "skill": [
+              {
+                  "name": "盗み",
+                  "value": 70
+              },
+              {
+                  "name": "暗黒命令",
+                  "value": 30
+              }
+          ]
+      },
+      "delay": 2150,
+      "casttime": 150,
+      "info": "一定時間、対象の視点で盗み見ることができる。",
+      "detail": "undefined"
+  },
+  {
+      "name": "サーチ ディレクション",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 23
+          },
+          "skill": [
+              {
+                  "name": "解読",
+                  "value": 50
+              },
+              {
+                  "name": "自然調和",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 950,
+      "casttime": 150,
+      "info": "ターゲットがいる方向やターゲットとの距離感じ取ることができる。※システムウィンドウに表示されます",
+      "detail": "undefined"
+  },
+  {
+      "name": "ハヤメ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 9
+          },
+          "skill": [
+              {
+                  "name": "弓",
+                  "value": 10
+              },
+              {
+                  "name": "自然調和",
+                  "value": 10
+              }
+          ]
+      },
+      "delay": 1100,
+      "casttime": 100,
+      "info": "一時的に動体視力をアップさせて命中率が上昇する。",
+      "detail": "undefined"
+  },
+  {
+      "name": "イグゾースト",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 11
+          },
+          "skill": [
+              {
+                  "name": "暗黒命令",
+                  "value": 20
+              },
+              {
+                  "name": "攻撃回避",
+                  "value": 20
+              }
+          ]
+      },
+      "delay": 800,
+      "casttime": 40,
+      "info": "特殊な身のこなしで後方へ下がって敵との距離を取る技。",
+      "detail": "undefined"
+  },
+  {
+      "name": "スワット",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 9
+          },
+          "skill": [
+              {
+                  "name": "盗み",
+                  "value": 10
+              },
+              {
+                  "name": "攻撃回避",
+                  "value": 10
+              }
+          ]
+      },
+      "delay": 800,
+      "casttime": 90,
+      "info": "片手武器で相手の武器を叩き、武器破壊や武器落としを狙う技。※対Mobでは攻撃力を少し下げる",
+      "detail": "undefined"
+  },
+  {
+      "name": "ウォークライ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 19
+          },
+          "mastery": [
+              "ウォーリアー",
+              "パーフェクト・ウォリアー"
+          ],
+          "skill": [
+              {
+                  "name": "戦闘技術",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 1180,
+      "casttime": 180,
+      "info": "雄叫びを上げて周囲の敵を怯ませ、足止めする。",
+      "detail": "undefined"
+  },
+  {
+      "name": "茣蓙召喚",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "取引",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 150,
+      "info": "茣蓙を召喚する。バザールボックス 交換アイテム。",
+      "detail": "undefined"
+  },
+  {
+      "name": "Ｗ.Ｉ.Ｎ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 700,
+      "casttime": 200,
+      "info": "戦闘に勝利したときの決めポーズ（剣バージョン）。",
+      "detail": "undefined"
+  },
+  {
+      "name": "Ｄ.Ｄ.Ｋ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 700,
+      "casttime": 200,
+      "info": "駄々っ子のようなモーション。",
+      "detail": "※かわいい"
+  },
+  {
+      "name": "大凧の術",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "buff1": "忍者凧",
+          "item1": "アサシン カイト",
+          "skill": [
+              {
+                  "name": "物まね",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 1500,
+      "casttime": 0,
+      "info": "追い風を受けることで風に乗って大空を飛ぶことができる術。※空中発動可能",
+      "detail": "undefined"
+  },
+  {
+      "name": "ツリーミミック",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 19
+          },
+          "buff1": "木の心",
+          "item1": "ツリーマン スーツ",
+          "skill": [
+              {
+                  "name": "物まね",
+                  "value": 40
+              },
+              {
+                  "name": "自然調和",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 2020,
+      "casttime": 20,
+      "info": "完全に自然と融合することで敵から認識されなくなる技。",
+      "detail": "※移動や行動を起こすと解除される※ヘイトが乗った状態では効果が無い※BOSS等の一部のモンスターには効果が無い"
+  },
+  {
+      "name": "選べるマイショップボックス",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "取引",
+                  "value": 10
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 150,
+      "info": "詳細不明。",
+      "detail": "undefined"
+  },
+  {
+      "name": "Ｃ.Ｋ.Ｄ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 550,
+      "casttime": 50,
+      "info": "腰を低くして腕を組み、足を高く上げる独特なダンス。",
+      "detail": "undefined"
+  },
+  {
+      "name": "フル スロットル",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 40
+          },
+          "buff1": "ドライビング",
+          "item1": "レーシング カート",
+          "skill": [
+              {
+                  "name": "精神力",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 0,
+      "info": "アクセル全開でぶっ飛ばす！！マナを消費して一時的に移動速度を大幅に上昇させることができる。※WarAgeでは効果が無い",
+      "detail": "移動速度上昇、効果時間8秒(スキル値による延長不明)、移動発動可能、空中発動不可、効果中は腰(装)の変更不可。"
+  },
+  {
+      "name": "フラワー ミミック",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 19
+          },
+          "buff1": "ハナカマキリ",
+          "item1": "ハナカマキリ ローブ",
+          "skill": [
+              {
+                  "name": "物まね",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 2020,
+      "casttime": 20,
+      "info": "花に擬態することで敵の目をごまかしやり過ごすことができる",
+      "detail": "※移動や行動を起こすと解除される。ヘイトが乗った状態では効果が無い。"
+  },
+  {
+      "name": "マニピュレイト メロディ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "buff1": "ハーメルンの笛",
+          "item1": "ハーメルンの笛",
+          "skill": [
+              {
+                  "name": "音楽",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 1690,
+      "casttime": 190,
+      "info": "笛の音色で街中のネズミを呼び寄せて操ることができる",
+      "detail": "※テクを使うとバフが30秒点灯し、3秒毎にドブネズミが1匹召喚される。ドブネズミは最大10匹。"
+  },
+  {
+      "name": "ライフ ドレイン",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 19
+          },
+          "mastery": [
+              "イビルナイト"
+          ],
+          "skill": [
+              {
+                  "name": "死の魔法",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1600,
+      "casttime": 170,
+      "info": "武器に吸魔の力を宿し、対象に与えたダメージの25%を回復する",
+      "detail": "※一部テクニックとDoT系には効果が反映されません。"
+  },
+  {
+      "name": "ジャン拳 グー",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 0
+          },
+          "item1": "大きな拳のペンダント",
+          "buff1": "ハンド フォーム",
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 0
+              }
+          ]
+      },
+      "delay": 360,
+      "casttime": 180,
+      "info": "5本の指をすべて握った状態で「石」を表している",
+      "detail": "undefined"
+  },
+  {
+      "name": "ジャン拳 チョキ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 0
+          },
+          "item1": "大きな拳のペンダント",
+          "buff1": "ハンド フォーム",
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 0
+              }
+          ]
+      },
+      "delay": 360,
+      "casttime": 180,
+      "info": "5本の指のうち2本を伸ばした状態で残りを握ることで「鋏」を表している",
+      "detail": "undefined"
+  },
+  {
+      "name": "ジャン拳 パー",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 0
+          },
+          "item1": "大きな拳のペンダント",
+          "buff1": "ハンド フォーム",
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 0
+              }
+          ]
+      },
+      "delay": 360,
+      "casttime": 180,
+      "info": "5本の指をすべて開いた状態で「紙」を表している",
+      "detail": "undefined"
+  },
+  {
+      "name": "カースド スクラッチ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 28
+          },
+          "skill": [
+              {
+                  "name": "暗黒命令",
+                  "value": 50
+              },
+              {
+                  "name": "死の魔法",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 1100,
+      "casttime": 150,
+      "info": "対象に呪いの傷跡を残し次に受ける攻撃のダメージを倍増させる。※ダメージ発生時に解除される",
+      "detail": "undefined"
+  },
+  {
+      "name": "マナ バースト",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 20
+          },
+          "item1": "ノア ホバーバイク",
+          "buff1": "ライド バイク",
+          "skill": [
+              {
+                  "name": "精神力",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 300,
+      "casttime": 0,
+      "info": "マナを消費して瞬間的に加速させることができる。※WarAgeでは効果が無い",
+      "detail": "ライド バイクの移動速度+20、マナ バーストの移動速度+50。"
+  },
+  {
+      "name": "蓄音機召喚",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "音楽",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 150,
+      "info": "BGMをリストから選択して自由に変更できる蓄音機を召喚する。※変更できるBGMは自分のクライアントのみです。※追加のBGMリストは今後ゲーム内で入手可能になる予定です。",
+      "detail": "攻撃が当たらないので囮にはできない。"
+  },
+  {
+      "name": "石化の術",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 39
+          },
+          "buff1": "秘奥義",
+          "item1": "秘伝の巻物",
+          "mastery": [
+              "アサシン"
+          ],
+          "skill": [
+              {
+                  "name": "物まね",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 2320,
+      "casttime": 120,
+      "info": "大きな石に変化して自然と一体化することで敵を欺く忍術。※移動や行動で術が解ける",
+      "detail": "タゲ切りやダメージカット効果はないらしく使い道は謎。"
+  },
+  {
+      "name": "コントロール バーナー",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "buff1": "熱気球",
+          "item1": "熱気球",
+          "skill": [
+              {
+                  "name": "自然調和",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 400,
+      "casttime": 0,
+      "info": "バーナーの火力を上げて熱気球の硬度を上げる。※テクニック発動時に落下位置が変更されます。",
+      "detail": "発動後、少し浮いて5秒間静止しその後ゆっくり下降する。バーナーのディレイは7秒程、連打すればどんどん高度は上がる。専用装備で移動速度-15.0になり、空中でもその速度で水平移動可能。やきいもと併用可能。"
+  },
+  {
+      "name": "選べるヒーローポーズ集",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 540,
+      "casttime": 40,
+      "info": "戦隊モノの決めポーズ。5種類のヒーローポーズから一つを選択して入手できる。",
+      "detail": "undefined"
+  },
+  {
+      "name": "ロケット発射",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "buff1": "ゴーゴーロケット",
+          "item1": "ミニロケット",
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 960,
+      "casttime": 360,
+      "info": "ロケットを打ち上げる",
+      "detail": "5秒程度の詠唱後に約24m上昇し、その後落下するので落下耐性0で約380ダメージを受ける。"
+  },
+  {
+      "name": "アイドル ソング",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 19
+          },
+          "buff1": "アイドル ステージ",
+          "item1": "アイドル ステージ",
+          "skill": [
+              {
+                  "name": "音楽",
+                  "value": 40
+              },
+              {
+                  "name": "ダンス",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 1500,
+      "casttime": 400,
+      "info": "効果範囲内のキャラクターの攻撃力と防御力を上げるアイドル ステージのバフがつく。",
+      "detail": "音楽100ダンス100で攻撃力と防御力が20程度上がる。スキル値で効果量が変わるかは不明。"
+  },
+  {
+      "name": "制約の鎖",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 15
+          },
+          "skill": [
+              {
+                  "name": "調教",
+                  "value": 30
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 30
+              }
+          ]
+      },
+      "delay": 1320,
+      "casttime": 120,
+      "info": "魔法の鎖でペット1体の行動を制限して攻撃力と回避を一定時間半減させる",
+      "detail": "ペットを育成しやすくするテクニック。はじめはデバフ扱いで解除テクで消されていたがバフに変更された。"
+  },
+  {
+      "name": "ロイヤル アフタヌーン",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "料理",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 150,
+      "info": "おしゃれなガーデンチェアとガーデンテーブルを召喚する",
+      "detail": "ティーカップ(右手の盾)を装備すると【アフタヌーン・ティー】のバフが付き、待機モーションが椅子に座るモーションに変わり、MP回復速度が上がる。ロイヤル アフタヌーンはテーブルとイスを召喚するだけで特に効果はないらしい。2018年3月13日の更新でこのテーブルとイスが消えなくなった。"
+  },
+  {
+      "name": "レイジングハート セットアップ！",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 30
+          },
+          "buff1": "スタンバイ モード",
+          "item1": "レイジングハート",
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 18000,
+      "casttime": 600,
+      "info": "一定時間、魔法少女に変身して魔力上昇と魔法の射程増加効果を得る※WarAgeでは効果が無い",
+      "detail": "2018年2月の魔法少女リリカルなのはReflectionのコラボテク。効果時間3分、魔力+10%、魔法射程+4.5。"
+  },
+  {
+      "name": "ミッドチルダ式魔法陣(フェイト)",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 3
+          },
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "skill": [
+              {
+                  "name": "精神力",
+                  "value": 70
+              },
+              {
+                  "name": "知能",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 2200,
+      "casttime": 200,
+      "info": "足元にミッドチルダ式の魔法陣を展開させて魔法陣内にいるキャラクターの回避と移動速度を上昇させる※WarAgeでは呼び出せません",
+      "detail": "2018年2月の魔法少女リリカルなのはReflectionのコラボテク。回避+20、移動速度+20、効果時間20秒。魔法陣展開時間は約30秒。"
+  },
+  {
+      "name": "ベルカ式魔法陣(はやて)",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 3
+          },
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "skill": [
+              {
+                  "name": "精神力",
+                  "value": 70
+              },
+              {
+                  "name": "知能",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 2200,
+      "casttime": 200,
+      "info": "足元にベルカ式の魔法陣を展開させて魔法陣内にいるキャラクターの攻撃範囲を増加させる※WarAgeでは呼び出せません",
+      "detail": "2018年2月の魔法少女リリカルなのはReflectionのコラボテク。範囲技の射程+3。効果時間20秒。魔法陣展開時間は約30秒。"
+  },
+  {
+      "name": "ベルカ式魔法陣(ヴィータ)",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 3
+          },
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "skill": [
+              {
+                  "name": "精神力",
+                  "value": 70
+              },
+              {
+                  "name": "知能",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 2200,
+      "casttime": 200,
+      "info": "足元にベルカ式の魔法陣を展開させて魔法陣内にいるキャラクターの攻撃力を増加させる※WarAgeでは呼び出せません",
+      "detail": "2018年2月の魔法少女リリカルなのはReflectionのコラボテク。攻撃力+20。効果時間20秒。魔法陣展開時間は約30秒。"
+  },
+  {
+      "name": "ミッドチルダ式魔法陣(なのは)",
+      "required": {
+          "catalyst": {
+              "type": "PNQ",
+              "number": 3
+          },
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "skill": [
+              {
+                  "name": "精神力",
+                  "value": 70
+              },
+              {
+                  "name": "知能",
+                  "value": 50
+              }
+          ]
+      },
+      "delay": 2200,
+      "casttime": 200,
+      "info": "足元にミッドチルダ式の魔法陣を展開させて魔法陣内にいるキャラクターの魔力と魔法の射程を上昇させる※WarAgeでは呼び出せません",
+      "detail": "2018年2月の魔法少女リリカルなのはReflectionのコラボテク。魔力+15、魔法射程+3。効果時間20秒。魔法陣展開時間は約30秒。"
+  },
+  {
+      "name": "全力全開",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 28
+          },
+          "skill": [
+              {
+                  "name": "魔法熟練",
+                  "value": 60
+              },
+              {
+                  "name": "精神力",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 2000,
+      "casttime": 170,
+      "info": "防御力が低下し魔法使用時の消費MPが増えるが、一時的に魔力を大幅に上げることができる※ジャンプで解除可能",
+      "detail": "2018年2月の魔法少女リリカルなのはReflectionのコラボテク。魔法熟練100で魔力約+40、AC-27、消費MP1.3倍。魔法熟練が高いほど効果が上がる。効果時間約20秒。"
+  },
+  {
+      "name": "アクセラレイター",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 50
+          },
+          "skill": [
+              {
+                  "name": "強化魔法",
+                  "value": 60
+              },
+              {
+                  "name": "攻撃回避",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 1600,
+      "casttime": 30,
+      "info": "緊急救助用の加速機動システムにより瞬間的に移動速度を上昇させる",
+      "detail": "2018年2月の魔法少女リリカルなのはReflectionのコラボテク。効果時間2秒。移動速度+100。効果中はテクニック使用不可。MRP解除可。強化魔法の上昇判定あり。"
+  },
+  {
+      "name": "システム・オルタ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 28
+          },
+          "skill": [
+              {
+                  "name": "強化魔法",
+                  "value": 60
+              },
+              {
+                  "name": "筋力",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 2000,
+      "casttime": 180,
+      "info": "一時的に身体能力を強化して攻撃力と攻撃スピードを上昇させるが、体に負荷がかかり消費スタミナが増加する※ジャンプで解除可能",
+      "detail": "2018年2月の魔法少女リリカルなのはReflectionのコラボテク。筋力100強化魔法100で効果時間28秒、攻撃力+35、ST消費1.4倍。攻撃ディレイ-13%。ヴィガー、バーサクと併用不可。"
+  },
+  {
+      "name": "スペル エンハンス",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "mastery": [
+              "アルケミスト"
+          ],
+          "skill": [
+              {
+                  "name": "魔法熟練",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 2000,
+      "casttime": 150,
+      "info": "MPの消費量が増加するが、破壊魔法の効果を大幅に上昇させる。※ジャンプで解除可能",
+      "detail": "MP消費量1.2倍。破壊魔法スキル+20。効果時間20秒。"
+  },
+  {
+      "name": "大樹の奇跡",
+      "required": {
+          "buff1": "大樹の加護",
+          "item1": "大樹の杖",
+          "cost": {
+              "type": "ST",
+              "value": 15
+          },
+          "skill": [
+              {
+                  "name": "精神力",
+                  "value": 30
+              }
+          ]
+      },
+      "delay": 1500,
+      "casttime": 140,
+      "info": "大樹の力により範囲攻撃の範囲が少し増加する。※WarAgeでは効果が無い",
+      "detail": "範囲技の範囲+3。他の範囲アップテクとの併用は不可。"
+  },
+  {
+      "name": "スパート ウィップ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 19
+          },
+          "skill": [
+              {
+                  "name": "調教",
+                  "value": 40
+              },
+              {
+                  "name": "集中力",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 120,
+      "info": "ペットに追い込みをかけて一時的に移動速度を上昇させる",
+      "detail": "自分中心の範囲テク。範囲は半径約26。移動発動可。ペットの速度が約100上昇。"
+  },
+  {
+      "name": "Ｓ.Ｂ.Ｇ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 15
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 20
+              },
+              {
+                  "name": "攻撃回避",
+                  "value": 20
+              }
+          ]
+      },
+      "delay": 1500,
+      "casttime": 0,
+      "info": "仮想の敵からの攻撃を避けながら攻撃を返す練習",
+      "detail": "回避が上昇するバフがつく。効果時間は16秒。バフはディレイ付きの行動やジャンプで解除される。パフォ28、回避100で回避+14前後、パフォ83.6、回避60.5で回避25.8～27.7上昇。"
+  },
+  {
+      "name": "グライディング",
+      "buff1": "ハンググライダー",
+      "item1": "ハンググライダー",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 10
+          },
+          "skill": [
+              {
+                  "name": "自然調和",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 1500,
+      "casttime": 0,
+      "info": "ハンググライダーを利用して大空を滑空することが出来る※空中で発動可能、着地で効果が解除される※WarAgeでは効果が無い",
+      "detail": "2018年9月25日実装。"
+  },
+  {
+      "name": "フェイスエモーション（喜）",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 650,
+      "casttime": 150,
+      "info": "一定時間、笑い顔／怒り顔／泣き顔のエフェクトが表示される",
+      "detail": "エフェクトが表示されるテクで、キャラクターの表情が変わるわけではない。"
+  },
+  {
+      "name": "フェイスエモーション（怒）",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 650,
+      "casttime": 150,
+      "info": "一定時間、笑い顔／怒り顔／泣き顔のエフェクトが表示される",
+      "detail": "エフェクトが表示されるテクで、キャラクターの表情が変わるわけではない。"
+  },
+  {
+      "name": "フェイスエモーション（哀）",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 650,
+      "casttime": 150,
+      "info": "一定時間、笑い顔／怒り顔／泣き顔のエフェクトが表示される",
+      "detail": "エフェクトが表示されるテクで、キャラクターの表情が変わるわけではない。"
+  },
+  {
+      "name": "アシミレイト",
+      "casttime": 150,
+      "delay": 1750,
+      "info": "背景と同化して敵に気付かれにくくなる",
+      "detail": "効果時間約15秒。移動速度低下無し。テクニック使用で解除。こちらに気付いていない敵には発見されなくなる。すでに気付かれている敵に対しては効果が無い。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 10
+          },
+          "buff1": "カメレオン アイ",
+          "item1": "カメレオン ゴーグル",
+          "skill": [
+              {
+                  "name": "物まね",
+                  "value": 1
+              }
+          ]
+      }
+  },
+  {
+      "name": "紅蓮火竜拳",
+      "casttime": 150,
+      "delay": 3000,
+      "info": "通常攻撃HIT時に「 火竜の鉄拳 」が追加で発動する ※ドラゴンタイプに特効効果あり",
+      "detail": "2019年2月のFAIRY TAILコラボテクニック。使用後バフを20秒間付与。バフ付与中アタックするとSTを18消費して追撃（0.6倍程度の魔法ダメージ）する。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "skill": [
+              {
+                  "name": "素手",
+                  "value": 90
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 20
+              }
+          ]
+      }
+  },
+  {
+      "name": "ジャイアント",
+      "casttime": 150,
+      "delay": 3150,
+      "info": "マナを消費して自らの身体を巨大化させる ※WarAgeでは効果が無い",
+      "detail": "2019年2月のFAIRY TAILコラボテクニック。筋力100・強化93で最大HP1.5倍、ATK・AC1.25倍。効果時間15秒。スーパーバンブーシュートの2倍近く大きくなる。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 50
+          },
+          "skill": [
+              {
+                  "name": "筋力",
+                  "value": 90
+              },
+              {
+                  "name": "強化魔法",
+                  "value": 60
+              }
+          ]
+      }
+  },
+  {
+      "name": "Ｃ.Ｒ.Ｌ",
+      "casttime": 20,
+      "delay": 1520,
+      "info": "走るよりも早く地面を泳ぐように移動することが出来る ※WarAgeでは効果が無い",
+      "detail": "移動速度+10、効果時間約21秒。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 19
+          },
+          "skill": [
+              {
+                  "name": "水泳",
+                  "value": 30
+              }
+          ]
+      }
+  },
+  {
+      "name": "エンジェル フォール",
+      "casttime": 0,
+      "delay": 1500,
+      "info": "不思議な魔石の力でゆっくりと浮遊しながら落下することができる ※効果中に地面に届かない場合はダメージを受ける",
+      "detail": "効果時間20秒。落下速度が低下する。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "buff1": "魔石の力",
+          "item1": "フローライト ペンダント",
+          "skill": [
+              {
+                  "name": "精神力",
+                  "value": 1
+              }
+          ]
+      }
+  },
+  {
+      "name": "グレート マジック サークル",
+      "casttime": 150,
+      "delay": 2400,
+      "info": "巨大な魔法陣を展開して術者の魔力と詠唱速度を上昇させる",
+      "detail": "魔法陣を設置し、魔力と詠唱速度が上昇する『術式展開』バフが付く。他人には付かない。ホーリーブレス、マジックサークルと併用可。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "catalyst": {
+              "type": "PNQ",
+              "number": 3
+          },
+          "skill": [
+              {
+                  "name": "精神力",
+                  "value": 80
+              },
+              {
+                  "name": "魔法熟練",
+                  "value": 80
+              }
+          ]
+      }
+  },
+  {
+      "name": "バタフライ イリュージョン",
+      "casttime": 150,
+      "delay": 1150,
+      "info": "対象へ無数の幻蝶を放ちダメージを与え、鱗粉の効果で混乱させる",
+      "detail": "魔力非依存のダメージと6秒固定のスケイプゴート。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 23
+          },
+          "buff1": "蝶の舞",
+          "item1": "バタフライ リング",
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 50
+              }
+          ]
+      }
+  },
+  {
+      "name": "フラワー シャワー",
+      "casttime": 240,
+      "delay": 420,
+      "info": "花びらを下から上に投げ上げて祝福する",
+      "detail": "音楽イクシオンマーチのモーションで、手を振るたびに花びらが舞う。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 1
+              }
+          ]
+      }
+  },
+  {
+      "name": "イグニス フォーム",
+      "casttime": 250,
+      "delay": 2250,
+      "info": "太陽神の力を得て炎の化身となることで攻撃力が上昇し、火属性の攻撃を吸収するが、耐水属性が大幅に低下する",
+      "detail": "強化98抵抗58で効果時間43秒、攻撃力35.8~39.2上昇。詠唱あり、キャンセル・ジャンプ解除不可。ヴィガーなどと併用不可。",
+      "required": {
+          "cost": {
+              "type": "MP",
+              "value": 38
+          },
+          "skill": [
+              {
+                  "name": "強化魔法",
+                  "value": 80
+              },
+              {
+                  "name": "呪文抵抗力",
+                  "value": 50
+              }
+          ]
+      }
+  },
+  {
+      "name": "Ｈ.Ｓ.Ｄ",
+      "casttime": 20,
+      "delay": 520,
+      "info": "移動速度は遅くなるが、逆立ちで移動できる",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 1
+              }
+          ]
+      }
+  },
+  {
+      "name": "ドラゴン フォース",
+      "casttime": 150,
+      "delay": 3150,
+      "info": "漆黒の竜に変身して攻撃力と防御力と牙スキルの威力が上昇して、回避が低下する",
+      "detail": "攻撃力・防御力+15％ 回避-15％ 牙攻撃力アップ、小型サウザンドドラゴンに変身。ジャンプ解除可。『ドラゴン テイル ウィップ』『カオス バースト』の前提バフ。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 50
+          },
+          "buff1": "竜化の秘法",
+          "item1": "竜眼の指輪",
+          "skill": [
+              {
+                  "name": "生命力",
+                  "value": 1
+              }
+          ]
+      }
+  },
+  {
+      "name": "八卦蹴撃陣",
+      "casttime": 150,
+      "delay": 2150,
+      "info": "一時的にキックの威力と命中率を大幅に強化して、キック技のディレイを短縮する",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "skill": [
+              {
+                  "name": "キック",
+                  "value": 80
+              },
+              {
+                  "name": "素手",
+                  "value": 80
+              }
+          ]
+      }
+  },
+  {
+      "name": "Ｈ.Ｂ.Ｇ",
+      "casttime": 20,
+      "delay": 1000,
+      "info": "リズムに合わせて、頭を激しく上下に振るモーション",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 1
+              }
+          ]
+      }
+  },
+  {
+      "name": "セイクリッド フィールド",
+      "casttime": 150,
+      "delay": 2400,
+      "info": "フィールド上に状態異常を無効化する聖域「 サンクチュアリ 」を展開する ※魔法陣内にいるプレイヤーは勢力にかかわらず、状態異常を解除するBUFFが付与される ※「 サンクチュアリ 」は一定時間が経過するか、一定ダメージで消滅する",
+      "detail": "ディバイン プルーミッジの詠唱なし範囲版。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "catalyst": {
+              "type": "PNQ",
+              "number": 3
+          },
+          "skill": [
+              {
+                  "name": "回復魔法",
+                  "value": 80
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 80
+              }
+          ]
+      }
+  },
+  {
+      "name": "リリース オブ フォース",
+      "casttime": 150,
+      "delay": 3300,
+      "info": "両腕に封印された闇の力を解放することで攻撃ディレイを大幅に減少させる ※効果中は「束縛の鎖」のパッシブが消える 発動に必要なBuff : 束縛の鎖",
+      "detail": "攻撃ディレイ約25%カット。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 30
+          },
+          "buff1": "束縛の鎖",
+          "item1": "チェインアーム ブレスレット",
+          "skill": [
+              {
+                  "name": "暗黒命令",
+                  "value": 1
+              }
+          ]
+      }
+  },
+  {
+      "name": "シール ミスト",
+      "casttime": 150,
+      "delay": 2150,
+      "info": "対象の周囲に一定時間、有益な効果を無効化する呪いの霧を発生させる",
+      "detail": "装備バフ以外のバフを消滅させるデバフを約14秒与える。デバフ中は新しいバフをかけることも不可。DSなどの防御テクで防御不可能。リムポでデバフ解除可。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 29
+          },
+          "skill": [
+              {
+                  "name": "暗黒命令",
+                  "value": 70
+              },
+              {
+                  "name": "死の魔法",
+                  "value": 50
+              }
+          ]
+      }
+  },
+  {
+      "name": "ラグビー ダッシュ",
+      "casttime": 20,
+      "delay": 1500,
+      "info": "敵陣に向かって猛ダッシュする ※ダッシュ中は移動速度が上昇し攻撃を回避できるが、テクニックは使用できずスタミナの消費が激しい ※WarAgeでは効果が無い",
+      "detail": "「ボールキャリア」バフは移動速度+10、「ラグビー ダッシュ」は移動速度+30と物理攻撃完全回避、効果時間10秒。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 20
+          },
+          "buff1": "ボール キャリア",
+          "item1": "ラグビー ボール",
+          "skill": [
+              {
+                  "name": "キック",
+                  "value": 1
+              }
+          ]
+      }
+  },
+  {
+      "name": "弩車召喚",
+      "required": {
+          "catalyst": {
+              "type": "弩車",
+              "number": 1
+          },
+          "cost": {
+              "type": "ST",
+              "value": 28
+          },
+          "skill": [
+              {
+                  "name": "木工",
+                  "value": 60
+              },
+              {
+                  "name": "鍛冶",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 1800,
+      "casttime": 150,
+      "info": "ドワーフが発明した強力なバネのちからで巨大な矢を放つ特性の弩車を召喚する。",
+      "detail": "死亡・ゾーン移動・ログアウトで消滅。レベルは木工スキル-10で同時に召喚できるのは一体まで。Lv90 HP1416 ATK181 AC162 HIT135。触媒の弩車は重さ20。木工50 丸太30 ハードストラップ6 鉄インゴ6 サムオブレジェンド6。"
+  },
+  {
+      "name": "リコール トイソルジャー",
+      "required": {
+          "catalyst": {
+              "type": "お金",
+              "number": 400
+          },
+          "mastery": [
+              "傭兵"
+          ],
+          "cost": {
+              "type": "ST",
+              "value": 28
+          },
+          "skill": [
+              {
+                  "name": "戦闘技術",
+                  "value": 60
+              }
+          ]
+      },
+      "delay": 1800,
+      "casttime": 150,
+      "info": "複数の兵士を同時に呼び出す※発動には一人当たり200G(J)×4人分の800G(J)が必要です。",
+      "detail": "遠隔攻撃をするトイソルジャーを一度に4体呼び出す。最大10体まで。Lv25 HP126 MP30 ATK32 DEF32 HIT54。"
+  },
+  {
+      "name": "チャーリー フェスティバル",
+      "casttime": 200,
+      "delay": 2200,
+      "info": "魔女に仮装した小さなチャーリーを沢山呼び出すことができる。 発動に必要なBuff : なりきり チャーリー",
+      "detail": "マニピュレイト メロディのチャーリー版。ただし、装備を外すとチャーリーが消える。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "buff1": "なりきりチャーリー",
+          "item1": "チャーリーの着ぐるみ",
+          "skill": [
+              {
+                  "name": "暗黒命令",
+                  "value": 1
+              }
+          ]
+      }
+  },
+  {
+      "name": "ジャイアント キリング",
+      "casttime": 150,
+      "delay": 1500,
+      "info": "一定時間、強力な敵を打ち滅ぼす力を得ることができる ※カオス系に対して特攻効果",
+      "detail": "効果時間中、カオス系Mobへのダメージが1.4倍になる。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "skill": [
+              {
+                  "name": "筋力",
+                  "value": 80
+              },
+              {
+                  "name": "戦闘技術",
+                  "value": 70
+              }
+          ]
+      }
+  },
+  {
+      "name": "ファルコン グライディング",
+      "casttime": 150,
+      "delay": 1350,
+      "info": "大空へ向かって羽ばたき、空中を滑空するように移動する ※WarAgeでは効果が無い 発動に必要なBuff : 鳥になりたい",
+      "detail": "移動中、空中、水中発動可。効果時間約10秒。効果時間中、移動速度+20前後、落下速度減少。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "buff1": "鳥になりたい",
+          "item1": "メカニカル ウイング アーム",
+          "skill": [
+              {
+                  "name": "自然調和",
+                  "value": 1
+              }
+          ]
+      }
+  },
+  {
+      "name": "スチーム バースト",
+      "casttime": 150,
+      "delay": 1450,
+      "info": "スタミナが徐々に減るが、蒸気の力で一時的に攻撃力を上昇させる ※WarAgeでは効果がない 発動に必要なBuff : 蒸気機関",
+      "detail": "攻撃力+15（固定かは不明）、効果時間1分。スタミナが徐々にトータルで130程度減少。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 19
+          },
+          "buff1": "蒸気機関",
+          "item1": "スチームパンク ガントレット",
+          "skill": [
+              {
+                  "name": "筋力",
+                  "value": 40
+              }
+          ]
+      }
+  },
+  {
+      "name": "大地の守り",
+      "casttime": 130,
+      "delay": 950,
+      "info": "大地のマナを利用して自身の防御力と呪文抵抗力を上昇させる 発動に必要なBuff : 大地の加護",
+      "detail": "効果時間は20秒。強化魔法0で防御力・呪文抵抗力+4.5、強化魔法93で防御力・呪文抵抗力+22.0。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 20
+          },
+          "buff1": "大地の加護",
+          "item1": "タイタン ロッド",
+          "skill": [
+              {
+                  "name": "強化魔法",
+                  "value": 1
+              }
+          ]
+      }
+  },
+  {
+      "name": "フォートレス",
+      "casttime": 150,
+      "delay": 1900,
+      "info": "防御力が上昇し、ノックバックに対して踏み止まることができる 発動に必要なBuff : ブレイブナイト マスタリー",
+      "detail": "ノックバックの距離や回数が減少する。AC+30。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 28
+          },
+          "mastery": [
+              "ブレイブナイト"
+          ],
+          "skill": [
+              {
+                  "name": "盾",
+                  "value": 60
+              }
+          ]
+      }
+  },
+  {
+      "name": "ガードレイジ",
+      "casttime": 150,
+      "delay": 1650,
+      "info": "ダメージを軽減し、効果中にダメージを受けると確率で一時的に攻撃力が上昇する 発動に必要なBuff : デュエリスト マスタリー",
+      "detail": "ダメージ軽減15%のバフが20秒付き、物理ダメージを受けると50%の確率で、効果時間8秒攻撃力20%上昇の「反撃の狼煙」バフが付く。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "mastery": [
+              "デュエリスト"
+          ],
+          "skill": [
+              {
+                  "name": "着こなし",
+                  "value": 80
+              }
+          ]
+      }
+  },
+  {
+      "name": "フルバースト マジック",
+      "casttime": 170,
+      "delay": 2000,
+      "info": "魔法使用時の消費MPが増えるが、一時的に魔力を大幅に上げることができる ※ジャンプで解除可能",
+      "detail": "消費MP1.4倍、魔熟100集中98.1で魔力42.8～45.8程度（同比較全力全開37.9～39.9程度、ホリブレ25.2～25.7程度）上昇。ホーリーブレスなどとは併用不可。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "skill": [
+              {
+                  "name": "魔法熟練",
+                  "value": 70
+              },
+              {
+                  "name": "集中力",
+                  "value": 70
+              }
+          ]
+      }
+  },
+  {
+      "name": "風魔手裏剣",
+      "casttime": 150,
+      "delay": 600,
+      "info": "高い威力と補正能力を持つ卍型の巨大な手裏剣を召喚する。 発動に必要なBuff : アサシン マスタリー",
+      "detail": "ダメージ90.0 有効レンジ30.0 角度補正角 90度　重さ1.00 NT LO OPP CSの風魔手裏剣を召喚する。見える範囲なら当たる。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "mastery": [
+              "アサシン"
+          ],
+          "skill": [
+              {
+                  "name": "投げ",
+                  "value": 80
+              }
+          ]
+      }
+  },
+  {
+      "name": "こいのぼり",
+      "casttime": 150,
+      "delay": 600,
+      "info": "こいのぼりを立てる",
+      "detail": "こいのぼりを立てます。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "取引",
+                  "value": 1
+              }
+          ]
+      }
+  },
+  {
+      "name": "薔薇のアンサンブル",
+      "casttime": 120,
+      "delay": 750,
+      "info": "PTメンバーとペットのクリティカル率を上昇させる 発動に必要なBuff : 薔薇のコンダクター",
+      "detail": "クリティカル率が約30%程度上昇する。効果時間20秒。他のクリティカル上昇バフと併用可能なため、クリティカル100%が可能。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 19
+          },
+          "buff1": "薔薇のコンダクター",
+          "item1": "薔薇のタクト",
+          "skill": [
+              {
+                  "name": "音楽",
+                  "value": 40
+              }
+          ]
+      }
+  },
+  {
+      "name": "共鳴",
+      "casttime": 20,
+      "delay": 750,
+      "info": "ケロケロケロケロ…共鳴することでPTメンバー全員の自然回復量を増加させる",
+      "detail": "術者を含むパーティメンバー全員が1秒で2程度のHP/ST/MP自然回復する。効果時間は20秒。効果範囲およそ11m程。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 15
+          },
+          "skill": [
+              {
+                  "name": "音楽",
+                  "value": 30
+              },
+              {
+                  "name": "パフォーマンス",
+                  "value": 30
+              }
+          ]
+      }
+  },
+  {
+      "name": "鏡花水月",
+      "casttime": 100,
+      "delay": 1000,
+      "info": "水面に映った幻の虚像を攻撃させることで物理攻撃を回避する※物理攻撃以外を受けた場合は効果が消滅する※スキルが足りなくても発動可能、神秘魔法スキルで効果量が上昇する 発動に必要なBuff : 水神の力",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 20
+          },
+          "buff1": "水神の力",
+          "item1": "アクア ロッド",
+          "skill": [
+              {
+                  "name": "神秘魔法",
+                  "value": 1
+              }
+          ]
+      }
+  },
+  {
+      "name": "グルーミング ケア",
+      "casttime": 200,
+      "delay": 1700,
+      "info": "ペットを毛繕いすることでペットのパフォーマンスを向上させる※攻撃、命中、回避、防御、魔力を8%上昇させる 発動に必要なBuff : グルーミング",
+      "detail": "効果時間は約30秒。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 15
+          },
+          "buff1": "グルーミング",
+          "item1": "グルーミング グローブ",
+          "skill": [
+              {
+                  "name": "調教",
+                  "value": 30
+              }
+          ]
+      }
+  },
+  {
+      "name": "ライオニック オーラ",
+      "casttime": 150,
+      "delay": 2150,
+      "info": "獅子の力を開放することで身体能力を10%上昇させる 発動に必要なBuff : 獅子の加護",
+      "detail": "筋力100で効果時間約36秒。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 19
+          },
+          "buff1": "獅子の加護",
+          "item1": "獅子の腕輪",
+          "skill": [
+              {
+                  "name": "筋力",
+                  "value": 40
+              }
+          ]
+      }
+  },
+  {
+      "name": "ライオニック フォーム",
+      "casttime": 150,
+      "delay": 1600,
+      "info": "百獣の王に変身して、一時的に攻撃力と移動速度が上昇する 発動に必要なBuff : 獅子の加護",
+      "detail": "攻撃力は牙40で+10、牙90で+20弱程度。移動速度は牙40で+10、牙90で+20弱程度。効果時間は牙40で15秒、牙90で30秒。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 19
+          },
+          "buff1": "獅子の加護",
+          "item1": "獅子の腕輪",
+          "skill": [
+              {
+                  "name": "牙",
+                  "value": 40
+              }
+          ]
+      }
+  },
+  {
+      "name": "錬金マイスター",
+      "casttime": 20,
+      "delay": 20,
+      "info": "錬金を極めた者の証 最大HP+20、所持可能重量+20の効果を得る",
+      "detail": "究極奥儀の書 [ 錬金マイスター ]はトレード不可のため、自力で作成するしかない。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 0
+          },
+          "skill": [
+              {
+                  "name": "生命力",
+                  "value": 0
+              }
+          ]
+      }
+  },
+  {
+    "name": "キープアウト トラップ",
+    "casttime": 100,
+    "delay": 2300,
+    "info": "立入禁止の看板を設置して、範囲内への敵の侵入を妨害する",
+    "detail": "看板を中心にノックバックする。複数設置可。",
+    "required": {
+        "cost": {
+            "type": "ST",
+            "value": 33
+        },
+        "skill": [
+            {
+                "name": "罠",
+                "value": 70
+            },
+            {
+                "name": "暗黒命令",
+                "value": 50
+            }
+        ]
+    }
+    },
+    {
+    "name": "ゴースト ピクチャーズ",
+    "casttime": 120,
+    "delay": 1320,
+    "info": "霊を引き寄せる呪いの写真を撮る 発動に必要なBuff : ノスタルジック カメラ",
+    "detail": "物理攻撃を完全回避しシャウトテクニックを使う「浮遊霊」を召喚する。暗黒命令84以上で2体召喚可能。サクリ不可。滞在時間は暗黒命令9で3分10秒。",
+    "required": {
+        "cost": {
+            "type": "ST",
+            "value": 15
+        },
+        "buff1": "ノスタルジック カメラ",
+        "item1": "ノスタルジック カメラ",
+        "skill": [
+            {
+                "name": "暗黒",
+                "value": 1
+            }
+        ]
+    }
+    },
+    {
+    "name": "マシンガン プレイスメント",
+    "casttime": 150,
+    "delay": 1950,
+    "info": "オート機能を備えたマシンガンを設置する※右クリックで手動による「 機銃掃射 」も可能です。※手動で発動した方がより短い間隔で連射発動が可能です。発動に必要なBuff : 傭兵 マスタリー",
+    "detail": "銃器スキルで最大3体召喚可能の「機銃」を召喚する。サクリ不可エリアチェンジ消滅。滞在時間は無限の模様。範囲内の敵に5秒間隔で物理ダメージ1回DoT4回の5回の必中ダメージを与える。DoTのため上書きされる。お座りさせると攻撃しなくなる。Lv30 HP300 攻撃60 防御60",
+    "required": {
+        "cost": {
+            "type": "ST",
+            "value": 23
+        },
+        "mastery": [
+            "傭兵"
+        ],
+        "skill": [
+            {
+                "name": "銃器",
+                "value": 50
+            }
+        ]
+    }
+    },
+  {
+      "name": "チェンジ エナジー",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 0
+          },
+          "skill": [
+              {
+                  "name": "戦闘技術",
+                  "value": 80
+              },
+              {
+                  "name": "神秘魔法",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 1200,
+      "casttime": 200,
+      "info": "HPをスタミナへと変換することができる",
+      "detail": "undefined"
+  },
+  {
+      "name": "エリア チェリッシング",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 45
+          },
+          "mastery": [
+              "ブリーダー"
+          ],
+          "skill": [
+              {
+                  "name": "調教",
+                  "value": 90
+              }
+          ]
+      },
+      "delay": 1020,
+      "casttime": 220,
+      "info": "愛情を込めて周囲にいるペットを介抱し、HPを回復させる",
+      "detail": "undefined"
+  },
+  {
+      "name": "ネイチャー ヒーリング",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 40
+          },
+          "skill": [
+              {
+                  "name": "自然調和",
+                  "value": 70
+              },
+              {
+                  "name": "魔法熟練",
+                  "value": 70
+              },
+              {
+                  "name": "自然回復",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1500,
+      "casttime": 300,
+      "info": "大地の力を借りて、HP/MP/STの回復速度を高める",
+      "detail": "undefined"
+  },
+  {
+      "name": "Ｓ.Ｗ.Ｄ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 28
+          },
+          "buff1": "Ｓ.Ｎ.Ｆ",
+          "skill": [
+              {
+                  "name": "パフォーマンス",
+                  "value": 60
+              },
+              {
+                  "name": "ダンス",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 2220,
+      "casttime": 220,
+      "info": "PTメンバーとダンスを踊り HP自然回復をUPさせる(Shall We Dance?)",
+      "detail": "undefined"
+  },
+  {
+      "name": "癒しの音色",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "item1": "朧月笛セット同封の朧月笛(武器)",
+          "skill": [
+              {
+                  "name": "音楽",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 1000,
+      "casttime": 280,
+      "info": "美しい笛の音色で自分以外の周囲の味方を癒す",
+      "detail": "undefined"
+  },
+  {
+      "name": "ランチ タイム",
+      "required": {
+          "catalyst": {
+              "type": "ピクニック 休息セット",
+              "number": 1
+          },
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "料理",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 1450,
+      "casttime": 450,
+      "info": "ピクニックセットを召喚する。※アイテム「ピクニックセット」をUSEすると入手。",
+      "detail": "undefined"
+  },
+  {
+      "name": "ヒーリング ショット",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "skill": [
+              {
+                  "name": "銃器",
+                  "value": 70
+              },
+              {
+                  "name": "回復魔法",
+                  "value": 20
+              }
+          ]
+      },
+      "delay": 800,
+      "casttime": 135,
+      "info": "癒しの魔力を弾丸に込めて 味方を撃つ",
+      "detail": "undefined"
+  },
+  {
+      "name": "グローイング ツリー",
+      "required": {
+          "catalyst": {
+              "type": "シード",
+              "number": 1
+          },
+          "cost": {
+              "type": "ST",
+              "value": 38
+          },
+          "mastery": [
+              "ドルイド"
+          ],
+          "skill": [
+              {
+                  "name": "自然調和",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 2120,
+      "casttime": 120,
+      "info": "生命の樹を呼び出し 周囲の味方を回復させる",
+      "detail": "undefined"
+  },
+  {
+      "name": "ライブ ステージ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "mastery": [
+              "新人アイドル",
+              "オールド アイドル"
+          ],
+          "skill": [
+              {
+                  "name": "ダンス",
+                  "value": 70
+              },
+              {
+                  "name": "音楽",
+                  "value": 70
+              }
+          ]
+      },
+      "delay": 1850,
+      "casttime": 510,
+      "info": "アイドルが踊りだすと 何処でもライブ会場に早変わり！",
+      "detail": "undefined"
+  },
+  {
+      "name": "ソウル スティール",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 19
+          },
+          "skill": [
+              {
+                  "name": "盗み",
+                  "value": 40
+              },
+              {
+                  "name": "死の魔法",
+                  "value": 40
+              }
+          ]
+      },
+      "delay": 1150,
+      "casttime": 150,
+      "info": "闇の力で対象のスタミナとマナ・ポイントを盗む",
+      "detail": "※盗み上げに便利。"
+  },
+  {
+      "name": "ボンファイヤー",
+      "required": {
+          "catalyst": {
+              "type": "丸太",
+              "number": 3
+          },
+          "cost": {
+              "type": "ST",
+              "value": 10
+          },
+          "skill": [
+              {
+                  "name": "料理",
+                  "value": 30
+              }
+          ]
+      },
+      "delay": 20150,
+      "casttime": 150,
+      "info": "たき火を設置する。※たき火の近くで座ると自然回復量が上昇する",
+      "detail": "※火が消えている場合は効果がない。丸太を追加することで燃焼時間を延長させることができる"
+  },
+  {
+      "name": "フラダンス",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 15
+          },
+          "buff1": "南国気分",
+          "item1": "フラワー レイ",
+          "skill": [
+              {
+                  "name": "ダンス",
+                  "value": 30
+              }
+          ]
+      },
+      "delay": 400,
+      "casttime": 400,
+      "info": "自分の周りにいる仲間のMP自然回復量を上昇させる。",
+      "detail": "undefined"
+  },
+  {
+      "name": "かまくら",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 30
+          },
+          "skill": [
+              {
+                  "name": "召喚魔法",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 2150,
+      "casttime": 150,
+      "info": "大きなかまくらを召喚する。※かまくらの中で座ると自然回復量が上昇する",
+      "detail": "undefined"
+  },
+  {
+      "name": "勇健の術",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 33
+          },
+          "buff1": "秘奥義",
+          "item1": "秘伝の巻物",
+          "mastery": [
+              "アサシン"
+          ],
+          "skill": [
+              {
+                  "name": "自然調和",
+                  "value": 80
+              }
+          ]
+      },
+      "delay": 2120,
+      "casttime": 120,
+      "info": "身体を強化して毒や状態異常を解除し、一定時間防ぐ忍術",
+      "detail": "マジックリムーブポーションとキュアポーションで回復できる状態異常や毒を解除できる。また、効果時間中の15秒程度にこれらを受けると即解除される。"
+  },
+  {
+      "name": "こたつ召喚",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "木工",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 750,
+      "casttime": 150,
+      "info": "遠赤外線効果のある暖房器具を設置する",
+      "detail": "こたつLv50.1を召喚し、距離2.5まで『遠赤外線効果』バフがペット以外に付く。HP/MP/STが1分に50程度回復。移動やテク使用でバフは消えない。"
+  },
+  {
+      "name": "ラブ ショット",
+      "required": {
+          "buff1": "愛のキューピット",
+          "item1": "キューピット ボウ",
+          "cost": {
+              "type": "ST",
+              "value": 15
+          },
+          "skill": [
+              {
+                  "name": "弓",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 1500,
+      "casttime": 140,
+      "info": "ラブパワーが宿った矢で意中のあの子を狙い撃ち！あの子のHPを回復してあげることで、あの子もキミにメロメロだ！",
+      "detail": "射程は固定で20ほど。弓スキル0で約40回復、弓スキル100で約80回復。発動に弓や矢は必要ない。"
+  },
+  {
+      "name": "ホット スプリング",
+      "required": {
+          "item1": "つるはし",
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "採掘",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 2000,
+      "casttime": 270,
+      "info": "温泉を掘り当てる※混浴です※ケンカになるので他の温泉の近くでは絶対に使用しないでください",
+      "detail": "温泉に入るとテク不可＋ST/MP回復＋汚れ減少。入浴中にレイジングが切れると詰むと話題になり後の更新で重量軽減効果が追加された。"
+  },
+  {
+      "name": "イントラヴィーナス ドリップ",
+      "required": {
+          "buff1": "白衣の天使",
+          "item1": "ナース ウェア・ナース キャップ",
+          "cost": {
+              "type": "ST",
+              "value": 10
+          },
+          "skill": [
+              {
+                  "name": "包帯",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 1000,
+      "casttime": 120,
+      "info": "対象に点滴を打つことでスタミナの自然回復を大幅に上昇させる",
+      "detail": "包帯スキル値に関係なく回復量は一定。自分以外に効果時間8秒ST92回復のバフを付加。"
+  },
+  {
+      "name": "バーチャル ステージ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 30
+          },
+          "skill": [
+              {
+                  "name": "音楽",
+                  "value": 1
+              }
+          ]
+      },
+      "delay": 2150,
+      "casttime": 150,
+      "info": "3Dホログラムによってアイドルのステージを表示する※バーチャル ステージを「座らせる」ことでバーチャル空間を起動する",
+      "detail": "最大3体。おすわりでエフェクトが派手になる。音楽スキルの効果が上がる『バーチャル空間』バフが召喚者に付く。効果時間は約4分。召喚時間は約3分。範囲外に出るとバフは消える。"
+  },
+  {
+      "name": "狩人の食卓",
+      "casttime": 150,
+      "delay": 750,
+      "info": "獲物を焼くためのたき火セットを召喚する",
+      "detail": "キッチンと同じく切る・焼くが可能。召喚後に右クリックすると肉の焼き具合が表示され、300秒（÷狩人の食卓の数）経過で漫画肉（右手）が入手。650秒（÷狩人の食卓の数）経過でこげこげミート入手。漫画肉は装備してMOBを殴ると満腹度が5回復。モンスターハｎ",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "料理",
+                  "value": 1
+              }
+          ]
+      }
+  },
+  {
+      "name": "大自然の息吹",
+      "casttime": 300,
+      "delay": 7200,
+      "info": "自然界のエネルギーを体内に取り込み魔力へ変換して放つことで PTメンバーとペットの傷を完全に癒し、さらに負の効果を全て打ち消す",
+      "detail": "使用者を中心としたターゲット不要の範囲テク。発動中は移動不可。回復量は装備やバフ補正の増加分を含めた現HP最大値。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 100
+          },
+          "skill": [
+              {
+                  "name": "自然調和",
+                  "value": 90
+              },
+              {
+                  "name": "回復魔法",
+                  "value": 60
+              },
+              {
+                  "name": "魔法熟練",
+                  "value": 60
+              }
+          ]
+      }
+  },
+  {
+      "name": "トリミング ケア",
+      "casttime": 220,
+      "delay": 1120,
+      "info": "ペットの身体的ケアからメンタル面のケアまでしっかりサポート！ ※ペットにかかっているDEBUFFを消し去り、MPを回復する 発動に必要なBuff : ブリーダー マスタリー",
+      "detail": "調教100でMP120程度回復。",
+      "range": 8.2,
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 20
+          },
+          "mastery": [
+              "ブリーダー"
+          ],
+          "skill": [
+              {
+                  "name": "調教",
+                  "value": 50
+              }
+          ]
+      }
+  },
+  {
+      "name": "いやしのくうかん",
+      "casttime": 184,
+      "delay": 1840,
+      "info": "みんなでぴょんぴょんたのしいな♪",
+      "detail": "いやしましゅまろコラボテク。使用者を中心とした範囲4.5の回復テク。生命力100でHP25回復×3回。",
+      "range": 4.5,
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 21
+          },
+          "skill": [
+              {
+                  "name": "生命力",
+                  "value": 40
+              },
+              {
+                  "name": "持久力",
+                  "value": 40
+              }
+          ]
+      }
+  },
+  {
+      "name": "いやしの風",
+      "casttime": 130,
+      "delay": 650,
+      "info": "回復魔法の効果を上昇させ、専用技 『 いやしの風 』 が使用できる 発動に必要なBuff : 風精霊の加護",
+      "detail": "回復量とディレイは回復魔法スキル依存。回復魔法0でディレイ11秒26～29回復、98でディレイ7秒85～90回復。",
+      "range": 20,
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 20
+          },
+          "buff1": "風精霊の加護",
+          "item1": "エアリアル ロッド",
+          "skill": [
+              {
+                  "name": "回復魔法",
+                  "value": 1
+              }
+          ]
+      }
+  },
+  {
+      "name": "ラブリー チョコレート",
+      "casttime": 130,
+      "delay": 650,
+      "info": "自分以外の対象に無償の愛でMPを分け与える ※スキルが足りなくても発動可能 発動に必要なBuff : スウィート ハート",
+      "detail": "射程距離が長いディバイドマナ。",
+      "range": 30,
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 30
+          },
+          "buff1": "スウィート ハート",
+          "item1": "チョコレート ワンド",
+          "skill": [
+              {
+                  "name": "精神力",
+                  "value": 1
+              }
+          ]
+      }
+  },
+  {
+      "name": "クリスマス ショップ",
+      "casttime": 150,
+      "delay": 1225,
+      "info": "自分専用のクリスマス ショップを設置する事ができる ※必要スキルに「取引」がありますが、スキル値0でも使用できます。",
+      "detail": "露店設置テクのクリスマスバージョン。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "取引",
+                  "value": 12
+              }
+          ]
+      }
+  },
+  {
+      "name": "チョコ ホット スプリング",
+      "casttime": 270,
+      "delay": 2000,
+      "info": "チョコの温泉を掘り当てる ※混浴です ケンカになるので他の温泉の近くでは絶対に使用しないでください",
+      "detail": "泥風呂。効果はホット スプリングと同じ。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "item1": "つるはし",
+          "skill": [
+              {
+                  "name": "採掘",
+                  "value": 1
+              }
+          ]
+      }
+  },
+  {
+      "name": "ファシネイト キッス",
+      "casttime": 250,
+      "delay": 900,
+      "info": "アイドルの投げキッスでハッスルする ※対象のスタミナが回復する 発動に必要なBuff : 新人アイドル マスタリー　or オールド アイドル マスタリー",
+      "detail": "音楽98で対象のSTを約78回復。音楽スキルに依存。Buffミュージカル、伝説のギタリスト込で約100回復。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 23
+          },
+          "mastery": [
+              "新人アイドル",
+              "オールド アイドル"
+          ],
+          "skill": [
+              {
+                  "name": "音楽",
+                  "value": 50
+              }
+          ]
+      }
+  },
+  {
+      "name": "茶道セット",
+      "casttime": 450,
+      "delay": 1450,
+      "info": "茶道セットを召喚する ※必要スキルに「取引」がありますが、スキル値0でも使用できます。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "取引",
+                  "value": 1
+              }
+          ]
+      }
+  },
+  {
+      "name": "一本桜",
+      "casttime": 200,
+      "delay": 1200,
+      "info": "一本の桜を咲かすことができる 桜の木を座らせると桜が舞い散る ※必要スキルに「栽培」がありますが、スキル値0でも使用できます。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "栽培",
+                  "value": 1
+              }
+          ]
+      }
+  },
+  {
+      "name": "セレブレイション ディナー",
+      "casttime": 150,
+      "delay": 750,
+      "info": "ディナー用のテーブルとイスと料理を召喚する  ディナー用テーブルとイスの近くでBuff「テイスティング」を発動させると「大人なデート」が発動する 大人なデート：誰にも邪魔されない大人なデート気分を味わえるかも！？ ※お相手はご自身でお探しください。",
+      "detail": "ワイングラスのバフ「テイスティング」は待機モーションが椅子に座ってテイスティングするモーションに変化して、HPの自然回復速度が上昇する。※テイスティングし過ぎると酩酊度が上がるので注意 ※WarAgeでは効果がない",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "料理",
+                  "value": 1
+              }
+          ]
+      }
+  },
+  {
+      "name": "アウトドア ライブ",
+      "casttime": 150,
+      "delay": 2150,
+      "info": "野外での演奏に適した大音量で音楽とシャウトの効果範囲を大きく上昇させる さらに周囲のプレイヤーをノリノリにする。",
+      "detail": "ステージを召喚し、効果範囲にいる他プレイヤーが躍る。踊るだけ……らしい。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 5
+          },
+          "skill": [
+              {
+                  "name": "音楽",
+                  "value": 1
+              }
+          ]
+      }
+  },
+  {
+      "name": "かき氷屋",
+      "casttime": 150,
+      "delay": 750,
+      "info": "かき氷屋を設置することができる「氷」を3個渡すことで周囲に任意のBUFF効果を付与することができる 使用アイテム : 氷",
+      "detail": "氷を3つ渡すとバフ選択メニューが出る。イチゴのかき氷はHP、バナナはST、メロンはMPの回復バフがセイクリ程度の範囲に展開される。効果は20秒、20秒間でメロンだとMPが61回復。",
+      "required": {
+          "cost": {
+              "type": "ST",
+              "value": 40
+          },
+          "catalyst": {
+              "type": "氷",
+              "number": 3
+          },
+          "skill": [
+              {
+                  "name": "料理",
+                  "value": 10
+              }
+          ]
+      }
+  }
+]

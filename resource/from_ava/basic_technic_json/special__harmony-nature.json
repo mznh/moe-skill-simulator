@@ -1,0 +1,64 @@
+[{
+    "skill_type": "自然調和",
+    "skill_value": 1,
+    "name": "サイレント ラン",
+    "cost_type": "ST",
+    "cost_value": 5,
+    "info": "周りの敵の聴覚を誤魔化し 自分の足音を気付かれにくくする"
+}, {
+    "skill_type": "自然調和",
+    "skill_value": 20,
+    "name": "センス ヒドゥン",
+    "cost_type": "ST",
+    "cost_value": 11,
+    "info": "五感を研ぎ澄まし 隠れている者を発見できるようにする"
+}, {
+    "skill_type": "自然調和",
+    "skill_value": 30,
+    "name": "ムーン フォール",
+    "cost_type": "ST",
+    "cost_value": 15,
+    "info": "一定時間 強風の力を借りて宙へ浮きあがる"
+}, {
+    "skill_type": "自然調和",
+    "skill_value": 40,
+    "name": "ネイチャー ビート",
+    "cost_type": "ST",
+    "cost_value": 19,
+    "info": "木に触れ 自然の癒しの力でHPを回復する<br>(伐採可能な木に対して有効)"
+}, {
+    "skill_type": "自然調和",
+    "skill_value": 50,
+    "name": "ツイスター ラン",
+    "cost_type": "ST",
+    "cost_value": 23,
+    "info": "自分の後ろに追い風を巻き起こし 移動速度を早める"
+}, {
+    "skill_type": "自然調和",
+    "skill_value": 60,
+    "name": "センス プレイ",
+    "cost_type": "ST",
+    "cost_value": 28,
+    "info": "素早い獲物が通過したルートを感知し、追跡する<br>※対Mobには 対象に対して自分の気配を希薄にさせる効果もある"
+}, {
+    "skill_type": "自然調和",
+    "skill_value": 70,
+    "name": "ファルコン ウイング",
+    "cost_type": "ST",
+    "cost_value": 33,
+    "info": "ファルコンのように羽ばたき 前方に飛び上がる<br>※スキルが高くなるとディレイが速くなる"
+}, {
+    "skill_type": "自然調和",
+    "skill_value": 80,
+    "name": "グレート エスケイプ",
+    "cost_type": "ST",
+    "cost_value": 38,
+    "info": "パーティー全員の移動速度を速める<br>※効果中は攻撃できなくなる"
+}, {
+    "skill_type": "自然調和",
+    "skill_value": 90,
+    "name": "リーシング スカイ",
+    "cost_type": "ST",
+    "cost_value": 33,
+    "info": "天候を操る"
+}]
