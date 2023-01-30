@@ -19,7 +19,7 @@ data = data.map do |row|
     if rs.nil? then
       {}
     else
-      { "name" => rs[1], "value"=> rs[2].to_i }
+      { "name" => rs[1].chomp, "value"=> rs[2].to_i }
     end
   end
   res["required"]["skill"] = skills

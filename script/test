@@ -1,6 +1,6 @@
 #!/bin/bash
 
 
-#./main.rb "https://www.ponz-web.com/skill/?1&1Ce2pu4Fi5bC6Ce8iy9qs12Fi16Eu21Ce27cA28ym40se"
-./main.rb "https://www.ponz-web.com/skill/?1&2ak5ua6ew7Fi25Eu26Eu27Eu28Eu29Ce30Eu31Ce"
+./main.rb "https://www.ponz-web.com/skill/?1&1Ce2pu4Fi5bC6Ce8iy9qs12Fi16Eu21Ce27cA28ym40se"
+#./main.rb "https://www.ponz-web.com/skill/?1&2ak5ua6ew7Fi25Eu26Eu27Eu28Eu29Ce30Eu31Ce"
 #./main.rb "https://www.ponz-web.com/skill/?1&1jm4xy5pu6mq7vC11mq17mq19mq23se26Eu27Bq28Ce30ak32mq33cA41mq56mq"
