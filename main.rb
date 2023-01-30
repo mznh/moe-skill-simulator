@@ -16,8 +16,20 @@ class SpecialSkillSearcher
     File.open("resource/from_ava/spell__composite.json") do |file|
       @spells  = JSON.load(file)
     end
+    File.open("resource/spell.json") do |file|
+      name_list = @spells.map{|spell| spell["name"]}
+      @spells  += JSON.load(file).select do |spell|
+        not name_list.include?(spell["name"])
+      end
+    end
     File.open("resource/from_ava/special__composite.json") do |file|
       @specials  = JSON.load(file)
+    end
+    File.open("resource//special.json") do |file|
+      name_list = @specials.map{|spell| spell["name"]}
+      @specials  += JSON.load(file).select do |spell|
+        not name_list.include?(spell["name"])
+      end
     end
     @player_character = {}
   end
@@ -28,6 +40,14 @@ class SpecialSkillSearcher
       return nil
     end
     return res[1], res[2]
+  end
+
+  def load_character(url)
+    self.encode_url(url)
+    self.search_ship_composite()
+    self.list_up_multi_technic()
+    self.calc_probabiilty_of_success()
+    return @player_character
   end
 
   def encode_url(str)
@@ -47,6 +67,7 @@ class SpecialSkillSearcher
         break
       end
     end
+    @player_character["race"] = race_name
     @player_character["skills"] = skill_set
     return race_name, skill_set
   end
@@ -66,6 +87,9 @@ class SpecialSkillSearcher
     return ships
   end
 
+  #TODO 要対応
+  # 要求スキルが設定されているが、実際は不要なもの（鏡花水月など）
+  # マスタリーが必要だが、他で代用が聞くもの（ドルイド、ウォーリアーなど）
   def list_up_multi_technic()
     skill_set = @player_character["skills"]
     ship_set  = @player_character["ships"] 
@@ -76,6 +100,7 @@ class SpecialSkillSearcher
           name  = required_skill["name"]
           value = required_skill["value"]
           # ここでは要求スキル以上かどうかのみ見る
+          # 複合テク候補は要求スキル未満のものはリストアップされない
           if skill_set.has_key? name and skill_set[name] >= value then true else false end
         end
         if not spell["required"].has_key? "mastery" then 
@@ -95,6 +120,7 @@ class SpecialSkillSearcher
   def calc_probabiilty_of_success()
     skills = @player_character["skills"]
     @player_character["technics"].map! do |technic|
+      # 計算式は moewiki より引用
       probability = 80
       n = technic["required"]["skill"].length
       technic["required"]["skill"].each do|n_v|
@@ -128,6 +154,9 @@ class SpecialSkillSearcher
     end
     puts "==============================="
     puts "複合テク"
+    #technic_set.sort_by! do |elm| 
+    #  elm["name"]
+    #end
     technic_set.each do |technic|
       if technic["probability"] >= 100.0 then
         puts "・#{technic["name"]}"
@@ -141,8 +170,5 @@ end
 #url = "https://www.ponz-web.com/skill/?1&2ak5ua6ew7Fi25Eu26Eu27Eu28Eu29Ce30Eu31Ce"
 #
 searcher = SpecialSkillSearcher.new()
-race,skills = searcher.encode_url(ARGV[0])
-ships = searcher.search_ship_composite()
-technics = searcher.list_up_multi_technic()
-searcher.calc_probabiilty_of_success()
+searcher.load_character(ARGV[0])
 searcher.print()
