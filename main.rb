@@ -19,7 +19,7 @@ class SpecialSkillSearcher
     File.open("resource/from_ava/special__composite.json") do |file|
       @specials  = JSON.load(file)
     end
-
+    @player_character = {}
   end
 
   def fetch_1st(str)
@@ -47,9 +47,12 @@ class SpecialSkillSearcher
         break
       end
     end
+    @player_character["skills"] = skill_set
     return race_name, skill_set
   end
-  def search_ship_composite(skill_set)
+
+  def search_ship_composite()
+    skill_set = @player_character["skills"]
     ships = []
     @composite.each do |ship|
       is_fit = ship["skill"].all? do |required_skill|
@@ -59,16 +62,20 @@ class SpecialSkillSearcher
         ships << ship["name"]
       end
     end
-    ships
+    @player_character["ships"] = ships
+    return ships
   end
 
-  def list_up_multi_technic(skill_set,ship_set)
+  def list_up_multi_technic()
+    skill_set = @player_character["skills"]
+    ship_set  = @player_character["ships"] 
     practicable_technics = []
     [@spells, @specials].each do |technic_list|
       practicable_technics += technic_list.select do |spell|
         is_skill_sufficiency = spell["required"]["skill"].all? do |required_skill|
           name  = required_skill["name"]
           value = required_skill["value"]
+          # ここでは要求スキル以上かどうかのみ見る
           if skill_set.has_key? name and skill_set[name] >= value then true else false end
         end
         if not spell["required"].has_key? "mastery" then 
@@ -81,12 +88,34 @@ class SpecialSkillSearcher
         end
       end
     end
-    practicable_technics.map do |spell|
-      spell["name"]
+    @player_character["technics"] = practicable_technics
+    practicable_technics
+  end
+
+  def calc_probabiilty_of_success()
+    skills = @player_character["skills"]
+    @player_character["technics"].map! do |technic|
+      probability = 80
+      n = technic["required"]["skill"].length
+      technic["required"]["skill"].each do|n_v|
+        name  = n_v["name"]
+        value = n_v["value"]
+        if skills[name] <= value then
+          probability += (value-skills[name]).rationalize*-10.0/n
+        else 
+          probability +=[skills[name]-value,8.0].min.rationalize*2.5/n
+        end
+      end
+      technic["probability"] = [ probability, 1.0.rationalize/n].max.to_f
+      technic
     end
   end
 
-  def print(skill_set, ship_set,technic_set)
+
+  def print()
+    skill_set   = @player_character["skills"]
+    ship_set    = @player_character["ships"] 
+    technic_set = @player_character["technics"]
     puts "==============================="
     puts "スキル構成"
     skill_set.each do |k,v|
@@ -99,25 +128,21 @@ class SpecialSkillSearcher
     end
     puts "==============================="
     puts "複合テク"
-    technic_set.each do |name|
-      puts "・#{name}"
+    technic_set.each do |technic|
+      if technic["probability"] >= 100.0 then
+        puts "・#{technic["name"]}"
+      else
+        puts "・#{technic["name"]} : #{technic["probability"]}%"
+      end
     end
   end
-
 end
 
 #url = "https://www.ponz-web.com/skill/?1&2ak5ua6ew7Fi25Eu26Eu27Eu28Eu29Ce30Eu31Ce"
 #
 searcher = SpecialSkillSearcher.new()
 race,skills = searcher.encode_url(ARGV[0])
-ships = searcher.search_ship_composite(skills)
-technics = searcher.list_up_multi_technic(skills,ships)
-searcher.print(skills,ships,technics)
-
-
-
-
-
-
-
-
+ships = searcher.search_ship_composite()
+technics = searcher.list_up_multi_technic()
+searcher.calc_probabiilty_of_success()
+searcher.print()
